@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>LLM 性能因子时间线</title>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+<div id="app">
+  <header>
+    <div class="header-top">
+      <h1>LLM 性能因子时间线</h1>
+      <div class="hint">数据源：GitHub 实时 JSON · 圆点颜色 = 供应商 · 同一系列平滑连线 · 悬停高亮同系列</div>
+    </div>
+    <div id="metric-buttons"></div>
+  </header>
+  <main>
+    <div id="chart-area">
+      <svg id="chart"></svg>
+      <div id="tooltip"></div>
+      <div id="status">正在加载数据…</div>
+    </div>
+    <aside id="sidebar">
+      <div class="sidebar-head">
+        <h2>供应商</h2>
+        <div class="sidebar-actions">
+          <button id="select-all">Select All</button>
+          <button id="deselect-all">Deselect All</button>
+        </div>
+      </div>
+      <div id="vendor-list"></div>
+    </aside>
+  </main>
+  <footer class="page-footer">
+    <span id="meta-info"></span>
+  </footer>
+</div>
+<script src="./app.js"></script>
+</body>
+</html>
