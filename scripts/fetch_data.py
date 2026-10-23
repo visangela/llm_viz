@@ -167,6 +167,11 @@ def parse_model(m):
     completion_price = float(pricing.get("completion") or 0) * 1_000_000
     provider_slug = mid.split("/")[0] if "/" in mid else "unknown"
     provider_display = PROVIDER_DISPLAY.get(provider_slug, provider_slug.replace("-", " ").title())
+
+    # 直接从 OpenRouter 返回的 benchmarks 字段中读取 AA 分数
+    benchmarks = m.get("benchmarks") or {}
+    aa = benchmarks.get("artificial_analysis") or {}
+
     return {
         "id": mid,
         "name": name,
@@ -178,9 +183,10 @@ def parse_model(m):
             "completion_per_mtok": round(completion_price, 4),
         },
         "context_length": m.get("context_length", 0),
-        "intelligence_score": None,
-        "coding_score": None,
-        "hle_score": None,
+        # 关键改动：直接从 OpenRouter 读取分数
+        "intelligence_score": aa.get("intelligence_index"),
+        "coding_score": aa.get("coding_index"),
+        "hle_score": None,  # OpenRouter 不直接提供 HLE
     }
 
 
