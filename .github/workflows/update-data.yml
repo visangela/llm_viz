@@ -19,6 +19,8 @@ jobs:
           python-version: "3.11"
 
       - name: Fetch data
+        env:
+          AA_API_KEY: ${{ secrets.AA_API_KEY }}
         run: python scripts/fetch_data.py
 
       - name: Commit & push
