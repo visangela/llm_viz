@@ -126,12 +126,33 @@ async function loadData() {
     visibleVendors = new Set(vendors);
 
     // 判断各指标可用性
+    // Object.values(metricConfig).forEach(cfg => {
+    //   cfg.available = allData.some(d => d[cfg.field] != null);
+    // });
+    // if (!metricConfig[currentMetric].available) {
+    //   const first = Object.keys(metricConfig).find(k => metricConfig[k].available);
+    //   if (first) currentMetric = first;
+    // }
+    // 判断各指标可用性
     Object.values(metricConfig).forEach(cfg => {
       cfg.available = allData.some(d => d[cfg.field] != null);
     });
     if (!metricConfig[currentMetric].available) {
       const first = Object.keys(metricConfig).find(k => metricConfig[k].available);
-      if (first) currentMetric = first;
+      if (first) {
+        currentMetric = first;
+      } else {
+        // 全部不可用：给出明确提示
+        statusEl.style.display = 'block';
+        statusEl.innerHTML = `
+          <b>数据已加载，但没有可用的评分指标</b><br>
+          <span style="font-size:12px">
+            共加载 ${allData.length} 个模型，但 Intelligence / Coding / HLE 全为空。<br>
+            检查 data/models.json 中 intelligence_score 是否有值，<br>
+            或补充 data/benchmarks_override.json 后重新运行抓取脚本。
+          </span>`;
+        return;
+      }
     }
 
     // 日期范围
