@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-23T11:54:01.807981+00:00",
-  "source": "openrouter",
+  "generated_at": "2026-10-23T12:39:14.591754+00:00",
+  "source": "openrouter+llm-value-rankings",
   "total": 468,
   "models": [
     {
@@ -232,7 +232,7 @@
       "id": "liquid/lfm-2.5-24b-a2b",
       "name": "LiquidAI: LFM2.5-24B-A2B",
       "provider": "liquid",
-      "provider_display": "Liquid",
+      "provider_display": "Liquid AI",
       "created": 1791912025,
       "pricing": {
         "prompt_per_mtok": 0.05,
@@ -389,7 +389,7 @@
         "completion_per_mtok": 4.18
       },
       "context_length": 1048576,
-      "intelligence_score": null,
+      "intelligence_score": 8.0,
       "coding_score": null,
       "hle_score": null
     },
@@ -925,8 +925,8 @@
       "provider_display": "~Deepseek",
       "created": 1789399150,
       "pricing": {
-        "prompt_per_mtok": 0.07,
-        "completion_per_mtok": 0.5
+        "prompt_per_mtok": 0.066,
+        "completion_per_mtok": 0.6
       },
       "context_length": 1048576,
       "intelligence_score": null,
@@ -1582,7 +1582,7 @@
       "id": "bytedance-seed/seed-2-1-turbo",
       "name": "ByteDance Seed: Seed 2.1 Turbo",
       "provider": "bytedance-seed",
-      "provider_display": "ByteDance",
+      "provider_display": "Bytedance Seed",
       "created": 1786552176,
       "pricing": {
         "prompt_per_mtok": 0.5,
@@ -1612,7 +1612,7 @@
       "id": "bytedance-seed/seed-2.0-code",
       "name": "ByteDance Seed: Seed-2.0-Code",
       "provider": "bytedance-seed",
-      "provider_display": "ByteDance",
+      "provider_display": "Bytedance Seed",
       "created": 1786550701,
       "pricing": {
         "prompt_per_mtok": 0.5,
@@ -1657,7 +1657,7 @@
       "id": "liquid/lfm-2.5-2.6b:free",
       "name": "LiquidAI: LFM2.5-2.6B (free)",
       "provider": "liquid",
-      "provider_display": "Liquid",
+      "provider_display": "Liquid AI",
       "created": 1786470519,
       "pricing": {
         "prompt_per_mtok": 0.0,
@@ -1792,7 +1792,7 @@
       "id": "thinkingmachines/inkling-small",
       "name": "Thinking Machines: Inkling Small",
       "provider": "thinkingmachines",
-      "provider_display": "Thinkingmachines",
+      "provider_display": "Thinking Machines",
       "created": 1785443117,
       "pricing": {
         "prompt_per_mtok": 0.45,
@@ -1807,7 +1807,7 @@
       "id": "thinkingmachines/inkling-small:free",
       "name": "Thinking Machines: Inkling Small (free)",
       "provider": "thinkingmachines",
-      "provider_display": "Thinkingmachines",
+      "provider_display": "Thinking Machines",
       "created": 1785443117,
       "pricing": {
         "prompt_per_mtok": 0.0,
@@ -1987,7 +1987,7 @@
       "id": "thinkingmachines/inkling",
       "name": "Thinking Machines: Inkling",
       "provider": "thinkingmachines",
-      "provider_display": "Thinkingmachines",
+      "provider_display": "Thinking Machines",
       "created": 1784325956,
       "pricing": {
         "prompt_per_mtok": 1.0,
@@ -2002,7 +2002,7 @@
       "id": "thinkingmachines/inkling:free",
       "name": "Thinking Machines: Inkling (free)",
       "provider": "thinkingmachines",
-      "provider_display": "Thinkingmachines",
+      "provider_display": "Thinking Machines",
       "created": 1784325956,
       "pricing": {
         "prompt_per_mtok": 0.0,
@@ -3382,7 +3382,7 @@
       "id": "arcee-ai/trinity-large-thinking",
       "name": "Arcee AI: Trinity Large Thinking",
       "provider": "arcee-ai",
-      "provider_display": "Arcee Ai",
+      "provider_display": "Arcee AI",
       "created": 1775058318,
       "pricing": {
         "prompt_per_mtok": 0.25,
@@ -3622,7 +3622,7 @@
       "id": "bytedance-seed/seed-2.0-lite",
       "name": "ByteDance Seed: Seed-2.0-Lite",
       "provider": "bytedance-seed",
-      "provider_display": "ByteDance",
+      "provider_display": "Bytedance Seed",
       "created": 1773157231,
       "pricing": {
         "prompt_per_mtok": 0.25,
@@ -3742,7 +3742,7 @@
       "id": "bytedance-seed/seed-2.0-mini",
       "name": "ByteDance Seed: Seed-2.0-Mini",
       "provider": "bytedance-seed",
-      "provider_display": "ByteDance",
+      "provider_display": "Bytedance Seed",
       "created": 1772131107,
       "pricing": {
         "prompt_per_mtok": 0.1,
@@ -4192,7 +4192,7 @@
       "id": "bytedance-seed/seed-1.6-flash",
       "name": "ByteDance Seed: Seed 1.6 Flash",
       "provider": "bytedance-seed",
-      "provider_display": "ByteDance",
+      "provider_display": "Bytedance Seed",
       "created": 1766505011,
       "pricing": {
         "prompt_per_mtok": 0.075,
@@ -4207,7 +4207,7 @@
       "id": "bytedance-seed/seed-1.6",
       "name": "ByteDance Seed: Seed 1.6",
       "provider": "bytedance-seed",
-      "provider_display": "ByteDance",
+      "provider_display": "Bytedance Seed",
       "created": 1766504997,
       "pricing": {
         "prompt_per_mtok": 0.25,
@@ -4529,7 +4529,7 @@
         "completion_per_mtok": 1.5
       },
       "context_length": 262144,
-      "intelligence_score": null,
+      "intelligence_score": 8.0,
       "coding_score": null,
       "hle_score": null
     },
@@ -5699,7 +5699,7 @@
         "completion_per_mtok": 2.15
       },
       "context_length": 163840,
-      "intelligence_score": null,
+      "intelligence_score": 13.0,
       "coding_score": null,
       "hle_score": null
     },
@@ -6074,7 +6074,7 @@
         "completion_per_mtok": 0.2
       },
       "context_length": 65536,
-      "intelligence_score": null,
+      "intelligence_score": 6.0,
       "coding_score": null,
       "hle_score": null
     },
@@ -6164,7 +6164,7 @@
         "completion_per_mtok": 0.6
       },
       "context_length": 32768,
-      "intelligence_score": null,
+      "intelligence_score": 6.0,
       "coding_score": null,
       "hle_score": null
     },
@@ -6449,7 +6449,7 @@
         "completion_per_mtok": 6.0
       },
       "context_length": 131072,
-      "intelligence_score": null,
+      "intelligence_score": 8.0,
       "coding_score": null,
       "hle_score": null
     },
@@ -6869,7 +6869,7 @@
         "completion_per_mtok": 6.0
       },
       "context_length": 128000,
-      "intelligence_score": null,
+      "intelligence_score": 8.0,
       "coding_score": null,
       "hle_score": null
     },
