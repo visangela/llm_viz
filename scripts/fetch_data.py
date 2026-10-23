@@ -5,12 +5,14 @@
 数据源:
   1. OpenRouter /api/v1/models
      模型列表 / 名称 / 创建时间 / 上下文长度 / 输入输出价格
-  2. llm-value-rankings/data/models.json
-     Intelligence / Coding / HLE 等 benchmark 分数
+  2. ai-model-index 镜像（每日同步 Artificial Analysis）
+     · data/llm/aa-intelligence.json  → Intelligence Index
+     · data/llm/aa-coding.json        → Coding Index
 
-匹配策略:
-  将两边模型名归一化（小写、去括号、去版本号、去标点）后按名称匹配；
-  同一系列多个档位取最高分。
+匹配策略（优先级从高到低）:
+  a. 手动别名表 data/model_aliases.json
+  b. OpenRouter slug 与 AA slug 精确匹配
+  c. 归一化模型名模糊匹配（去掉括号、版本号、标点）
 
 补充:
   data/benchmarks_override.json 可人工兜底补充分数（可选）。
@@ -24,11 +26,13 @@ import urllib.request
 from datetime import datetime, timezone
 
 OPENROUTER_URL = "https://openrouter.ai/api/v1/models"
-LLM_RANKINGS_URL = "https://raw.githubusercontent.com/yyh-001/llm-value-rankings/main/data/models.json"
+AA_INTELLIGENCE_URL = "https://raw.githubusercontent.com/EvanZhouDev/ai-model-index/main/data/llm/aa-intelligence.json"
+AA_CODING_URL = "https://raw.githubusercontent.com/EvanZhouDev/ai-model-index/main/data/llm/aa-coding.json"
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_PATH = os.path.join(BASE_DIR, "..", "data", "models.json")
 OVERRIDE_PATH = os.path.join(BASE_DIR, "..", "data", "benchmarks_override.json")
+ALIASES_PATH = os.path.join(BASE_DIR, "..", "data", "model_aliases.json")
 
 PROVIDER_DISPLAY = {
     "anthropic": "Anthropic", "openai": "OpenAI", "google": "Google",
@@ -42,14 +46,15 @@ PROVIDER_DISPLAY = {
     "tencent": "Tencent", "bytedance": "ByteDance", "nex-agi": "Nex AGI",
     "sapiens-ai": "Sapiens AI", "openchat": "OpenChat", "databricks": "Databricks",
     "liquid": "Liquid AI", "ai21": "AI21 Labs", "reka": "Reka AI",
-    "snowflake": "Snowflake", "servicenow": "ServiceNow", "swiss-ai": "Swiss AI Initiative",
-    "kwai-kat": "KwaiKAT", "lg": "LG AI Research", "naver": "Naver",
-    "prime-intellect": "Prime Intellect", "openbmb": "OpenBMB", "tii": "TII UAE",
-    "arcee-ai": "Arcee AI", "inception": "Inception", "longcat": "LongCat",
+    "snowflake": "Snowflake", "servicenow": "ServiceNow",
+    "swiss-ai": "Swiss AI Initiative", "kwai-kat": "KwaiKAT",
+    "lg": "LG AI Research", "naver": "Naver", "prime-intellect": "Prime Intellect",
+    "openbmb": "OpenBMB", "tii": "TII UAE", "arcee-ai": "Arcee AI",
+    "inception": "Inception", "longcat": "LongCat",
     "multiverse": "Multiverse Computing", "thinkingmachines": "Thinking Machines",
     "trillionlabs": "Trillion Labs", "sarvam": "Sarvam", "nanbeige": "Nanbeige",
     "ai9stars": "AI9Stars", "apodex": "Apodex", "reflection": "Reflection",
-    "nex": "Nex AGI", "korea-telecom": "Korea Telecom", "china-mobile": "China Mobile",
+    "korea-telecom": "Korea Telecom", "china-mobile": "China Mobile",
     "motif": "Motif Technologies", "anthropic-ai": "Anthropic",
 }
 
@@ -73,102 +78,82 @@ def normalize_name(s):
     return s
 
 
-def get_num(m, keys):
-    for k in keys:
-        v = m.get(k)
-        if v is None:
-            continue
-        try:
-            return float(v)
-        except (ValueError, TypeError):
-            continue
-    return None
-
-
-def _max_opt(a, b):
-    if a is None:
-        return b
-    if b is None:
-        return a
-    return max(a, b)
-
-
-def fetch_llm_rankings_scores():
-    """从 llm-value-rankings 拉取分数，按归一化名称聚合"""
+def load_json(path, default=None):
+    if not os.path.exists(path):
+        return default if default is not None else {}
     try:
-        data = http_get_json(LLM_RANKINGS_URL, timeout=20)
-    except Exception as e:
-        print(f"[warn] 拉取 llm-value-rankings 失败: {e}", file=sys.stderr)
-        return {}
-
-    raw_models = data.get("models") or data.get("data") or []
-    if not isinstance(raw_models, list):
-        print("[warn] llm-value-rankings 返回格式异常", file=sys.stderr)
-        return {}
-
-    scores = {}
-    for m in raw_models:
-        if not isinstance(m, dict):
-            continue
-        name = m.get("name") or m.get("model") or m.get("id") or ""
-        key = normalize_name(name)
-        if not key:
-            continue
-        score = {
-            "intelligence": get_num(m, ["intelligence_score", "intelligence",
-                                        "Intelligence Index", "intelligence_index"]),
-            "coding": get_num(m, ["coding_score", "coding",
-                                  "Coding Index", "coding_index"]),
-            "hle": get_num(m, ["hle_score", "hle", "HLE"]),
-        }
-        if score["intelligence"] is None and score["coding"] is None and score["hle"] is None:
-            continue
-        prev = scores.get(key)
-        if prev is None:
-            scores[key] = score
-        else:
-            scores[key] = {
-                "intelligence": _max_opt(prev["intelligence"], score["intelligence"]),
-                "coding": _max_opt(prev["coding"], score["coding"]),
-                "hle": _max_opt(prev["hle"], score["hle"]),
-            }
-
-    print(f"      从 llm-value-rankings 获取 {len(scores)} 个系列分数")
-    return scores
-
-
-def match_score(openrouter_id, scores_by_name):
-    model_part = openrouter_id.split("/", 1)[-1] if "/" in openrouter_id else openrouter_id
-    key = normalize_name(model_part)
-    return scores_by_name.get(key)
-
-
-def load_override():
-    if not os.path.exists(OVERRIDE_PATH):
-        return {}
-    try:
-        with open(OVERRIDE_PATH, "r", encoding="utf-8") as f:
+        with open(path, "r", encoding="utf-8") as f:
             return json.load(f)
     except Exception as e:
-        print(f"[warn] 读取 override 失败: {e}", file=sys.stderr)
-        return {}
+        print(f"[warn] 读取 {path} 失败: {e}", file=sys.stderr)
+        return default if default is not None else {}
 
 
-def apply_override(model, override):
-    if not override:
-        return model
-    mid_lower = model["id"].lower()
-    for key in sorted(override.keys(), key=len, reverse=True):
-        if key.lower() in mid_lower:
-            vals = override[key]
-            if model["intelligence_score"] is None and vals.get("intelligence") is not None:
-                model["intelligence_score"] = float(vals["intelligence"])
-            if model["coding_score"] is None and vals.get("coding") is not None:
-                model["coding_score"] = float(vals["coding"])
-            if model["hle_score"] is None and vals.get("hle") is not None:
-                model["hle_score"] = float(vals["hle"])
-            return model
-    return model
+def load_aa_scores(url, metric_key):
+    """从 ai-model-index 镜像拉取某一指标的分数，返回 {slug: score} 和 {norm_name: score}"""
+    try:
+        data = http_get_json(url, timeout=20)
+    except Exception as e:
+        print(f"[warn] 拉取 {metric_key} 失败: {e}", file=sys.stderr)
+        return {}, {}
+
+    models = data.get("models") or []
+    if not isinstance(models, list):
+        return {}, {}
+
+    by_slug = {}
+    by_norm = {}
+
+    for m in models:
+        if not isinstance(m, dict):
+            continue
+        score = m.get("score")
+        if score is None:
+            continue
+        try:
+            score = float(score)
+        except (ValueError, TypeError):
+            continue
+
+        slug = (m.get("slug") or "").strip()
+        name = (m.get("name") or "").strip()
+
+        if slug:
+            by_slug[slug] = max(score, by_slug.get(slug, score))
+
+        if name:
+            norm = normalize_name(name)
+            if norm:
+                by_norm[norm] = max(score, by_norm.get(norm, score))
+
+    print(f"      {metric_key}: slug {len(by_slug)} 个，norm {len(by_norm)} 个")
+    return by_slug, by_norm
+
+
+def match_scores(openrouter_id, aa_by_slug, aa_by_norm, aliases):
+    """
+    多级匹配：
+      1. 手动别名表（OpenRouter id → AA slug）
+      2. OpenRouter 后半段与 AA slug 精确匹配
+      3. 归一化名称模糊匹配
+    返回分数或 None
+    """
+    # 1. 手动别名
+    alias = aliases.get(openrouter_id)
+    if alias and alias in aa_by_slug:
+        return aa_by_slug[alias]
+
+    # 2. slug 精确匹配
+    short_slug = openrouter_id.split("/", 1)[-1] if "/" in openrouter_id else openrouter_id
+    if short_slug in aa_by_slug:
+        return aa_by_slug[short_slug]
+
+    # 3. 归一化模糊匹配
+    norm = normalize_name(short_slug)
+    if norm and norm in aa_by_norm:
+        return aa_by_norm[norm]
+
+    return None
 
 
 def parse_model(m):
@@ -199,30 +184,67 @@ def parse_model(m):
     }
 
 
+def apply_override(model, override):
+    """人工 override 作为最后兜底"""
+    if not override:
+        return model
+    mid_lower = model["id"].lower()
+    for key in sorted(override.keys(), key=len, reverse=True):
+        if key.lower() in mid_lower:
+            vals = override[key]
+            if model["intelligence_score"] is None and vals.get("intelligence") is not None:
+                model["intelligence_score"] = float(vals["intelligence"])
+            if model["coding_score"] is None and vals.get("coding") is not None:
+                model["coding_score"] = float(vals["coding"])
+            if model["hle_score"] is None and vals.get("hle") is not None:
+                model["hle_score"] = float(vals["hle"])
+            return model
+    return model
+
+
 def main():
-    print("[1/4] 拉取 OpenRouter 模型列表…")
+    print("[1/5] 拉取 OpenRouter 模型列表…")
     data = http_get_json(OPENROUTER_URL)
     raw = data.get("data", [])
     print(f"      {len(raw)} 条")
 
-    print("[2/4] 拉取 llm-value-rankings 分数…")
-    rankings_scores = fetch_llm_rankings_scores()
+    print("[2/5] 拉取 Artificial Analysis 分数（via ai-model-index）…")
+    intel_slug, intel_norm = load_aa_scores(AA_INTELLIGENCE_URL, "intelligence")
+    coding_slug, coding_norm = load_aa_scores(AA_CODING_URL, "coding")
 
-    print("[3/4] 合并分数…")
-    override = load_override()
+    print("[3/5] 加载别名与人工 override…")
+    aliases = load_json(ALIASES_PATH, default={})
+    override = load_json(OVERRIDE_PATH, default={})
+    print(f"      别名 {len(aliases)} 条，override {len(override)} 条")
+
+    print("[4/5] 合并分数…")
     models = []
-    matched = 0
+    match_stats = {"alias": 0, "slug": 0, "norm": 0, "miss": 0}
+
     for m in raw:
         try:
             pm = parse_model(m)
             if not pm or not pm["created"]:
                 continue
-            score = match_score(pm["id"], rankings_scores)
-            if score:
-                pm["intelligence_score"] = score["intelligence"]
-                pm["coding_score"] = score["coding"]
-                pm["hle_score"] = score["hle"]
-                matched += 1
+
+            # Intelligence
+            if pm["id"] in aliases and aliases[pm["id"]] in intel_slug:
+                pm["intelligence_score"] = intel_slug[aliases[pm["id"]]]
+                match_stats["alias"] += 1
+            elif (s := match_scores(pm["id"], intel_slug, intel_norm, {})) is not None:
+                pm["intelligence_score"] = s
+                match_stats["slug" if "/" in pm["id"] and pm["id"].split("/", 1)[-1] in intel_slug else "norm"] += 1
+            else:
+                match_stats["miss"] += 1
+
+            # Coding（独立匹配，因为某些模型可能只有其一）
+            if pm["id"] in aliases and aliases[pm["id"]] in coding_slug:
+                pm["coding_score"] = coding_slug[aliases[pm["id"]]]
+            else:
+                s = match_scores(pm["id"], coding_slug, coding_norm, {})
+                if s is not None:
+                    pm["coding_score"] = s
+
             pm = apply_override(pm, override)
             models.append(pm)
         except Exception as e:
@@ -240,13 +262,20 @@ def main():
     models.sort(key=lambda x: x["created"] or 0, reverse=True)
 
     with_intel = sum(1 for m in models if m["intelligence_score"] is not None)
-    print(f"      匹配到分数: {matched} / {len(models)}，最终含 Intelligence 的 {with_intel} 个")
+    with_coding = sum(1 for m in models if m["coding_score"] is not None)
 
-    print("[4/4] 写入 JSON…")
+    print(f"      总模型 {len(models)} 个")
+    print(f"      Intelligence 覆盖 {with_intel} 个，Coding 覆盖 {with_coding} 个")
+    print(f"      匹配方式分布: alias={match_stats['alias']}, "
+          f"slug={match_stats['slug']}, norm={match_stats['norm']}, miss={match_stats['miss']}")
+
+    print("[5/5] 写入 JSON…")
     out = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "source": "openrouter+llm-value-rankings",
+        "source": "openrouter + artificial-analysis (via ai-model-index)",
         "total": len(models),
+        "with_intelligence": with_intel,
+        "with_coding": with_coding,
         "models": models,
     }
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
