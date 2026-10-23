@@ -1,0 +1,7027 @@
+{
+  "generated_at": "2026-10-23T11:54:01.807981+00:00",
+  "source": "openrouter",
+  "total": 468,
+  "models": [
+    {
+      "id": "recursive/flint-v1.0:free",
+      "name": "Recursive: Flint (free)",
+      "provider": "recursive",
+      "provider_display": "Recursive",
+      "created": 1792622765,
+      "pricing": {
+        "prompt_per_mtok": 0.0,
+        "completion_per_mtok": 0.0
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "minimax/minimax-m3.1-flash",
+      "name": "MiniMax: MiniMax M3.1 Flash",
+      "provider": "minimax",
+      "provider_display": "MiniMax",
+      "created": 1792379569,
+      "pricing": {
+        "prompt_per_mtok": 0.15,
+        "completion_per_mtok": 0.6
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "deepseek/deepseek-v4.1-flash-1017",
+      "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+      "provider": "deepseek",
+      "provider_display": "DeepSeek",
+      "created": 1792225624,
+      "pricing": {
+        "prompt_per_mtok": 0.15,
+        "completion_per_mtok": 0.6
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "elorian/glimpse",
+      "name": "Elorian: Glimpse",
+      "provider": "elorian",
+      "provider_display": "Elorian",
+      "created": 1792206629,
+      "pricing": {
+        "prompt_per_mtok": 0.6,
+        "completion_per_mtok": 3.0
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "xingchen-agi/xing4.0-29b-a4b:free",
+      "name": "XingChen: Xing4.0 29B A4B (free)",
+      "provider": "xingchen-agi",
+      "provider_display": "Xingchen Agi",
+      "created": 1792177496,
+      "pricing": {
+        "prompt_per_mtok": 0.0,
+        "completion_per_mtok": 0.0
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "reflection/beam-1.0-501b-a23b",
+      "name": "Reflection: Beam 1.0 501B A23B",
+      "provider": "reflection",
+      "provider_display": "Reflection",
+      "created": 1792160499,
+      "pricing": {
+        "prompt_per_mtok": 0.25,
+        "completion_per_mtok": 1.0
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "inception/mercury-3",
+      "name": "Inception: Mercury 3",
+      "provider": "inception",
+      "provider_display": "Inception",
+      "created": 1792158337,
+      "pricing": {
+        "prompt_per_mtok": 0.1,
+        "completion_per_mtok": 0.35
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "moondream/moondream3-preview",
+      "name": "Moondream: Moondream 3 Preview",
+      "provider": "moondream",
+      "provider_display": "Moondream",
+      "created": 1792102385,
+      "pricing": {
+        "prompt_per_mtok": 0.3,
+        "completion_per_mtok": 2.5
+      },
+      "context_length": 32000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "moondream/moondream3.1-9b-a2b",
+      "name": "Moondream: Moondream 3.1",
+      "provider": "moondream",
+      "provider_display": "Moondream",
+      "created": 1792102373,
+      "pricing": {
+        "prompt_per_mtok": 0.3,
+        "completion_per_mtok": 2.5
+      },
+      "context_length": 32000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "meta/muse-spark-open",
+      "name": "Meta: Muse Spark Open",
+      "provider": "meta",
+      "provider_display": "Meta",
+      "created": 1792087069,
+      "pricing": {
+        "prompt_per_mtok": 1.25,
+        "completion_per_mtok": 4.25
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "nvidia/nemotron-3.5-super-vl",
+      "name": "NVIDIA: Nemotron 3.5 Super VL",
+      "provider": "nvidia",
+      "provider_display": "NVIDIA",
+      "created": 1792076662,
+      "pricing": {
+        "prompt_per_mtok": 0.15,
+        "completion_per_mtok": 0.5
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "nvidia/nemotron-3.5-super-vl:free",
+      "name": "NVIDIA: Nemotron 3.5 Super VL (free)",
+      "provider": "nvidia",
+      "provider_display": "NVIDIA",
+      "created": 1792076662,
+      "pricing": {
+        "prompt_per_mtok": 0.0,
+        "completion_per_mtok": 0.0
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "unbiased/pareto-26.10",
+      "name": "Pareto 26.10",
+      "provider": "unbiased",
+      "provider_display": "Unbiased",
+      "created": 1792073620,
+      "pricing": {
+        "prompt_per_mtok": 0.8,
+        "completion_per_mtok": 3.2
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "~unbiased/pareto-latest",
+      "name": "Pareto Latest",
+      "provider": "~unbiased",
+      "provider_display": "~Unbiased",
+      "created": 1791933050,
+      "pricing": {
+        "prompt_per_mtok": 0.8,
+        "completion_per_mtok": 3.2
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "unbiased/pareto-26.9",
+      "name": "Pareto 26.9",
+      "provider": "unbiased",
+      "provider_display": "Unbiased",
+      "created": 1791930537,
+      "pricing": {
+        "prompt_per_mtok": 2.5,
+        "completion_per_mtok": 7.5
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "liquid/lfm-2.5-24b-a2b",
+      "name": "LiquidAI: LFM2.5-24B-A2B",
+      "provider": "liquid",
+      "provider_display": "Liquid",
+      "created": 1791912025,
+      "pricing": {
+        "prompt_per_mtok": 0.05,
+        "completion_per_mtok": 0.7
+      },
+      "context_length": 128000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemini-4-argon",
+      "name": "Google: Gemini 4 Argon",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1791907477,
+      "pricing": {
+        "prompt_per_mtok": 2.0,
+        "completion_per_mtok": 10.0
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemini-4-argon:batch",
+      "name": "Google: Gemini 4 Argon (batch)",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1791907477,
+      "pricing": {
+        "prompt_per_mtok": 1.0,
+        "completion_per_mtok": 5.0
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "scaledown/summarize",
+      "name": "ScaleDown: Summarize",
+      "provider": "scaledown",
+      "provider_display": "Scaledown",
+      "created": 1791893360,
+      "pricing": {
+        "prompt_per_mtok": 0.04,
+        "completion_per_mtok": 0.0
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "scaledown/extract",
+      "name": "ScaleDown: Extract",
+      "provider": "scaledown",
+      "provider_display": "Scaledown",
+      "created": 1791893351,
+      "pricing": {
+        "prompt_per_mtok": 0.04,
+        "completion_per_mtok": 0.0
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "meta/muse-wonder",
+      "name": "Meta: Muse Wonder",
+      "provider": "meta",
+      "provider_display": "Meta",
+      "created": 1791807945,
+      "pricing": {
+        "prompt_per_mtok": 4.0,
+        "completion_per_mtok": 20.0
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "stepfun/step-5-preview",
+      "name": "StepFun: Step 5 Preview",
+      "provider": "stepfun",
+      "provider_display": "StepFun",
+      "created": 1791462849,
+      "pricing": {
+        "prompt_per_mtok": 1.0,
+        "completion_per_mtok": 2.7
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "anthropic/claude-haiku-5.5",
+      "name": "Anthropic: Claude Haiku 5.5",
+      "provider": "anthropic",
+      "provider_display": "Anthropic",
+      "created": 1791397883,
+      "pricing": {
+        "prompt_per_mtok": 0.1,
+        "completion_per_mtok": 0.5
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "anthropic/claude-haiku-5.5:batch",
+      "name": "Anthropic: Claude Haiku 5.5 (batch)",
+      "provider": "anthropic",
+      "provider_display": "Anthropic",
+      "created": 1791397883,
+      "pricing": {
+        "prompt_per_mtok": 0.05,
+        "completion_per_mtok": 0.25
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemini-nano-banana-2.1",
+      "name": "Google: Nano Banana 2.1",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1791300825,
+      "pricing": {
+        "prompt_per_mtok": 1.5,
+        "completion_per_mtok": 7.5
+      },
+      "context_length": 65536,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "mistralai/mistral-large-4-0",
+      "name": "Mistral: Mistral Large 4",
+      "provider": "mistralai",
+      "provider_display": "Mistral",
+      "created": 1791294122,
+      "pricing": {
+        "prompt_per_mtok": 1.36,
+        "completion_per_mtok": 4.18
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "inclusionai/ling-3.1-flash",
+      "name": "inclusionAI: Ling 3.1 Flash",
+      "provider": "inclusionai",
+      "provider_display": "InclusionAI",
+      "created": 1790950024,
+      "pricing": {
+        "prompt_per_mtok": 0.075,
+        "completion_per_mtok": 0.225
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-6.1-sol-pro",
+      "name": "OpenAI: GPT-6.1 Sol Pro",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1790702886,
+      "pricing": {
+        "prompt_per_mtok": 2.0,
+        "completion_per_mtok": 10.0
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-6.1-sol-pro:batch",
+      "name": "OpenAI: GPT-6.1 Sol Pro (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1790702886,
+      "pricing": {
+        "prompt_per_mtok": 1.0,
+        "completion_per_mtok": 5.0
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-6.1-sol",
+      "name": "OpenAI: GPT-6.1 Sol",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1790702882,
+      "pricing": {
+        "prompt_per_mtok": 2.0,
+        "completion_per_mtok": 10.0
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-6.1-sol:batch",
+      "name": "OpenAI: GPT-6.1 Sol (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1790702882,
+      "pricing": {
+        "prompt_per_mtok": 1.0,
+        "completion_per_mtok": 5.0
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "anthropic/claude-sonnet-5.5",
+      "name": "Anthropic: Claude Sonnet 5.5",
+      "provider": "anthropic",
+      "provider_display": "Anthropic",
+      "created": 1790618686,
+      "pricing": {
+        "prompt_per_mtok": 2.0,
+        "completion_per_mtok": 10.0
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "anthropic/claude-sonnet-5.5:batch",
+      "name": "Anthropic: Claude Sonnet 5.5 (batch)",
+      "provider": "anthropic",
+      "provider_display": "Anthropic",
+      "created": 1790618686,
+      "pricing": {
+        "prompt_per_mtok": 1.0,
+        "completion_per_mtok": 5.0
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "typesafe/jev-router",
+      "name": "TypeSafe: Jev Router",
+      "provider": "typesafe",
+      "provider_display": "Typesafe",
+      "created": 1790363560,
+      "pricing": {
+        "prompt_per_mtok": -1000000.0,
+        "completion_per_mtok": -1000000.0
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "perceptron/perceptron-mk1.5",
+      "name": "Perceptron: Perceptron Mk1.5",
+      "provider": "perceptron",
+      "provider_display": "Perceptron",
+      "created": 1790352661,
+      "pricing": {
+        "prompt_per_mtok": 0.15,
+        "completion_per_mtok": 1.5
+      },
+      "context_length": 36864,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "fireworks/ember-1",
+      "name": "Fireworks: Ember-1",
+      "provider": "fireworks",
+      "provider_display": "Fireworks",
+      "created": 1790208461,
+      "pricing": {
+        "prompt_per_mtok": 3.0,
+        "completion_per_mtok": 15.0
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "z-ai/glm-5.3-prime",
+      "name": "Z.ai: GLM 5.3 Prime",
+      "provider": "z-ai",
+      "provider_display": "Z AI",
+      "created": 1790199651,
+      "pricing": {
+        "prompt_per_mtok": 2.8,
+        "completion_per_mtok": 8.8
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3.8-max-prime",
+      "name": "Qwen: Qwen3.8 Max Prime",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1790191228,
+      "pricing": {
+        "prompt_per_mtok": 4.0,
+        "completion_per_mtok": 12.0
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "aion-labs/aion-3.5-mini",
+      "name": "AionLabs: Aion 3.5 Mini",
+      "provider": "aion-labs",
+      "provider_display": "Aion Labs",
+      "created": 1790170962,
+      "pricing": {
+        "prompt_per_mtok": 0.7,
+        "completion_per_mtok": 1.4
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "aion-labs/aion-3.5",
+      "name": "AionLabs: Aion 3.5",
+      "provider": "aion-labs",
+      "provider_display": "Aion Labs",
+      "created": 1790170961,
+      "pricing": {
+        "prompt_per_mtok": 3.0,
+        "completion_per_mtok": 6.0
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "upstage/solar-mini4",
+      "name": "Upstage: Solar Mini 4",
+      "provider": "upstage",
+      "provider_display": "Upstage",
+      "created": 1790160358,
+      "pricing": {
+        "prompt_per_mtok": 0.05,
+        "completion_per_mtok": 0.2
+      },
+      "context_length": 524288,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "cohere/command-a-plus",
+      "name": "Cohere: Command A+",
+      "provider": "cohere",
+      "provider_display": "Cohere",
+      "created": 1790102896,
+      "pricing": {
+        "prompt_per_mtok": 0.3,
+        "completion_per_mtok": 1.5
+      },
+      "context_length": 192000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-6-luna-pro",
+      "name": "OpenAI: GPT-6 Luna Pro",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1790100791,
+      "pricing": {
+        "prompt_per_mtok": 0.1,
+        "completion_per_mtok": 0.5
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-6-luna-pro:batch",
+      "name": "OpenAI: GPT-6 Luna Pro (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1790100791,
+      "pricing": {
+        "prompt_per_mtok": 0.05,
+        "completion_per_mtok": 0.25
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-6-luna",
+      "name": "OpenAI: GPT-6 Luna",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1790100786,
+      "pricing": {
+        "prompt_per_mtok": 0.1,
+        "completion_per_mtok": 0.5
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-6-luna:batch",
+      "name": "OpenAI: GPT-6 Luna (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1790100786,
+      "pricing": {
+        "prompt_per_mtok": 0.05,
+        "completion_per_mtok": 0.25
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-6-sol-pro",
+      "name": "OpenAI: GPT-6 Sol Pro",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1790100781,
+      "pricing": {
+        "prompt_per_mtok": 2.0,
+        "completion_per_mtok": 10.0
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-6-sol-pro:batch",
+      "name": "OpenAI: GPT-6 Sol Pro (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1790100781,
+      "pricing": {
+        "prompt_per_mtok": 1.0,
+        "completion_per_mtok": 5.0
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-6-sol",
+      "name": "OpenAI: GPT-6 Sol",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1790100775,
+      "pricing": {
+        "prompt_per_mtok": 2.0,
+        "completion_per_mtok": 10.0
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-6-sol:batch",
+      "name": "OpenAI: GPT-6 Sol (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1790100775,
+      "pricing": {
+        "prompt_per_mtok": 1.0,
+        "completion_per_mtok": 5.0
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "anthropic/claude-opus-5.5",
+      "name": "Anthropic: Claude Opus 5.5",
+      "provider": "anthropic",
+      "provider_display": "Anthropic",
+      "created": 1790094732,
+      "pricing": {
+        "prompt_per_mtok": 4.0,
+        "completion_per_mtok": 20.0
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "anthropic/claude-opus-5.5:batch",
+      "name": "Anthropic: Claude Opus 5.5 (batch)",
+      "provider": "anthropic",
+      "provider_display": "Anthropic",
+      "created": 1790094732,
+      "pricing": {
+        "prompt_per_mtok": 2.0,
+        "completion_per_mtok": 10.0
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "nvidia/switchyard",
+      "name": "NVIDIA: Switchyard",
+      "provider": "nvidia",
+      "provider_display": "NVIDIA",
+      "created": 1790025947,
+      "pricing": {
+        "prompt_per_mtok": -1000000.0,
+        "completion_per_mtok": -1000000.0
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "xiaomi/mimo-v2.6-pro-ultraspeed",
+      "name": "Xiaomi: MiMo-V2.6-Pro-UltraSpeed",
+      "provider": "xiaomi",
+      "provider_display": "Xiaomi",
+      "created": 1790021267,
+      "pricing": {
+        "prompt_per_mtok": 4.35,
+        "completion_per_mtok": 8.7
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "xiaomi/mimo-v2.6-flash",
+      "name": "Xiaomi: MiMo-V2.6-Flash",
+      "provider": "xiaomi",
+      "provider_display": "Xiaomi",
+      "created": 1790021264,
+      "pricing": {
+        "prompt_per_mtok": 0.14,
+        "completion_per_mtok": 0.28
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "xiaomi/mimo-v2.6-pro",
+      "name": "Xiaomi: MiMo-V2.6-Pro",
+      "provider": "xiaomi",
+      "provider_display": "Xiaomi",
+      "created": 1790021259,
+      "pricing": {
+        "prompt_per_mtok": 0.435,
+        "completion_per_mtok": 0.87
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "x-ai/grok-4.7",
+      "name": "SpaceXAI: Grok 4.7",
+      "provider": "x-ai",
+      "provider_display": "SpaceXAI",
+      "created": 1790007541,
+      "pricing": {
+        "prompt_per_mtok": 2.0,
+        "completion_per_mtok": 6.0
+      },
+      "context_length": 500000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3.8-omni-flash",
+      "name": "Qwen: Qwen3.8 Omni Flash",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1789959954,
+      "pricing": {
+        "prompt_per_mtok": 0.15,
+        "completion_per_mtok": 0.47
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "prism-ml/ternary-bonsai-2-27b",
+      "name": "PrismML: Ternary Bonsai 2 27B",
+      "provider": "prism-ml",
+      "provider_display": "Prism Ml",
+      "created": 1789754046,
+      "pricing": {
+        "prompt_per_mtok": 0.075,
+        "completion_per_mtok": 0.5
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "z-ai/glm-5.3-flashx",
+      "name": "Z.ai: GLM 5.3 FlashX",
+      "provider": "z-ai",
+      "provider_display": "Z AI",
+      "created": 1789744020,
+      "pricing": {
+        "prompt_per_mtok": 0.37,
+        "completion_per_mtok": 1.25
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "~deepseek/deepseek-pro-latest",
+      "name": "DeepSeek: DeepSeek Pro Latest",
+      "provider": "~deepseek",
+      "provider_display": "~Deepseek",
+      "created": 1789399174,
+      "pricing": {
+        "prompt_per_mtok": 0.2565,
+        "completion_per_mtok": 8.0
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "~deepseek/deepseek-flash-latest",
+      "name": "DeepSeek: DeepSeek Flash Latest",
+      "provider": "~deepseek",
+      "provider_display": "~Deepseek",
+      "created": 1789399150,
+      "pricing": {
+        "prompt_per_mtok": 0.07,
+        "completion_per_mtok": 0.5
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "inference-net/schematron-v2-turbo",
+      "name": "Inference.net: Schematron V2 Turbo",
+      "provider": "inference-net",
+      "provider_display": "Inference Net",
+      "created": 1789176949,
+      "pricing": {
+        "prompt_per_mtok": 0.03,
+        "completion_per_mtok": 0.15
+      },
+      "context_length": 128000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "inference-net/schematron-v2-small",
+      "name": "Inference.net: Schematron V2 Small",
+      "provider": "inference-net",
+      "provider_display": "Inference Net",
+      "created": 1789176933,
+      "pricing": {
+        "prompt_per_mtok": 0.05,
+        "completion_per_mtok": 0.23
+      },
+      "context_length": 128000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "~openai/gpt-astra-latest",
+      "name": "OpenAI: GPT Astra Latest",
+      "provider": "~openai",
+      "provider_display": "~Openai",
+      "created": 1789130932,
+      "pricing": {
+        "prompt_per_mtok": 10.0,
+        "completion_per_mtok": 50.0
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "~openai/gpt-sol-latest",
+      "name": "OpenAI: GPT Sol Latest",
+      "provider": "~openai",
+      "provider_display": "~Openai",
+      "created": 1789130928,
+      "pricing": {
+        "prompt_per_mtok": 2.0,
+        "completion_per_mtok": 10.0
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "~openai/gpt-terra-latest",
+      "name": "OpenAI: GPT Terra Latest",
+      "provider": "~openai",
+      "provider_display": "~Openai",
+      "created": 1789130925,
+      "pricing": {
+        "prompt_per_mtok": 2.0,
+        "completion_per_mtok": 12.0
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "~openai/gpt-luna-latest",
+      "name": "OpenAI: GPT Luna Latest",
+      "provider": "~openai",
+      "provider_display": "~Openai",
+      "created": 1789130922,
+      "pricing": {
+        "prompt_per_mtok": 0.1,
+        "completion_per_mtok": 0.5
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "sakana/fugu-ultra-v2",
+      "name": "Sakana: Fugu Ultra v2",
+      "provider": "sakana",
+      "provider_display": "Sakana",
+      "created": 1789105383,
+      "pricing": {
+        "prompt_per_mtok": 5.0,
+        "completion_per_mtok": 30.0
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "sakana/fugu-max",
+      "name": "Sakana: Fugu Max",
+      "provider": "sakana",
+      "provider_display": "Sakana",
+      "created": 1789104771,
+      "pricing": {
+        "prompt_per_mtok": 2.0,
+        "completion_per_mtok": 6.0
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "inclusionai/ling-3.0-flash-vl",
+      "name": "inclusionAI: Ling 3.0 Flash VL",
+      "provider": "inclusionai",
+      "provider_display": "InclusionAI",
+      "created": 1789056114,
+      "pricing": {
+        "prompt_per_mtok": 0.06,
+        "completion_per_mtok": 0.18
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "deepseek/deepseek-v4.1-flash",
+      "name": "DeepSeek: DeepSeek V4.1 Flash",
+      "provider": "deepseek",
+      "provider_display": "DeepSeek",
+      "created": 1789021285,
+      "pricing": {
+        "prompt_per_mtok": 0.3,
+        "completion_per_mtok": 1.2
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "deepseek/deepseek-v4.1-flash:batch",
+      "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
+      "provider": "deepseek",
+      "provider_display": "DeepSeek",
+      "created": 1789021285,
+      "pricing": {
+        "prompt_per_mtok": 0.05,
+        "completion_per_mtok": 0.15
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "inception/mercury-2.5",
+      "name": "Inception: Mercury 2.5",
+      "provider": "inception",
+      "provider_display": "Inception",
+      "created": 1788892137,
+      "pricing": {
+        "prompt_per_mtok": 0.04,
+        "completion_per_mtok": 0.15
+      },
+      "context_length": 260000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "nex-agi/nex-n2.5-mini",
+      "name": "Nex AGI: Nex-N2.5-Mini",
+      "provider": "nex-agi",
+      "provider_display": "Nex AGI",
+      "created": 1788890061,
+      "pricing": {
+        "prompt_per_mtok": 0.025,
+        "completion_per_mtok": 0.1
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "nex-agi/nex-n2.5-pro",
+      "name": "Nex AGI: Nex-N2.5-Pro",
+      "provider": "nex-agi",
+      "provider_display": "Nex AGI",
+      "created": 1788890050,
+      "pricing": {
+        "prompt_per_mtok": 0.075,
+        "completion_per_mtok": 0.25
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-6-astra",
+      "name": "OpenAI: GPT-6 Astra",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1788552838,
+      "pricing": {
+        "prompt_per_mtok": 10.0,
+        "completion_per_mtok": 50.0
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-6-astra:batch",
+      "name": "OpenAI: GPT-6 Astra (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1788552838,
+      "pricing": {
+        "prompt_per_mtok": 5.0,
+        "completion_per_mtok": 25.0
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-6-astra-pro",
+      "name": "OpenAI: GPT-6 Astra Pro",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1788552835,
+      "pricing": {
+        "prompt_per_mtok": 10.0,
+        "completion_per_mtok": 50.0
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-6-astra-pro:batch",
+      "name": "OpenAI: GPT-6 Astra Pro (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1788552835,
+      "pricing": {
+        "prompt_per_mtok": 5.0,
+        "completion_per_mtok": 25.0
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3.8-max-0902",
+      "name": "Qwen: Qwen3.8 Max (0902)",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1788469704,
+      "pricing": {
+        "prompt_per_mtok": 2.0,
+        "completion_per_mtok": 6.0
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "meta/muse-spark-1.3-contributor",
+      "name": "Meta: Muse Spark 1.3 Contributor",
+      "provider": "meta",
+      "provider_display": "Meta",
+      "created": 1788381519,
+      "pricing": {
+        "prompt_per_mtok": 0.1,
+        "completion_per_mtok": 0.2
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "meta/muse-spark-1.3",
+      "name": "Meta: Muse Spark 1.3",
+      "provider": "meta",
+      "provider_display": "Meta",
+      "created": 1788378359,
+      "pricing": {
+        "prompt_per_mtok": 1.25,
+        "completion_per_mtok": 4.25
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemini-3.8-flash",
+      "name": "Google: Gemini 3.8 Flash",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1788362056,
+      "pricing": {
+        "prompt_per_mtok": 0.825,
+        "completion_per_mtok": 4.125
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemini-3.8-flash:batch",
+      "name": "Google: Gemini 3.8 Flash (batch)",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1788362056,
+      "pricing": {
+        "prompt_per_mtok": 0.375,
+        "completion_per_mtok": 1.875
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "anthropic/claude-fable-5.1",
+      "name": "Anthropic: Claude Fable 5.1",
+      "provider": "anthropic",
+      "provider_display": "Anthropic",
+      "created": 1788285838,
+      "pricing": {
+        "prompt_per_mtok": 10.0,
+        "completion_per_mtok": 50.0
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "anthropic/claude-fable-5.1:batch",
+      "name": "Anthropic: Claude Fable 5.1 (batch)",
+      "provider": "anthropic",
+      "provider_display": "Anthropic",
+      "created": 1788285838,
+      "pricing": {
+        "prompt_per_mtok": 5.0,
+        "completion_per_mtok": 25.0
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "ibm-granite/granite-4.2-8b",
+      "name": "IBM: Granite 4.2 8B",
+      "provider": "ibm-granite",
+      "provider_display": "Ibm Granite",
+      "created": 1788206780,
+      "pricing": {
+        "prompt_per_mtok": 0.06,
+        "completion_per_mtok": 0.25
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "tencent/hy4-preview",
+      "name": "Tencent: Hy4 preview",
+      "provider": "tencent",
+      "provider_display": "Tencent",
+      "created": 1787897375,
+      "pricing": {
+        "prompt_per_mtok": 0.834,
+        "completion_per_mtok": 2.501
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "~z-ai/glm-flash-latest",
+      "name": "Z.ai: GLM Flash Latest",
+      "provider": "~z-ai",
+      "provider_display": "~Z Ai",
+      "created": 1787817633,
+      "pricing": {
+        "prompt_per_mtok": 0.0052,
+        "completion_per_mtok": 0.1985
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3.8-flash",
+      "name": "Qwen: Qwen3.8 Flash",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1787773060,
+      "pricing": {
+        "prompt_per_mtok": 0.15,
+        "completion_per_mtok": 0.47
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "z-ai/glm-5.3-flash",
+      "name": "Z.ai: GLM 5.3 Flash",
+      "provider": "z-ai",
+      "provider_display": "Z AI",
+      "created": 1787752741,
+      "pricing": {
+        "prompt_per_mtok": 0.0052,
+        "completion_per_mtok": 0.1985
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "z-ai/glm-5.3-flash:batch",
+      "name": "Z.ai: GLM 5.3 Flash (batch)",
+      "provider": "z-ai",
+      "provider_display": "Z AI",
+      "created": 1787752741,
+      "pricing": {
+        "prompt_per_mtok": 0.05,
+        "completion_per_mtok": 0.18
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "meta/muse-spark-1.2-contributor",
+      "name": "Meta: Muse Spark 1.2 Contributor",
+      "provider": "meta",
+      "provider_display": "Meta",
+      "created": 1787336476,
+      "pricing": {
+        "prompt_per_mtok": 0.1,
+        "completion_per_mtok": 0.2
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash-vision-exp",
+      "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+      "provider": "deepseek",
+      "provider_display": "DeepSeek",
+      "created": 1787311563,
+      "pricing": {
+        "prompt_per_mtok": 0.2156,
+        "completion_per_mtok": 0.6468
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "tencent/hy-mt2-1.8b",
+      "name": "Tencent: Hy-MT2-1.8B",
+      "provider": "tencent",
+      "provider_display": "Tencent",
+      "created": 1787231581,
+      "pricing": {
+        "prompt_per_mtok": 0.044,
+        "completion_per_mtok": 0.177
+      },
+      "context_length": 8192,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "tencent/hy-mt2-30b-a3b",
+      "name": "Tencent: Hy-MT2-30B-A3B",
+      "provider": "tencent",
+      "provider_display": "Tencent",
+      "created": 1787231561,
+      "pricing": {
+        "prompt_per_mtok": 0.074,
+        "completion_per_mtok": 0.295
+      },
+      "context_length": 8192,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "~z-ai/glm-latest",
+      "name": "Z.ai: GLM Latest",
+      "provider": "~z-ai",
+      "provider_display": "~Z Ai",
+      "created": 1787151053,
+      "pricing": {
+        "prompt_per_mtok": 0.079,
+        "completion_per_mtok": 1.4
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "tencent/hy-mt2-7b",
+      "name": "Tencent: Hy-MT2-7B",
+      "provider": "tencent",
+      "provider_display": "Tencent",
+      "created": 1787148797,
+      "pricing": {
+        "prompt_per_mtok": 0.074,
+        "completion_per_mtok": 0.295
+      },
+      "context_length": 8192,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "z-ai/glm-5.3",
+      "name": "Z.ai: GLM 5.3",
+      "provider": "z-ai",
+      "provider_display": "Z AI",
+      "created": 1787086655,
+      "pricing": {
+        "prompt_per_mtok": 0.079,
+        "completion_per_mtok": 1.4
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "z-ai/glm-5.3:batch",
+      "name": "Z.ai: GLM 5.3 (batch)",
+      "provider": "z-ai",
+      "provider_display": "Z AI",
+      "created": 1787086655,
+      "pricing": {
+        "prompt_per_mtok": 0.45,
+        "completion_per_mtok": 2.0
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3.8-27b",
+      "name": "Qwen: Qwen3.8 27B",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1786722910,
+      "pricing": {
+        "prompt_per_mtok": 0.2,
+        "completion_per_mtok": 2.5
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "dots-studio/dots-3-note-preview:free",
+      "name": "Dots Studio: Dots3-Note Preview (free)",
+      "provider": "dots-studio",
+      "provider_display": "Dots Studio",
+      "created": 1786680361,
+      "pricing": {
+        "prompt_per_mtok": 0.0,
+        "completion_per_mtok": 0.0
+      },
+      "context_length": 512000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemini-3.7-flash",
+      "name": "Google: Gemini 3.7 Flash",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1786640581,
+      "pricing": {
+        "prompt_per_mtok": 0.75,
+        "completion_per_mtok": 3.75
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemini-3.7-flash:batch",
+      "name": "Google: Gemini 3.7 Flash (batch)",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1786640581,
+      "pricing": {
+        "prompt_per_mtok": 0.375,
+        "completion_per_mtok": 1.875
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "bytedance-seed/seed-2-1-turbo",
+      "name": "ByteDance Seed: Seed 2.1 Turbo",
+      "provider": "bytedance-seed",
+      "provider_display": "ByteDance",
+      "created": 1786552176,
+      "pricing": {
+        "prompt_per_mtok": 0.5,
+        "completion_per_mtok": 2.5
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3.8-2.4t-a95b",
+      "name": "Qwen: Qwen3.8 2.4T A95B",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1786551702,
+      "pricing": {
+        "prompt_per_mtok": 2.0,
+        "completion_per_mtok": 6.0
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "bytedance-seed/seed-2.0-code",
+      "name": "ByteDance Seed: Seed-2.0-Code",
+      "provider": "bytedance-seed",
+      "provider_display": "ByteDance",
+      "created": 1786550701,
+      "pricing": {
+        "prompt_per_mtok": 0.5,
+        "completion_per_mtok": 3.0
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "name": "DeepSeek: DeepSeek V4 Pro 0813",
+      "provider": "deepseek",
+      "provider_display": "DeepSeek",
+      "created": 1786549364,
+      "pricing": {
+        "prompt_per_mtok": 0.66,
+        "completion_per_mtok": 1.98
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "x-ai/grok-4.6",
+      "name": "SpaceXAI: Grok 4.6",
+      "provider": "x-ai",
+      "provider_display": "SpaceXAI",
+      "created": 1786548957,
+      "pricing": {
+        "prompt_per_mtok": 2.0,
+        "completion_per_mtok": 6.0
+      },
+      "context_length": 500000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "liquid/lfm-2.5-2.6b:free",
+      "name": "LiquidAI: LFM2.5-2.6B (free)",
+      "provider": "liquid",
+      "provider_display": "Liquid",
+      "created": 1786470519,
+      "pricing": {
+        "prompt_per_mtok": 0.0,
+        "completion_per_mtok": 0.0
+      },
+      "context_length": 65536,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "nvidia/nemotron-3.5-lightning",
+      "name": "NVIDIA: Nemotron 3.5 Lightning",
+      "provider": "nvidia",
+      "provider_display": "NVIDIA",
+      "created": 1786452751,
+      "pricing": {
+        "prompt_per_mtok": 0.07,
+        "completion_per_mtok": 0.2
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "nvidia/nemotron-3.5-lightning:free",
+      "name": "NVIDIA: Nemotron 3.5 Lightning (free)",
+      "provider": "nvidia",
+      "provider_display": "NVIDIA",
+      "created": 1786452751,
+      "pricing": {
+        "prompt_per_mtok": 0.0,
+        "completion_per_mtok": 0.0
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "sakana/sakana-namazu",
+      "name": "Sakana: Sakana Namazu",
+      "provider": "sakana",
+      "provider_display": "Sakana",
+      "created": 1786410129,
+      "pricing": {
+        "prompt_per_mtok": 0.95,
+        "completion_per_mtok": 4.0
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "upstage/solar-pro4",
+      "name": "Upstage: Solar Pro 4",
+      "provider": "upstage",
+      "provider_display": "Upstage",
+      "created": 1786371636,
+      "pricing": {
+        "prompt_per_mtok": 0.15,
+        "completion_per_mtok": 0.6
+      },
+      "context_length": 524288,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "meta/muse-glimmer-30b",
+      "name": "Meta: Muse Glimmer 30B",
+      "provider": "meta",
+      "provider_display": "Meta",
+      "created": 1786302394,
+      "pricing": {
+        "prompt_per_mtok": 0.3,
+        "completion_per_mtok": 1.2
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "meta/muse-spark-1.2",
+      "name": "Meta: Muse Spark 1.2",
+      "provider": "meta",
+      "provider_display": "Meta",
+      "created": 1785959287,
+      "pricing": {
+        "prompt_per_mtok": 1.25,
+        "completion_per_mtok": 4.25
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "name": "DeepSeek: DeepSeek V4 Flash Latest",
+      "provider": "~deepseek",
+      "provider_display": "~Deepseek",
+      "created": 1785606009,
+      "pricing": {
+        "prompt_per_mtok": 0.0475,
+        "completion_per_mtok": 0.1568
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash-0731",
+      "name": "DeepSeek: DeepSeek V4 Flash 0731",
+      "provider": "deepseek",
+      "provider_display": "DeepSeek",
+      "created": 1785478908,
+      "pricing": {
+        "prompt_per_mtok": 0.44,
+        "completion_per_mtok": 1.32
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "thinkingmachines/inkling-small",
+      "name": "Thinking Machines: Inkling Small",
+      "provider": "thinkingmachines",
+      "provider_display": "Thinkingmachines",
+      "created": 1785443117,
+      "pricing": {
+        "prompt_per_mtok": 0.45,
+        "completion_per_mtok": 1.2
+      },
+      "context_length": 524288,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "thinkingmachines/inkling-small:free",
+      "name": "Thinking Machines: Inkling Small (free)",
+      "provider": "thinkingmachines",
+      "provider_display": "Thinkingmachines",
+      "created": 1785443117,
+      "pricing": {
+        "prompt_per_mtok": 0.0,
+        "completion_per_mtok": 0.0
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3.7-flash",
+      "name": "Qwen: Qwen3.7 Flash",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1785190561,
+      "pricing": {
+        "prompt_per_mtok": 0.03,
+        "completion_per_mtok": 0.13
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "anthropic/claude-opus-5",
+      "name": "Anthropic: Claude Opus 5",
+      "provider": "anthropic",
+      "provider_display": "Anthropic",
+      "created": 1784912544,
+      "pricing": {
+        "prompt_per_mtok": 5.0,
+        "completion_per_mtok": 25.0
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "anthropic/claude-opus-5:batch",
+      "name": "Anthropic: Claude Opus 5 (batch)",
+      "provider": "anthropic",
+      "provider_display": "Anthropic",
+      "created": 1784912544,
+      "pricing": {
+        "prompt_per_mtok": 2.5,
+        "completion_per_mtok": 12.5
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "inclusionai/ling-3.0-flash",
+      "name": "inclusionAI: Ling 3.0 Flash",
+      "provider": "inclusionai",
+      "provider_display": "InclusionAI",
+      "created": 1784818580,
+      "pricing": {
+        "prompt_per_mtok": 0.021,
+        "completion_per_mtok": 0.063
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "poolside/laguna-s-2.1",
+      "name": "Poolside: Laguna S 2.1",
+      "provider": "poolside",
+      "provider_display": "Poolside",
+      "created": 1784652683,
+      "pricing": {
+        "prompt_per_mtok": 0.09,
+        "completion_per_mtok": 0.18
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "poolside/laguna-s-2.1:free",
+      "name": "Poolside: Laguna S 2.1 (free)",
+      "provider": "poolside",
+      "provider_display": "Poolside",
+      "created": 1784652683,
+      "pricing": {
+        "prompt_per_mtok": 0.0,
+        "completion_per_mtok": 0.0
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemini-3.6-flash",
+      "name": "Google: Gemini 3.6 Flash",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1784646733,
+      "pricing": {
+        "prompt_per_mtok": 0.75,
+        "completion_per_mtok": 3.75
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemini-3.6-flash:batch",
+      "name": "Google: Gemini 3.6 Flash (batch)",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1784646733,
+      "pricing": {
+        "prompt_per_mtok": 0.375,
+        "completion_per_mtok": 1.875
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemini-3.5-flash-lite",
+      "name": "Google: Gemini 3.5 Flash Lite",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1784646726,
+      "pricing": {
+        "prompt_per_mtok": 0.3,
+        "completion_per_mtok": 2.5
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemini-3.5-flash-lite:batch",
+      "name": "Google: Gemini 3.5 Flash Lite (batch)",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1784646726,
+      "pricing": {
+        "prompt_per_mtok": 0.15,
+        "completion_per_mtok": 1.25
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "meituan/longcat-2.0",
+      "name": "Meituan: LongCat 2.0",
+      "provider": "meituan",
+      "provider_display": "Meituan",
+      "created": 1784554658,
+      "pricing": {
+        "prompt_per_mtok": 0.3,
+        "completion_per_mtok": 1.2
+      },
+      "context_length": 1048756,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "thinkingmachines/inkling",
+      "name": "Thinking Machines: Inkling",
+      "provider": "thinkingmachines",
+      "provider_display": "Thinkingmachines",
+      "created": 1784325956,
+      "pricing": {
+        "prompt_per_mtok": 1.0,
+        "completion_per_mtok": 4.05
+      },
+      "context_length": 524288,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "thinkingmachines/inkling:free",
+      "name": "Thinking Machines: Inkling (free)",
+      "provider": "thinkingmachines",
+      "provider_display": "Thinkingmachines",
+      "created": 1784325956,
+      "pricing": {
+        "prompt_per_mtok": 0.0,
+        "completion_per_mtok": 0.0
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openrouter/auto-beta",
+      "name": "Auto Router (Beta)",
+      "provider": "openrouter",
+      "provider_display": "Openrouter",
+      "created": 1784311165,
+      "pricing": {
+        "prompt_per_mtok": -1000000.0,
+        "completion_per_mtok": -1000000.0
+      },
+      "context_length": 2000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "moonshotai/kimi-k3",
+      "name": "MoonshotAI: Kimi K3",
+      "provider": "moonshotai",
+      "provider_display": "Kimi",
+      "created": 1784215858,
+      "pricing": {
+        "prompt_per_mtok": 0.239,
+        "completion_per_mtok": 11.936
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "moonshotai/kimi-k3:batch",
+      "name": "MoonshotAI: Kimi K3 (batch)",
+      "provider": "moonshotai",
+      "provider_display": "Kimi",
+      "created": 1784215858,
+      "pricing": {
+        "prompt_per_mtok": 2.28,
+        "completion_per_mtok": 11.4
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "meta/muse-spark-1.1",
+      "name": "Meta: Muse Spark 1.1",
+      "provider": "meta",
+      "provider_display": "Meta",
+      "created": 1784215741,
+      "pricing": {
+        "prompt_per_mtok": 1.25,
+        "completion_per_mtok": 4.25
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5.6-luna-pro",
+      "name": "OpenAI: GPT-5.6 Luna Pro",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1783590867,
+      "pricing": {
+        "prompt_per_mtok": 0.2,
+        "completion_per_mtok": 1.2
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5.6-luna-pro:batch",
+      "name": "OpenAI: GPT-5.6 Luna Pro (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1783590867,
+      "pricing": {
+        "prompt_per_mtok": 0.1,
+        "completion_per_mtok": 0.6
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5.6-luna",
+      "name": "OpenAI: GPT-5.6 Luna",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1783590864,
+      "pricing": {
+        "prompt_per_mtok": 0.2,
+        "completion_per_mtok": 1.2
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5.6-luna:batch",
+      "name": "OpenAI: GPT-5.6 Luna (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1783590864,
+      "pricing": {
+        "prompt_per_mtok": 0.1,
+        "completion_per_mtok": 0.6
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5.6-terra-pro",
+      "name": "OpenAI: GPT-5.6 Terra Pro",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1783590861,
+      "pricing": {
+        "prompt_per_mtok": 2.0,
+        "completion_per_mtok": 12.0
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5.6-terra-pro:batch",
+      "name": "OpenAI: GPT-5.6 Terra Pro (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1783590861,
+      "pricing": {
+        "prompt_per_mtok": 1.0,
+        "completion_per_mtok": 6.0
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5.6-terra",
+      "name": "OpenAI: GPT-5.6 Terra",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1783590857,
+      "pricing": {
+        "prompt_per_mtok": 2.0,
+        "completion_per_mtok": 12.0
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5.6-terra:batch",
+      "name": "OpenAI: GPT-5.6 Terra (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1783590857,
+      "pricing": {
+        "prompt_per_mtok": 1.0,
+        "completion_per_mtok": 6.0
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5.6-sol-pro",
+      "name": "OpenAI: GPT-5.6 Sol Pro",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1783590854,
+      "pricing": {
+        "prompt_per_mtok": 4.0,
+        "completion_per_mtok": 20.0
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5.6-sol-pro:batch",
+      "name": "OpenAI: GPT-5.6 Sol Pro (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1783590854,
+      "pricing": {
+        "prompt_per_mtok": 2.0,
+        "completion_per_mtok": 10.0
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5.6-sol",
+      "name": "OpenAI: GPT-5.6 Sol",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1783590850,
+      "pricing": {
+        "prompt_per_mtok": 4.0,
+        "completion_per_mtok": 20.0
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5.6-sol:batch",
+      "name": "OpenAI: GPT-5.6 Sol (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1783590850,
+      "pricing": {
+        "prompt_per_mtok": 2.0,
+        "completion_per_mtok": 10.0
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "x-ai/grok-4.5",
+      "name": "SpaceXAI: Grok 4.5",
+      "provider": "x-ai",
+      "provider_display": "SpaceXAI",
+      "created": 1783523154,
+      "pricing": {
+        "prompt_per_mtok": 2.0,
+        "completion_per_mtok": 6.0
+      },
+      "context_length": 500000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "~x-ai/grok-latest",
+      "name": "xAI: Grok Latest",
+      "provider": "~x-ai",
+      "provider_display": "~X Ai",
+      "created": 1783519360,
+      "pricing": {
+        "prompt_per_mtok": 2.0,
+        "completion_per_mtok": 6.0
+      },
+      "context_length": 500000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "aion-labs/aion-3.0-mini",
+      "name": "AionLabs: Aion-3.0-Mini",
+      "provider": "aion-labs",
+      "provider_display": "Aion Labs",
+      "created": 1783443096,
+      "pricing": {
+        "prompt_per_mtok": 0.7,
+        "completion_per_mtok": 1.4
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "aion-labs/aion-3.0",
+      "name": "AionLabs: Aion-3.0",
+      "provider": "aion-labs",
+      "provider_display": "Aion Labs",
+      "created": 1783443095,
+      "pricing": {
+        "prompt_per_mtok": 3.0,
+        "completion_per_mtok": 6.0
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "tencent/hy3",
+      "name": "Tencent: Hy3",
+      "provider": "tencent",
+      "provider_display": "Tencent",
+      "created": 1783344048,
+      "pricing": {
+        "prompt_per_mtok": 0.132,
+        "completion_per_mtok": 0.528
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "poolside/laguna-xs-2.1",
+      "name": "Poolside: Laguna XS 2.1",
+      "provider": "poolside",
+      "provider_display": "Poolside",
+      "created": 1783002429,
+      "pricing": {
+        "prompt_per_mtok": 0.06,
+        "completion_per_mtok": 0.12
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "poolside/laguna-xs-2.1:free",
+      "name": "Poolside: Laguna XS 2.1 (free)",
+      "provider": "poolside",
+      "provider_display": "Poolside",
+      "created": 1783002429,
+      "pricing": {
+        "prompt_per_mtok": 0.0,
+        "completion_per_mtok": 0.0
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "anthropic/claude-sonnet-5",
+      "name": "Anthropic: Claude Sonnet 5",
+      "provider": "anthropic",
+      "provider_display": "Anthropic",
+      "created": 1782843083,
+      "pricing": {
+        "prompt_per_mtok": 2.0,
+        "completion_per_mtok": 10.0
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "anthropic/claude-sonnet-5:batch",
+      "name": "Anthropic: Claude Sonnet 5 (batch)",
+      "provider": "anthropic",
+      "provider_display": "Anthropic",
+      "created": 1782843083,
+      "pricing": {
+        "prompt_per_mtok": 1.0,
+        "completion_per_mtok": 5.0
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemini-3.1-flash-lite-image",
+      "name": "Google: Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1782837225,
+      "pricing": {
+        "prompt_per_mtok": 0.25,
+        "completion_per_mtok": 1.5
+      },
+      "context_length": 65536,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "sakana/fugu-ultra",
+      "name": "Sakana: Fugu Ultra",
+      "provider": "sakana",
+      "provider_display": "Sakana",
+      "created": 1782276303,
+      "pricing": {
+        "prompt_per_mtok": 5.0,
+        "completion_per_mtok": 30.0
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemini-3.1-flash-image",
+      "name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image)",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1781754065,
+      "pricing": {
+        "prompt_per_mtok": 0.5,
+        "completion_per_mtok": 3.0
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemini-3-pro-image",
+      "name": "Google: Nano Banana Pro (Gemini 3 Pro Image)",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1781754054,
+      "pricing": {
+        "prompt_per_mtok": 2.0,
+        "completion_per_mtok": 12.0
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "cohere/north-mini-code:free",
+      "name": "Cohere: North Mini Code (free)",
+      "provider": "cohere",
+      "provider_display": "Cohere",
+      "created": 1781723748,
+      "pricing": {
+        "prompt_per_mtok": 0.0,
+        "completion_per_mtok": 0.0
+      },
+      "context_length": 256000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "z-ai/glm-5.2",
+      "name": "Z.ai: GLM 5.2",
+      "provider": "z-ai",
+      "provider_display": "Z AI",
+      "created": 1781631930,
+      "pricing": {
+        "prompt_per_mtok": 0.0341,
+        "completion_per_mtok": 7.0
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openrouter/fusion",
+      "name": "OpenRouter: Fusion",
+      "provider": "openrouter",
+      "provider_display": "Openrouter",
+      "created": 1781371647,
+      "pricing": {
+        "prompt_per_mtok": -1000000.0,
+        "completion_per_mtok": -1000000.0
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "moonshotai/kimi-k2.7-code",
+      "name": "MoonshotAI: Kimi K2.7 Code",
+      "provider": "moonshotai",
+      "provider_display": "Kimi",
+      "created": 1781266361,
+      "pricing": {
+        "prompt_per_mtok": 0.6712,
+        "completion_per_mtok": 3.35
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "~anthropic/claude-fable-latest",
+      "name": "Anthropic: Claude Fable Latest",
+      "provider": "~anthropic",
+      "provider_display": "~Anthropic",
+      "created": 1781029944,
+      "pricing": {
+        "prompt_per_mtok": 10.0,
+        "completion_per_mtok": 50.0
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "anthropic/claude-fable-5",
+      "name": "Anthropic: Claude Fable 5",
+      "provider": "anthropic",
+      "provider_display": "Anthropic",
+      "created": 1781007515,
+      "pricing": {
+        "prompt_per_mtok": 10.0,
+        "completion_per_mtok": 50.0
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "anthropic/claude-fable-5:batch",
+      "name": "Anthropic: Claude Fable 5 (batch)",
+      "provider": "anthropic",
+      "provider_display": "Anthropic",
+      "created": 1781007515,
+      "pricing": {
+        "prompt_per_mtok": 5.0,
+        "completion_per_mtok": 25.0
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "nvidia/nemotron-3.5-content-safety",
+      "name": "NVIDIA: Nemotron 3.5 Content Safety",
+      "provider": "nvidia",
+      "provider_display": "NVIDIA",
+      "created": 1780581864,
+      "pricing": {
+        "prompt_per_mtok": 0.2,
+        "completion_per_mtok": 0.2
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "nvidia/nemotron-3.5-content-safety:free",
+      "name": "NVIDIA: Nemotron 3.5 Content Safety (free)",
+      "provider": "nvidia",
+      "provider_display": "NVIDIA",
+      "created": 1780581864,
+      "pricing": {
+        "prompt_per_mtok": 0.0,
+        "completion_per_mtok": 0.0
+      },
+      "context_length": 128000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "nvidia/nemotron-3-ultra-550b-a55b",
+      "name": "NVIDIA: Nemotron 3 Ultra",
+      "provider": "nvidia",
+      "provider_display": "NVIDIA",
+      "created": 1780551208,
+      "pricing": {
+        "prompt_per_mtok": 0.6,
+        "completion_per_mtok": 2.4
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "name": "NVIDIA: Nemotron 3 Ultra (free)",
+      "provider": "nvidia",
+      "provider_display": "NVIDIA",
+      "created": 1780551208,
+      "pricing": {
+        "prompt_per_mtok": 0.0,
+        "completion_per_mtok": 0.0
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3.7-plus",
+      "name": "Qwen: Qwen3.7 Plus",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1780491783,
+      "pricing": {
+        "prompt_per_mtok": 0.32,
+        "completion_per_mtok": 1.28
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3.7-plus:batch",
+      "name": "Qwen: Qwen3.7 Plus (batch)",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1780491783,
+      "pricing": {
+        "prompt_per_mtok": 0.23,
+        "completion_per_mtok": 0.92
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "minimax/minimax-m3",
+      "name": "MiniMax: MiniMax M3",
+      "provider": "minimax",
+      "provider_display": "MiniMax",
+      "created": 1780245374,
+      "pricing": {
+        "prompt_per_mtok": 0.3,
+        "completion_per_mtok": 1.2
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "stepfun/step-3.7-flash",
+      "name": "StepFun: Step 3.7 Flash",
+      "provider": "stepfun",
+      "provider_display": "StepFun",
+      "created": 1779985069,
+      "pricing": {
+        "prompt_per_mtok": 0.2,
+        "completion_per_mtok": 1.15
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "anthropic/claude-opus-4.8",
+      "name": "Anthropic: Claude Opus 4.8",
+      "provider": "anthropic",
+      "provider_display": "Anthropic",
+      "created": 1779905091,
+      "pricing": {
+        "prompt_per_mtok": 5.0,
+        "completion_per_mtok": 25.0
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "anthropic/claude-opus-4.8:batch",
+      "name": "Anthropic: Claude Opus 4.8 (batch)",
+      "provider": "anthropic",
+      "provider_display": "Anthropic",
+      "created": 1779905091,
+      "pricing": {
+        "prompt_per_mtok": 2.5,
+        "completion_per_mtok": 12.5
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3.7-max",
+      "name": "Qwen: Qwen3.7 Max",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1779376861,
+      "pricing": {
+        "prompt_per_mtok": 1.475,
+        "completion_per_mtok": 4.425
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "x-ai/grok-build-0.1",
+      "name": "SpaceXAI: Grok Build 0.1",
+      "provider": "x-ai",
+      "provider_display": "SpaceXAI",
+      "created": 1779298123,
+      "pricing": {
+        "prompt_per_mtok": 1.0,
+        "completion_per_mtok": 2.0
+      },
+      "context_length": 256000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemini-3.5-flash",
+      "name": "Google: Gemini 3.5 Flash",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1779193800,
+      "pricing": {
+        "prompt_per_mtok": 1.5,
+        "completion_per_mtok": 9.0
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemini-3.5-flash:batch",
+      "name": "Google: Gemini 3.5 Flash (batch)",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1779193800,
+      "pricing": {
+        "prompt_per_mtok": 0.75,
+        "completion_per_mtok": 4.5
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "perceptron/perceptron-mk1",
+      "name": "Perceptron: Perceptron Mk1",
+      "provider": "perceptron",
+      "provider_display": "Perceptron",
+      "created": 1778597029,
+      "pricing": {
+        "prompt_per_mtok": 0.15,
+        "completion_per_mtok": 1.5
+      },
+      "context_length": 32768,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemini-3.1-flash-lite",
+      "name": "Google: Gemini 3.1 Flash Lite",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1778168828,
+      "pricing": {
+        "prompt_per_mtok": 0.25,
+        "completion_per_mtok": 1.5
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemini-3.1-flash-lite:batch",
+      "name": "Google: Gemini 3.1 Flash Lite (batch)",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1778168828,
+      "pricing": {
+        "prompt_per_mtok": 0.125,
+        "completion_per_mtok": 0.75
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-chat-latest",
+      "name": "OpenAI: GPT Chat Latest",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1778000212,
+      "pricing": {
+        "prompt_per_mtok": 5.0,
+        "completion_per_mtok": 30.0
+      },
+      "context_length": 400000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "x-ai/grok-4.3",
+      "name": "SpaceXAI: Grok 4.3",
+      "provider": "x-ai",
+      "provider_display": "SpaceXAI",
+      "created": 1777591821,
+      "pricing": {
+        "prompt_per_mtok": 1.25,
+        "completion_per_mtok": 2.5
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "x-ai/grok-4.3:batch",
+      "name": "SpaceXAI: Grok 4.3 (batch)",
+      "provider": "x-ai",
+      "provider_display": "SpaceXAI",
+      "created": 1777591821,
+      "pricing": {
+        "prompt_per_mtok": 1.0,
+        "completion_per_mtok": 2.0
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "mistralai/mistral-medium-3-5",
+      "name": "Mistral: Mistral Medium 3.5",
+      "provider": "mistralai",
+      "provider_display": "Mistral",
+      "created": 1777570439,
+      "pricing": {
+        "prompt_per_mtok": 1.5,
+        "completion_per_mtok": 7.5
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "mistralai/mistral-medium-3-5:batch",
+      "name": "Mistral: Mistral Medium 3.5 (batch)",
+      "provider": "mistralai",
+      "provider_display": "Mistral",
+      "created": 1777570439,
+      "pricing": {
+        "prompt_per_mtok": 0.75,
+        "completion_per_mtok": 3.75
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+      "name": "NVIDIA: Nemotron 3 Nano Omni (free)",
+      "provider": "nvidia",
+      "provider_display": "NVIDIA",
+      "created": 1777393095,
+      "pricing": {
+        "prompt_per_mtok": 0.0,
+        "completion_per_mtok": 0.0
+      },
+      "context_length": 256000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "~anthropic/claude-haiku-latest",
+      "name": "Anthropic: Claude Haiku Latest",
+      "provider": "~anthropic",
+      "provider_display": "~Anthropic",
+      "created": 1777318492,
+      "pricing": {
+        "prompt_per_mtok": 0.1,
+        "completion_per_mtok": 0.5
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "~openai/gpt-mini-latest",
+      "name": "OpenAI: GPT Mini Latest",
+      "provider": "~openai",
+      "provider_display": "~Openai",
+      "created": 1777318471,
+      "pricing": {
+        "prompt_per_mtok": 0.75,
+        "completion_per_mtok": 4.5
+      },
+      "context_length": 400000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "~google/gemini-pro-latest",
+      "name": "Google: Gemini Pro Latest",
+      "provider": "~google",
+      "provider_display": "~Google",
+      "created": 1777318451,
+      "pricing": {
+        "prompt_per_mtok": 2.0,
+        "completion_per_mtok": 10.0
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "~moonshotai/kimi-latest",
+      "name": "MoonshotAI: Kimi Latest",
+      "provider": "~moonshotai",
+      "provider_display": "~Moonshotai",
+      "created": 1777318428,
+      "pricing": {
+        "prompt_per_mtok": 0.238,
+        "completion_per_mtok": 16.0
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "~google/gemini-flash-latest",
+      "name": "Google: Gemini Flash Latest",
+      "provider": "~google",
+      "provider_display": "~Google",
+      "created": 1777318398,
+      "pricing": {
+        "prompt_per_mtok": 0.75,
+        "completion_per_mtok": 3.75
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "~anthropic/claude-sonnet-latest",
+      "name": "Anthropic: Claude Sonnet Latest",
+      "provider": "~anthropic",
+      "provider_display": "~Anthropic",
+      "created": 1777318368,
+      "pricing": {
+        "prompt_per_mtok": 2.0,
+        "completion_per_mtok": 10.0
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3.5-plus-20260420",
+      "name": "Qwen: Qwen3.5 Plus 2026-04-20",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1777261368,
+      "pricing": {
+        "prompt_per_mtok": 0.3,
+        "completion_per_mtok": 1.8
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3.6-flash",
+      "name": "Qwen: Qwen3.6 Flash",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1777261362,
+      "pricing": {
+        "prompt_per_mtok": 0.1875,
+        "completion_per_mtok": 1.125
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3.6-35b-a3b",
+      "name": "Qwen: Qwen3.6 35B A3B",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1777260255,
+      "pricing": {
+        "prompt_per_mtok": 0.1,
+        "completion_per_mtok": 0.95
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3.6-27b",
+      "name": "Qwen: Qwen3.6 27B",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1777255064,
+      "pricing": {
+        "prompt_per_mtok": 0.25,
+        "completion_per_mtok": 2.0
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5.5-pro",
+      "name": "OpenAI: GPT-5.5 Pro",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1777051896,
+      "pricing": {
+        "prompt_per_mtok": 30.0,
+        "completion_per_mtok": 180.0
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5.5-pro:batch",
+      "name": "OpenAI: GPT-5.5 Pro (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1777051896,
+      "pricing": {
+        "prompt_per_mtok": 15.0,
+        "completion_per_mtok": 90.0
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5.5",
+      "name": "OpenAI: GPT-5.5",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1777051893,
+      "pricing": {
+        "prompt_per_mtok": 5.0,
+        "completion_per_mtok": 30.0
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5.5:batch",
+      "name": "OpenAI: GPT-5.5 (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1777051893,
+      "pricing": {
+        "prompt_per_mtok": 2.5,
+        "completion_per_mtok": 15.0
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "deepseek/deepseek-v4-pro",
+      "name": "DeepSeek: DeepSeek V4 Pro 0423",
+      "provider": "deepseek",
+      "provider_display": "DeepSeek",
+      "created": 1777000679,
+      "pricing": {
+        "prompt_per_mtok": 0.9553,
+        "completion_per_mtok": 1.9105
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash",
+      "name": "DeepSeek: DeepSeek V4 Flash 0423",
+      "provider": "deepseek",
+      "provider_display": "DeepSeek",
+      "created": 1777000666,
+      "pricing": {
+        "prompt_per_mtok": 0.091,
+        "completion_per_mtok": 0.182
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "tencent/hy3-preview",
+      "name": "Tencent: Hy3 preview",
+      "provider": "tencent",
+      "provider_display": "Tencent",
+      "created": 1776878150,
+      "pricing": {
+        "prompt_per_mtok": 0.18,
+        "completion_per_mtok": 0.6
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "xiaomi/mimo-v2.5-pro",
+      "name": "Xiaomi: MiMo-V2.5-Pro",
+      "provider": "xiaomi",
+      "provider_display": "Xiaomi",
+      "created": 1776874273,
+      "pricing": {
+        "prompt_per_mtok": 0.3045,
+        "completion_per_mtok": 0.609
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "xiaomi/mimo-v2.5",
+      "name": "Xiaomi: MiMo-V2.5",
+      "provider": "xiaomi",
+      "provider_display": "Xiaomi",
+      "created": 1776874269,
+      "pricing": {
+        "prompt_per_mtok": 0.119,
+        "completion_per_mtok": 0.238
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5.4-image-2",
+      "name": "OpenAI: GPT-5.4 Image 2",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1776797528,
+      "pricing": {
+        "prompt_per_mtok": 8.0,
+        "completion_per_mtok": 15.0
+      },
+      "context_length": 272000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "~anthropic/claude-opus-latest",
+      "name": "Anthropic: Claude Opus Latest",
+      "provider": "~anthropic",
+      "provider_display": "~Anthropic",
+      "created": 1776795361,
+      "pricing": {
+        "prompt_per_mtok": 4.0,
+        "completion_per_mtok": 20.0
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openrouter/pareto-code",
+      "name": "Pareto Code Router",
+      "provider": "openrouter",
+      "provider_display": "Openrouter",
+      "created": 1776747900,
+      "pricing": {
+        "prompt_per_mtok": -1000000.0,
+        "completion_per_mtok": -1000000.0
+      },
+      "context_length": 2000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "moonshotai/kimi-k2.6",
+      "name": "MoonshotAI: Kimi K2.6",
+      "provider": "moonshotai",
+      "provider_display": "Kimi",
+      "created": 1776699402,
+      "pricing": {
+        "prompt_per_mtok": 0.65,
+        "completion_per_mtok": 3.41
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "anthropic/claude-opus-4.7",
+      "name": "Anthropic: Claude Opus 4.7",
+      "provider": "anthropic",
+      "provider_display": "Anthropic",
+      "created": 1776351100,
+      "pricing": {
+        "prompt_per_mtok": 5.0,
+        "completion_per_mtok": 25.0
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "anthropic/claude-opus-4.7:batch",
+      "name": "Anthropic: Claude Opus 4.7 (batch)",
+      "provider": "anthropic",
+      "provider_display": "Anthropic",
+      "created": 1776351100,
+      "pricing": {
+        "prompt_per_mtok": 2.5,
+        "completion_per_mtok": 12.5
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "z-ai/glm-5.1",
+      "name": "Z.ai: GLM 5.1",
+      "provider": "z-ai",
+      "provider_display": "Z AI",
+      "created": 1775578025,
+      "pricing": {
+        "prompt_per_mtok": 1.4,
+        "completion_per_mtok": 4.4
+      },
+      "context_length": 204800,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemma-4-26b-a4b-it",
+      "name": "Google: Gemma 4 26B A4B ",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1775227989,
+      "pricing": {
+        "prompt_per_mtok": 0.09,
+        "completion_per_mtok": 0.3
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemma-4-26b-a4b-it:free",
+      "name": "Google: Gemma 4 26B A4B  (free)",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1775227989,
+      "pricing": {
+        "prompt_per_mtok": 0.0,
+        "completion_per_mtok": 0.0
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemma-4-31b-it",
+      "name": "Google: Gemma 4 31B",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1775148486,
+      "pricing": {
+        "prompt_per_mtok": 0.2,
+        "completion_per_mtok": 0.4
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemma-4-31b-it:free",
+      "name": "Google: Gemma 4 31B (free)",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1775148486,
+      "pricing": {
+        "prompt_per_mtok": 0.0,
+        "completion_per_mtok": 0.0
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3.6-plus",
+      "name": "Qwen: Qwen3.6 Plus",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1775133557,
+      "pricing": {
+        "prompt_per_mtok": 0.325,
+        "completion_per_mtok": 1.95
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "z-ai/glm-5v-turbo",
+      "name": "Z.ai: GLM 5V Turbo",
+      "provider": "z-ai",
+      "provider_display": "Z AI",
+      "created": 1775061458,
+      "pricing": {
+        "prompt_per_mtok": 1.2,
+        "completion_per_mtok": 4.0
+      },
+      "context_length": 202752,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "arcee-ai/trinity-large-thinking",
+      "name": "Arcee AI: Trinity Large Thinking",
+      "provider": "arcee-ai",
+      "provider_display": "Arcee Ai",
+      "created": 1775058318,
+      "pricing": {
+        "prompt_per_mtok": 0.25,
+        "completion_per_mtok": 0.8
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "x-ai/grok-4.20-multi-agent",
+      "name": "SpaceXAI: Grok 4.20 Multi-Agent",
+      "provider": "x-ai",
+      "provider_display": "SpaceXAI",
+      "created": 1774979158,
+      "pricing": {
+        "prompt_per_mtok": 1.25,
+        "completion_per_mtok": 2.5
+      },
+      "context_length": 2000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "x-ai/grok-4.20",
+      "name": "SpaceXAI: Grok 4.20",
+      "provider": "x-ai",
+      "provider_display": "SpaceXAI",
+      "created": 1774979019,
+      "pricing": {
+        "prompt_per_mtok": 1.25,
+        "completion_per_mtok": 2.5
+      },
+      "context_length": 2000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/lyria-3-pro-preview",
+      "name": "Google: Lyria 3 Pro Preview",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1774907286,
+      "pricing": {
+        "prompt_per_mtok": 0.0,
+        "completion_per_mtok": 0.0
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/lyria-3-clip-preview",
+      "name": "Google: Lyria 3 Clip Preview",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1774907255,
+      "pricing": {
+        "prompt_per_mtok": 0.0,
+        "completion_per_mtok": 0.0
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "rekaai/reka-edge",
+      "name": "Reka Edge",
+      "provider": "rekaai",
+      "provider_display": "Rekaai",
+      "created": 1774026965,
+      "pricing": {
+        "prompt_per_mtok": 0.1,
+        "completion_per_mtok": 0.1
+      },
+      "context_length": 16384,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "minimax/minimax-m2.7",
+      "name": "MiniMax: MiniMax M2.7",
+      "provider": "minimax",
+      "provider_display": "MiniMax",
+      "created": 1773836697,
+      "pricing": {
+        "prompt_per_mtok": 0.3,
+        "completion_per_mtok": 1.2
+      },
+      "context_length": 204800,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5.4-nano",
+      "name": "OpenAI: GPT-5.4 Nano",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1773748187,
+      "pricing": {
+        "prompt_per_mtok": 0.2,
+        "completion_per_mtok": 1.25
+      },
+      "context_length": 400000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5.4-nano:batch",
+      "name": "OpenAI: GPT-5.4 Nano (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1773748187,
+      "pricing": {
+        "prompt_per_mtok": 0.1,
+        "completion_per_mtok": 0.625
+      },
+      "context_length": 400000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5.4-mini",
+      "name": "OpenAI: GPT-5.4 Mini",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1773748178,
+      "pricing": {
+        "prompt_per_mtok": 0.75,
+        "completion_per_mtok": 4.5
+      },
+      "context_length": 400000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5.4-mini:batch",
+      "name": "OpenAI: GPT-5.4 Mini (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1773748178,
+      "pricing": {
+        "prompt_per_mtok": 0.375,
+        "completion_per_mtok": 2.25
+      },
+      "context_length": 400000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "mistralai/mistral-small-2603",
+      "name": "Mistral: Mistral Small 4",
+      "provider": "mistralai",
+      "provider_display": "Mistral",
+      "created": 1773695685,
+      "pricing": {
+        "prompt_per_mtok": 0.15,
+        "completion_per_mtok": 0.6
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "mistralai/mistral-small-2603:batch",
+      "name": "Mistral: Mistral Small 4 (batch)",
+      "provider": "mistralai",
+      "provider_display": "Mistral",
+      "created": 1773695685,
+      "pricing": {
+        "prompt_per_mtok": 0.075,
+        "completion_per_mtok": 0.3
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "z-ai/glm-5-turbo",
+      "name": "Z.ai: GLM 5 Turbo",
+      "provider": "z-ai",
+      "provider_display": "Z AI",
+      "created": 1773583573,
+      "pricing": {
+        "prompt_per_mtok": 1.2,
+        "completion_per_mtok": 4.0
+      },
+      "context_length": 202752,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "nvidia/nemotron-3-super-120b-a12b",
+      "name": "NVIDIA: Nemotron 3 Super",
+      "provider": "nvidia",
+      "provider_display": "NVIDIA",
+      "created": 1773245239,
+      "pricing": {
+        "prompt_per_mtok": 0.3,
+        "completion_per_mtok": 2.4
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "nvidia/nemotron-3-super-120b-a12b:free",
+      "name": "NVIDIA: Nemotron 3 Super (free)",
+      "provider": "nvidia",
+      "provider_display": "NVIDIA",
+      "created": 1773245239,
+      "pricing": {
+        "prompt_per_mtok": 0.0,
+        "completion_per_mtok": 0.0
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "bytedance-seed/seed-2.0-lite",
+      "name": "ByteDance Seed: Seed-2.0-Lite",
+      "provider": "bytedance-seed",
+      "provider_display": "ByteDance",
+      "created": 1773157231,
+      "pricing": {
+        "prompt_per_mtok": 0.25,
+        "completion_per_mtok": 2.0
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3.5-9b",
+      "name": "Qwen: Qwen3.5-9B",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1773152396,
+      "pricing": {
+        "prompt_per_mtok": 0.17,
+        "completion_per_mtok": 0.25
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5.4-pro",
+      "name": "OpenAI: GPT-5.4 Pro",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1772734366,
+      "pricing": {
+        "prompt_per_mtok": 30.0,
+        "completion_per_mtok": 180.0
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5.4-pro:batch",
+      "name": "OpenAI: GPT-5.4 Pro (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1772734366,
+      "pricing": {
+        "prompt_per_mtok": 15.0,
+        "completion_per_mtok": 90.0
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5.4",
+      "name": "OpenAI: GPT-5.4",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1772734352,
+      "pricing": {
+        "prompt_per_mtok": 2.5,
+        "completion_per_mtok": 15.0
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5.4:batch",
+      "name": "OpenAI: GPT-5.4 (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1772734352,
+      "pricing": {
+        "prompt_per_mtok": 1.25,
+        "completion_per_mtok": 7.5
+      },
+      "context_length": 1050000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "inception/mercury-2",
+      "name": "Inception: Mercury 2",
+      "provider": "inception",
+      "provider_display": "Inception",
+      "created": 1772636275,
+      "pricing": {
+        "prompt_per_mtok": 0.25,
+        "completion_per_mtok": 0.75
+      },
+      "context_length": 128000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemini-3.1-flash-lite-preview",
+      "name": "Google: Gemini 3.1 Flash Lite Preview",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1772512673,
+      "pricing": {
+        "prompt_per_mtok": 0.25,
+        "completion_per_mtok": 1.5
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "bytedance-seed/seed-2.0-mini",
+      "name": "ByteDance Seed: Seed-2.0-Mini",
+      "provider": "bytedance-seed",
+      "provider_display": "ByteDance",
+      "created": 1772131107,
+      "pricing": {
+        "prompt_per_mtok": 0.1,
+        "completion_per_mtok": 0.4
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemini-3.1-flash-image-preview",
+      "name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1772119558,
+      "pricing": {
+        "prompt_per_mtok": 0.5,
+        "completion_per_mtok": 3.0
+      },
+      "context_length": 65536,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3.5-35b-a3b",
+      "name": "Qwen: Qwen3.5-35B-A3B",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1772053822,
+      "pricing": {
+        "prompt_per_mtok": 0.14,
+        "completion_per_mtok": 1.0
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3.5-27b",
+      "name": "Qwen: Qwen3.5-27B",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1772053810,
+      "pricing": {
+        "prompt_per_mtok": 0.27,
+        "completion_per_mtok": 2.16
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3.5-122b-a10b",
+      "name": "Qwen: Qwen3.5-122B-A10B",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1772053789,
+      "pricing": {
+        "prompt_per_mtok": 0.4,
+        "completion_per_mtok": 3.2
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3.5-flash-02-23",
+      "name": "Qwen: Qwen3.5-Flash",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1772053776,
+      "pricing": {
+        "prompt_per_mtok": 0.065,
+        "completion_per_mtok": 0.26
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemini-3.1-pro-preview-customtools",
+      "name": "Google: Gemini 3.1 Pro Preview Custom Tools",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1772045923,
+      "pricing": {
+        "prompt_per_mtok": 2.0,
+        "completion_per_mtok": 12.0
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5.3-codex",
+      "name": "OpenAI: GPT-5.3-Codex",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1771959164,
+      "pricing": {
+        "prompt_per_mtok": 1.75,
+        "completion_per_mtok": 14.0
+      },
+      "context_length": 400000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "aion-labs/aion-2.0",
+      "name": "AionLabs: Aion-2.0",
+      "provider": "aion-labs",
+      "provider_display": "Aion Labs",
+      "created": 1771881306,
+      "pricing": {
+        "prompt_per_mtok": 0.8,
+        "completion_per_mtok": 1.6
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemini-3.1-pro-preview",
+      "name": "Google: Gemini 3.1 Pro Preview",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1771509627,
+      "pricing": {
+        "prompt_per_mtok": 2.0,
+        "completion_per_mtok": 12.0
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemini-3.1-pro-preview:batch",
+      "name": "Google: Gemini 3.1 Pro Preview (batch)",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1771509627,
+      "pricing": {
+        "prompt_per_mtok": 1.0,
+        "completion_per_mtok": 6.0
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "anthropic/claude-sonnet-4.6",
+      "name": "Anthropic: Claude Sonnet 4.6",
+      "provider": "anthropic",
+      "provider_display": "Anthropic",
+      "created": 1771342990,
+      "pricing": {
+        "prompt_per_mtok": 3.0,
+        "completion_per_mtok": 15.0
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "anthropic/claude-sonnet-4.6:batch",
+      "name": "Anthropic: Claude Sonnet 4.6 (batch)",
+      "provider": "anthropic",
+      "provider_display": "Anthropic",
+      "created": 1771342990,
+      "pricing": {
+        "prompt_per_mtok": 1.5,
+        "completion_per_mtok": 7.5
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3.5-plus-02-15",
+      "name": "Qwen: Qwen3.5 Plus 2026-02-15",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1771229416,
+      "pricing": {
+        "prompt_per_mtok": 0.26,
+        "completion_per_mtok": 1.56
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3.5-397b-a17b",
+      "name": "Qwen: Qwen3.5 397B A17B",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1771223018,
+      "pricing": {
+        "prompt_per_mtok": 0.5,
+        "completion_per_mtok": 3.6
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "minimax/minimax-m2.5",
+      "name": "MiniMax: MiniMax M2.5",
+      "provider": "minimax",
+      "provider_display": "MiniMax",
+      "created": 1770908502,
+      "pricing": {
+        "prompt_per_mtok": 0.27,
+        "completion_per_mtok": 0.95
+      },
+      "context_length": 204800,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "z-ai/glm-5",
+      "name": "Z.ai: GLM 5",
+      "provider": "z-ai",
+      "provider_display": "Z AI",
+      "created": 1770829182,
+      "pricing": {
+        "prompt_per_mtok": 1.0,
+        "completion_per_mtok": 3.2
+      },
+      "context_length": 204800,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "anthropic/claude-opus-4.6",
+      "name": "Anthropic: Claude Opus 4.6",
+      "provider": "anthropic",
+      "provider_display": "Anthropic",
+      "created": 1770219050,
+      "pricing": {
+        "prompt_per_mtok": 5.0,
+        "completion_per_mtok": 25.0
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "anthropic/claude-opus-4.6:batch",
+      "name": "Anthropic: Claude Opus 4.6 (batch)",
+      "provider": "anthropic",
+      "provider_display": "Anthropic",
+      "created": 1770219050,
+      "pricing": {
+        "prompt_per_mtok": 2.5,
+        "completion_per_mtok": 12.5
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3-coder-next",
+      "name": "Qwen: Qwen3 Coder Next",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1770164101,
+      "pricing": {
+        "prompt_per_mtok": 0.12,
+        "completion_per_mtok": 0.8
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openrouter/free",
+      "name": "Free Models Router",
+      "provider": "openrouter",
+      "provider_display": "Openrouter",
+      "created": 1769917427,
+      "pricing": {
+        "prompt_per_mtok": 0.0,
+        "completion_per_mtok": 0.0
+      },
+      "context_length": 200000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "stepfun/step-3.5-flash",
+      "name": "StepFun: Step 3.5 Flash",
+      "provider": "stepfun",
+      "provider_display": "StepFun",
+      "created": 1769728337,
+      "pricing": {
+        "prompt_per_mtok": 0.1,
+        "completion_per_mtok": 0.3
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "moonshotai/kimi-k2.5",
+      "name": "MoonshotAI: Kimi K2.5",
+      "provider": "moonshotai",
+      "provider_display": "Kimi",
+      "created": 1769487076,
+      "pricing": {
+        "prompt_per_mtok": 0.5,
+        "completion_per_mtok": 2.5
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "upstage/solar-pro-3",
+      "name": "Upstage: Solar Pro 3",
+      "provider": "upstage",
+      "provider_display": "Upstage",
+      "created": 1769481200,
+      "pricing": {
+        "prompt_per_mtok": 0.15,
+        "completion_per_mtok": 0.6
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "minimax/minimax-m2-her",
+      "name": "MiniMax: MiniMax M2-her",
+      "provider": "minimax",
+      "provider_display": "MiniMax",
+      "created": 1769177239,
+      "pricing": {
+        "prompt_per_mtok": 0.3,
+        "completion_per_mtok": 1.2
+      },
+      "context_length": 65536,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "writer/palmyra-x5",
+      "name": "Writer: Palmyra X5",
+      "provider": "writer",
+      "provider_display": "Writer",
+      "created": 1769003823,
+      "pricing": {
+        "prompt_per_mtok": 0.6,
+        "completion_per_mtok": 6.0
+      },
+      "context_length": 1040000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-audio",
+      "name": "OpenAI: GPT Audio",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1768862569,
+      "pricing": {
+        "prompt_per_mtok": 2.5,
+        "completion_per_mtok": 10.0
+      },
+      "context_length": 128000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-audio-mini",
+      "name": "OpenAI: GPT Audio Mini",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1768859419,
+      "pricing": {
+        "prompt_per_mtok": 0.6,
+        "completion_per_mtok": 2.4
+      },
+      "context_length": 128000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "z-ai/glm-4.7-flash",
+      "name": "Z.ai: GLM 4.7 Flash",
+      "provider": "z-ai",
+      "provider_display": "Z AI",
+      "created": 1768833913,
+      "pricing": {
+        "prompt_per_mtok": 0.0605,
+        "completion_per_mtok": 0.4
+      },
+      "context_length": 200000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5.2-codex",
+      "name": "OpenAI: GPT-5.2-Codex",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1768409315,
+      "pricing": {
+        "prompt_per_mtok": 1.75,
+        "completion_per_mtok": 14.0
+      },
+      "context_length": 400000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "bytedance-seed/seed-1.6-flash",
+      "name": "ByteDance Seed: Seed 1.6 Flash",
+      "provider": "bytedance-seed",
+      "provider_display": "ByteDance",
+      "created": 1766505011,
+      "pricing": {
+        "prompt_per_mtok": 0.075,
+        "completion_per_mtok": 0.3
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "bytedance-seed/seed-1.6",
+      "name": "ByteDance Seed: Seed 1.6",
+      "provider": "bytedance-seed",
+      "provider_display": "ByteDance",
+      "created": 1766504997,
+      "pricing": {
+        "prompt_per_mtok": 0.25,
+        "completion_per_mtok": 2.0
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "minimax/minimax-m2.1",
+      "name": "MiniMax: MiniMax M2.1",
+      "provider": "minimax",
+      "provider_display": "MiniMax",
+      "created": 1766454997,
+      "pricing": {
+        "prompt_per_mtok": 0.3,
+        "completion_per_mtok": 1.2
+      },
+      "context_length": 204800,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "z-ai/glm-4.7",
+      "name": "Z.ai: GLM 4.7",
+      "provider": "z-ai",
+      "provider_display": "Z AI",
+      "created": 1766378014,
+      "pricing": {
+        "prompt_per_mtok": 0.54,
+        "completion_per_mtok": 1.98
+      },
+      "context_length": 204800,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemini-3-flash-preview",
+      "name": "Google: Gemini 3 Flash Preview",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1765987078,
+      "pricing": {
+        "prompt_per_mtok": 0.5,
+        "completion_per_mtok": 3.0
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemini-3-flash-preview:batch",
+      "name": "Google: Gemini 3 Flash Preview (batch)",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1765987078,
+      "pricing": {
+        "prompt_per_mtok": 0.25,
+        "completion_per_mtok": 1.5
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "nvidia/nemotron-3-nano-30b-a3b",
+      "name": "NVIDIA: Nemotron 3 Nano 30B A3B",
+      "provider": "nvidia",
+      "provider_display": "NVIDIA",
+      "created": 1765731275,
+      "pricing": {
+        "prompt_per_mtok": 0.06,
+        "completion_per_mtok": 0.24
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5.2-chat",
+      "name": "OpenAI: GPT-5.2 Chat",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1765389783,
+      "pricing": {
+        "prompt_per_mtok": 1.75,
+        "completion_per_mtok": 14.0
+      },
+      "context_length": 128000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5.2-pro",
+      "name": "OpenAI: GPT-5.2 Pro",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1765389780,
+      "pricing": {
+        "prompt_per_mtok": 21.0,
+        "completion_per_mtok": 168.0
+      },
+      "context_length": 400000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5.2-pro:batch",
+      "name": "OpenAI: GPT-5.2 Pro (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1765389780,
+      "pricing": {
+        "prompt_per_mtok": 10.5,
+        "completion_per_mtok": 84.0
+      },
+      "context_length": 400000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5.2",
+      "name": "OpenAI: GPT-5.2",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1765389775,
+      "pricing": {
+        "prompt_per_mtok": 1.75,
+        "completion_per_mtok": 14.0
+      },
+      "context_length": 400000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5.2:batch",
+      "name": "OpenAI: GPT-5.2 (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1765389775,
+      "pricing": {
+        "prompt_per_mtok": 0.875,
+        "completion_per_mtok": 7.0
+      },
+      "context_length": 400000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "mistralai/devstral-2512",
+      "name": "Mistral: Devstral 2 2512",
+      "provider": "mistralai",
+      "provider_display": "Mistral",
+      "created": 1765285419,
+      "pricing": {
+        "prompt_per_mtok": 0.4,
+        "completion_per_mtok": 2.0
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "relace/relace-search",
+      "name": "Relace: Relace Search",
+      "provider": "relace",
+      "provider_display": "Relace",
+      "created": 1765213560,
+      "pricing": {
+        "prompt_per_mtok": 1.0,
+        "completion_per_mtok": 3.0
+      },
+      "context_length": 256000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "z-ai/glm-4.6v",
+      "name": "Z.ai: GLM 4.6V",
+      "provider": "z-ai",
+      "provider_display": "Z AI",
+      "created": 1765207462,
+      "pricing": {
+        "prompt_per_mtok": 0.3,
+        "completion_per_mtok": 0.9
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openrouter/bodybuilder",
+      "name": "Body Builder (beta)",
+      "provider": "openrouter",
+      "provider_display": "Openrouter",
+      "created": 1764903653,
+      "pricing": {
+        "prompt_per_mtok": -1000000.0,
+        "completion_per_mtok": -1000000.0
+      },
+      "context_length": 128000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5.1-codex-max",
+      "name": "OpenAI: GPT-5.1-Codex-Max",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1764878934,
+      "pricing": {
+        "prompt_per_mtok": 1.25,
+        "completion_per_mtok": 10.0
+      },
+      "context_length": 400000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "amazon/nova-2-lite-v1",
+      "name": "Amazon: Nova 2 Lite",
+      "provider": "amazon",
+      "provider_display": "Amazon",
+      "created": 1764696672,
+      "pricing": {
+        "prompt_per_mtok": 0.3,
+        "completion_per_mtok": 2.5
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "mistralai/ministral-14b-2512",
+      "name": "Mistral: Ministral 3 14B 2512",
+      "provider": "mistralai",
+      "provider_display": "Mistral",
+      "created": 1764681735,
+      "pricing": {
+        "prompt_per_mtok": 0.2,
+        "completion_per_mtok": 0.2
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "mistralai/ministral-8b-2512",
+      "name": "Mistral: Ministral 3 8B 2512",
+      "provider": "mistralai",
+      "provider_display": "Mistral",
+      "created": 1764681654,
+      "pricing": {
+        "prompt_per_mtok": 0.15,
+        "completion_per_mtok": 0.15
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "mistralai/ministral-8b-2512:batch",
+      "name": "Mistral: Ministral 3 8B 2512 (batch)",
+      "provider": "mistralai",
+      "provider_display": "Mistral",
+      "created": 1764681654,
+      "pricing": {
+        "prompt_per_mtok": 0.075,
+        "completion_per_mtok": 0.075
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "mistralai/ministral-3b-2512",
+      "name": "Mistral: Ministral 3 3B 2512",
+      "provider": "mistralai",
+      "provider_display": "Mistral",
+      "created": 1764681560,
+      "pricing": {
+        "prompt_per_mtok": 0.1,
+        "completion_per_mtok": 0.1
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "mistralai/mistral-large-2512",
+      "name": "Mistral: Mistral Large 3 2512",
+      "provider": "mistralai",
+      "provider_display": "Mistral",
+      "created": 1764624472,
+      "pricing": {
+        "prompt_per_mtok": 0.5,
+        "completion_per_mtok": 1.5
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "mistralai/mistral-large-2512:batch",
+      "name": "Mistral: Mistral Large 3 2512 (batch)",
+      "provider": "mistralai",
+      "provider_display": "Mistral",
+      "created": 1764624472,
+      "pricing": {
+        "prompt_per_mtok": 0.25,
+        "completion_per_mtok": 0.75
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "deepseek/deepseek-v3.2",
+      "name": "DeepSeek: DeepSeek V3.2",
+      "provider": "deepseek",
+      "provider_display": "DeepSeek",
+      "created": 1764594642,
+      "pricing": {
+        "prompt_per_mtok": 0.28,
+        "completion_per_mtok": 0.42
+      },
+      "context_length": 163840,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "anthropic/claude-opus-4.5",
+      "name": "Anthropic: Claude Opus 4.5",
+      "provider": "anthropic",
+      "provider_display": "Anthropic",
+      "created": 1764010580,
+      "pricing": {
+        "prompt_per_mtok": 5.0,
+        "completion_per_mtok": 25.0
+      },
+      "context_length": 200000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "anthropic/claude-opus-4.5:batch",
+      "name": "Anthropic: Claude Opus 4.5 (batch)",
+      "provider": "anthropic",
+      "provider_display": "Anthropic",
+      "created": 1764010580,
+      "pricing": {
+        "prompt_per_mtok": 2.5,
+        "completion_per_mtok": 12.5
+      },
+      "context_length": 200000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemini-3-pro-image-preview",
+      "name": "Google: Nano Banana Pro (Gemini 3 Pro Image Preview)",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1763653797,
+      "pricing": {
+        "prompt_per_mtok": 2.0,
+        "completion_per_mtok": 12.0
+      },
+      "context_length": 65536,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5.1",
+      "name": "OpenAI: GPT-5.1",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1763060305,
+      "pricing": {
+        "prompt_per_mtok": 1.25,
+        "completion_per_mtok": 10.0
+      },
+      "context_length": 400000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5.1:batch",
+      "name": "OpenAI: GPT-5.1 (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1763060305,
+      "pricing": {
+        "prompt_per_mtok": 0.625,
+        "completion_per_mtok": 5.0
+      },
+      "context_length": 400000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5.1-codex",
+      "name": "OpenAI: GPT-5.1-Codex",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1763060298,
+      "pricing": {
+        "prompt_per_mtok": 1.25,
+        "completion_per_mtok": 10.0
+      },
+      "context_length": 400000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5.1-codex-mini",
+      "name": "OpenAI: GPT-5.1-Codex-Mini",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1763057820,
+      "pricing": {
+        "prompt_per_mtok": 0.25,
+        "completion_per_mtok": 2.0
+      },
+      "context_length": 400000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "moonshotai/kimi-k2-thinking",
+      "name": "MoonshotAI: Kimi K2 Thinking",
+      "provider": "moonshotai",
+      "provider_display": "Kimi",
+      "created": 1762440622,
+      "pricing": {
+        "prompt_per_mtok": 0.6,
+        "completion_per_mtok": 2.5
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "amazon/nova-premier-v1",
+      "name": "Amazon: Nova Premier 1.0",
+      "provider": "amazon",
+      "provider_display": "Amazon",
+      "created": 1761950332,
+      "pricing": {
+        "prompt_per_mtok": 2.5,
+        "completion_per_mtok": 12.5
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "perplexity/sonar-pro-search",
+      "name": "Perplexity: Sonar Pro Search",
+      "provider": "perplexity",
+      "provider_display": "Perplexity",
+      "created": 1761854366,
+      "pricing": {
+        "prompt_per_mtok": 3.0,
+        "completion_per_mtok": 15.0
+      },
+      "context_length": 200000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "mistralai/voxtral-small-24b-2507",
+      "name": "Mistral: Voxtral Small 24B 2507",
+      "provider": "mistralai",
+      "provider_display": "Mistral",
+      "created": 1761835144,
+      "pricing": {
+        "prompt_per_mtok": 0.1,
+        "completion_per_mtok": 0.3
+      },
+      "context_length": 32768,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-oss-safeguard-20b",
+      "name": "OpenAI: gpt-oss-safeguard-20b",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1761752836,
+      "pricing": {
+        "prompt_per_mtok": 0.075,
+        "completion_per_mtok": 0.3
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "minimax/minimax-m2",
+      "name": "MiniMax: MiniMax M2",
+      "provider": "minimax",
+      "provider_display": "MiniMax",
+      "created": 1761252093,
+      "pricing": {
+        "prompt_per_mtok": 0.255,
+        "completion_per_mtok": 1.02
+      },
+      "context_length": 204800,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "ibm-granite/granite-4.0-h-micro",
+      "name": "IBM: Granite 4.0 Micro",
+      "provider": "ibm-granite",
+      "provider_display": "Ibm Granite",
+      "created": 1760927695,
+      "pricing": {
+        "prompt_per_mtok": 0.017,
+        "completion_per_mtok": 0.112
+      },
+      "context_length": 131000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5-image-mini",
+      "name": "OpenAI: GPT-5 Image Mini",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1760624583,
+      "pricing": {
+        "prompt_per_mtok": 2.5,
+        "completion_per_mtok": 2.0
+      },
+      "context_length": 400000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "anthropic/claude-haiku-4.5",
+      "name": "Anthropic: Claude Haiku 4.5",
+      "provider": "anthropic",
+      "provider_display": "Anthropic",
+      "created": 1760547638,
+      "pricing": {
+        "prompt_per_mtok": 1.0,
+        "completion_per_mtok": 5.0
+      },
+      "context_length": 200000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "anthropic/claude-haiku-4.5:batch",
+      "name": "Anthropic: Claude Haiku 4.5 (batch)",
+      "provider": "anthropic",
+      "provider_display": "Anthropic",
+      "created": 1760547638,
+      "pricing": {
+        "prompt_per_mtok": 0.5,
+        "completion_per_mtok": 2.5
+      },
+      "context_length": 200000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3-vl-8b-instruct",
+      "name": "Qwen: Qwen3 VL 8B Instruct",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1760463308,
+      "pricing": {
+        "prompt_per_mtok": 0.25,
+        "completion_per_mtok": 0.75
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5-image",
+      "name": "OpenAI: GPT-5 Image",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1760447986,
+      "pricing": {
+        "prompt_per_mtok": 10.0,
+        "completion_per_mtok": 10.0
+      },
+      "context_length": 400000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemini-2.5-flash-image",
+      "name": "Google: Nano Banana (Gemini 2.5 Flash Image)",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1759870431,
+      "pricing": {
+        "prompt_per_mtok": 0.3,
+        "completion_per_mtok": 2.5
+      },
+      "context_length": 32768,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3-vl-30b-a3b-thinking",
+      "name": "Qwen: Qwen3 VL 30B A3B Thinking",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1759794479,
+      "pricing": {
+        "prompt_per_mtok": 0.29,
+        "completion_per_mtok": 1.0
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3-vl-30b-a3b-instruct",
+      "name": "Qwen: Qwen3 VL 30B A3B Instruct",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1759794476,
+      "pricing": {
+        "prompt_per_mtok": 0.15,
+        "completion_per_mtok": 0.6
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5-pro",
+      "name": "OpenAI: GPT-5 Pro",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1759776663,
+      "pricing": {
+        "prompt_per_mtok": 15.0,
+        "completion_per_mtok": 120.0
+      },
+      "context_length": 400000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5-pro:batch",
+      "name": "OpenAI: GPT-5 Pro (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1759776663,
+      "pricing": {
+        "prompt_per_mtok": 7.5,
+        "completion_per_mtok": 60.0
+      },
+      "context_length": 400000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "z-ai/glm-4.6",
+      "name": "Z.ai: GLM 4.6",
+      "provider": "z-ai",
+      "provider_display": "Z AI",
+      "created": 1759235576,
+      "pricing": {
+        "prompt_per_mtok": 0.55,
+        "completion_per_mtok": 2.2
+      },
+      "context_length": 204800,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "anthropic/claude-sonnet-4.5",
+      "name": "Anthropic: Claude Sonnet 4.5",
+      "provider": "anthropic",
+      "provider_display": "Anthropic",
+      "created": 1759161676,
+      "pricing": {
+        "prompt_per_mtok": 3.0,
+        "completion_per_mtok": 15.0
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "anthropic/claude-sonnet-4.5:batch",
+      "name": "Anthropic: Claude Sonnet 4.5 (batch)",
+      "provider": "anthropic",
+      "provider_display": "Anthropic",
+      "created": 1759161676,
+      "pricing": {
+        "prompt_per_mtok": 1.5,
+        "completion_per_mtok": 7.5
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "deepseek/deepseek-v3.2-exp",
+      "name": "DeepSeek: DeepSeek V3.2 Exp",
+      "provider": "deepseek",
+      "provider_display": "DeepSeek",
+      "created": 1759150481,
+      "pricing": {
+        "prompt_per_mtok": 0.27,
+        "completion_per_mtok": 0.41
+      },
+      "context_length": 163840,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "thedrummer/cydonia-24b-v4.1",
+      "name": "TheDrummer: Cydonia 24B V4.1",
+      "provider": "thedrummer",
+      "provider_display": "Thedrummer",
+      "created": 1758931878,
+      "pricing": {
+        "prompt_per_mtok": 0.3,
+        "completion_per_mtok": 0.5
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "relace/relace-apply-3",
+      "name": "Relace: Relace Apply 3",
+      "provider": "relace",
+      "provider_display": "Relace",
+      "created": 1758891572,
+      "pricing": {
+        "prompt_per_mtok": 0.85,
+        "completion_per_mtok": 1.25
+      },
+      "context_length": 256000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3-vl-235b-a22b-instruct",
+      "name": "Qwen: Qwen3 VL 235B A22B Instruct",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1758668687,
+      "pricing": {
+        "prompt_per_mtok": 0.21,
+        "completion_per_mtok": 1.9
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "deepseek/deepseek-v3.1-terminus",
+      "name": "DeepSeek: DeepSeek V3.1 Terminus",
+      "provider": "deepseek",
+      "provider_display": "DeepSeek",
+      "created": 1758548275,
+      "pricing": {
+        "prompt_per_mtok": 0.27,
+        "completion_per_mtok": 1.0
+      },
+      "context_length": 163840,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3-coder-flash",
+      "name": "Qwen: Qwen3 Coder Flash",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1758115536,
+      "pricing": {
+        "prompt_per_mtok": 0.195,
+        "completion_per_mtok": 0.975
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3-next-80b-a3b-thinking",
+      "name": "Qwen: Qwen3 Next 80B A3B Thinking",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1757612284,
+      "pricing": {
+        "prompt_per_mtok": 0.15,
+        "completion_per_mtok": 1.2
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3-next-80b-a3b-instruct",
+      "name": "Qwen: Qwen3 Next 80B A3B Instruct",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1757612213,
+      "pricing": {
+        "prompt_per_mtok": 0.09,
+        "completion_per_mtok": 1.1
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "moonshotai/kimi-k2-0905",
+      "name": "MoonshotAI: Kimi K2 0905",
+      "provider": "moonshotai",
+      "provider_display": "Kimi",
+      "created": 1757021147,
+      "pricing": {
+        "prompt_per_mtok": 0.6,
+        "completion_per_mtok": 2.5
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "nousresearch/hermes-4-405b",
+      "name": "Nous: Hermes 4 405B",
+      "provider": "nousresearch",
+      "provider_display": "Nousresearch",
+      "created": 1756235463,
+      "pricing": {
+        "prompt_per_mtok": 1.0,
+        "completion_per_mtok": 3.0
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "deepseek/deepseek-chat-v3.1",
+      "name": "DeepSeek: DeepSeek V3.1",
+      "provider": "deepseek",
+      "provider_display": "DeepSeek",
+      "created": 1755779628,
+      "pricing": {
+        "prompt_per_mtok": 0.25,
+        "completion_per_mtok": 0.95
+      },
+      "context_length": 163840,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "mistralai/mistral-medium-3.1",
+      "name": "Mistral: Mistral Medium 3.1",
+      "provider": "mistralai",
+      "provider_display": "Mistral",
+      "created": 1755095639,
+      "pricing": {
+        "prompt_per_mtok": 0.4,
+        "completion_per_mtok": 2.0
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "mistralai/mistral-medium-3.1:batch",
+      "name": "Mistral: Mistral Medium 3.1 (batch)",
+      "provider": "mistralai",
+      "provider_display": "Mistral",
+      "created": 1755095639,
+      "pricing": {
+        "prompt_per_mtok": 0.2,
+        "completion_per_mtok": 1.0
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "z-ai/glm-4.5v",
+      "name": "Z.ai: GLM 4.5V",
+      "provider": "z-ai",
+      "provider_display": "Z AI",
+      "created": 1754922288,
+      "pricing": {
+        "prompt_per_mtok": 0.6,
+        "completion_per_mtok": 1.8
+      },
+      "context_length": 65536,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5",
+      "name": "OpenAI: GPT-5",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1754587413,
+      "pricing": {
+        "prompt_per_mtok": 1.25,
+        "completion_per_mtok": 10.0
+      },
+      "context_length": 400000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5:batch",
+      "name": "OpenAI: GPT-5 (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1754587413,
+      "pricing": {
+        "prompt_per_mtok": 0.625,
+        "completion_per_mtok": 5.0
+      },
+      "context_length": 400000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5-mini",
+      "name": "OpenAI: GPT-5 Mini",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1754587407,
+      "pricing": {
+        "prompt_per_mtok": 0.25,
+        "completion_per_mtok": 2.0
+      },
+      "context_length": 400000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5-mini:batch",
+      "name": "OpenAI: GPT-5 Mini (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1754587407,
+      "pricing": {
+        "prompt_per_mtok": 0.125,
+        "completion_per_mtok": 1.0
+      },
+      "context_length": 400000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5-nano",
+      "name": "OpenAI: GPT-5 Nano",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1754587402,
+      "pricing": {
+        "prompt_per_mtok": 0.05,
+        "completion_per_mtok": 0.4
+      },
+      "context_length": 400000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-5-nano:batch",
+      "name": "OpenAI: GPT-5 Nano (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1754587402,
+      "pricing": {
+        "prompt_per_mtok": 0.025,
+        "completion_per_mtok": 0.2
+      },
+      "context_length": 400000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-oss-120b",
+      "name": "OpenAI: gpt-oss-120b",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1754414231,
+      "pricing": {
+        "prompt_per_mtok": 0.15,
+        "completion_per_mtok": 0.6
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-oss-120b:batch",
+      "name": "OpenAI: gpt-oss-120b (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1754414231,
+      "pricing": {
+        "prompt_per_mtok": 0.0296,
+        "completion_per_mtok": 0.136
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-oss-20b",
+      "name": "OpenAI: gpt-oss-20b",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1754414229,
+      "pricing": {
+        "prompt_per_mtok": 0.018,
+        "completion_per_mtok": 0.09
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-oss-20b:batch",
+      "name": "OpenAI: gpt-oss-20b (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1754414229,
+      "pricing": {
+        "prompt_per_mtok": 0.024,
+        "completion_per_mtok": 0.112
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "anthropic/claude-opus-4.1",
+      "name": "Anthropic: Claude Opus 4.1",
+      "provider": "anthropic",
+      "provider_display": "Anthropic",
+      "created": 1754411591,
+      "pricing": {
+        "prompt_per_mtok": 15.0,
+        "completion_per_mtok": 75.0
+      },
+      "context_length": 200000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "anthropic/claude-opus-4.1:batch",
+      "name": "Anthropic: Claude Opus 4.1 (batch)",
+      "provider": "anthropic",
+      "provider_display": "Anthropic",
+      "created": 1754411591,
+      "pricing": {
+        "prompt_per_mtok": 7.5,
+        "completion_per_mtok": 37.5
+      },
+      "context_length": 200000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "mistralai/codestral-2508",
+      "name": "Mistral: Codestral 2508",
+      "provider": "mistralai",
+      "provider_display": "Mistral",
+      "created": 1754079630,
+      "pricing": {
+        "prompt_per_mtok": 0.3,
+        "completion_per_mtok": 0.9
+      },
+      "context_length": 256000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "mistralai/codestral-2508:batch",
+      "name": "Mistral: Codestral 2508 (batch)",
+      "provider": "mistralai",
+      "provider_display": "Mistral",
+      "created": 1754079630,
+      "pricing": {
+        "prompt_per_mtok": 0.15,
+        "completion_per_mtok": 0.45
+      },
+      "context_length": 256000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3-coder-30b-a3b-instruct",
+      "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1753972379,
+      "pricing": {
+        "prompt_per_mtok": 0.07,
+        "completion_per_mtok": 0.28
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3-30b-a3b-instruct-2507",
+      "name": "Qwen: Qwen3 30B A3B Instruct 2507",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1753806965,
+      "pricing": {
+        "prompt_per_mtok": 0.09,
+        "completion_per_mtok": 0.3
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "z-ai/glm-4.5",
+      "name": "Z.ai: GLM 4.5",
+      "provider": "z-ai",
+      "provider_display": "Z AI",
+      "created": 1753471347,
+      "pricing": {
+        "prompt_per_mtok": 0.6,
+        "completion_per_mtok": 2.2
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "z-ai/glm-4.5-air",
+      "name": "Z.ai: GLM 4.5 Air",
+      "provider": "z-ai",
+      "provider_display": "Z AI",
+      "created": 1753471258,
+      "pricing": {
+        "prompt_per_mtok": 0.13,
+        "completion_per_mtok": 0.85
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3-235b-a22b-thinking-2507",
+      "name": "Qwen: Qwen3 235B A22B Thinking 2507",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1753449557,
+      "pricing": {
+        "prompt_per_mtok": 0.45,
+        "completion_per_mtok": 3.5
+      },
+      "context_length": 128000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3-coder",
+      "name": "Qwen: Qwen3 Coder 480B A35B",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1753230546,
+      "pricing": {
+        "prompt_per_mtok": 0.3,
+        "completion_per_mtok": 1.0
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "bytedance/ui-tars-1.5-7b",
+      "name": "ByteDance: UI-TARS 7B ",
+      "provider": "bytedance",
+      "provider_display": "ByteDance",
+      "created": 1753205056,
+      "pricing": {
+        "prompt_per_mtok": 0.1,
+        "completion_per_mtok": 0.2
+      },
+      "context_length": 128000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemini-2.5-flash-lite",
+      "name": "Google: Gemini 2.5 Flash Lite",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1753200276,
+      "pricing": {
+        "prompt_per_mtok": 0.1,
+        "completion_per_mtok": 0.4
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3-235b-a22b-2507",
+      "name": "Qwen: Qwen3 235B A22B Instruct 2507",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1753119555,
+      "pricing": {
+        "prompt_per_mtok": 0.09,
+        "completion_per_mtok": 0.55
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "moonshotai/kimi-k2",
+      "name": "MoonshotAI: Kimi K2 0711",
+      "provider": "moonshotai",
+      "provider_display": "Kimi",
+      "created": 1752263252,
+      "pricing": {
+        "prompt_per_mtok": 0.57,
+        "completion_per_mtok": 2.3
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
+      "name": "Venice: Uncensored",
+      "provider": "cognitivecomputations",
+      "provider_display": "Cognitivecomputations",
+      "created": 1752094966,
+      "pricing": {
+        "prompt_per_mtok": 0.2,
+        "completion_per_mtok": 0.9
+      },
+      "context_length": 128000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "tencent/hunyuan-a13b-instruct",
+      "name": "Tencent: Hunyuan A13B Instruct",
+      "provider": "tencent",
+      "provider_display": "Tencent",
+      "created": 1751987664,
+      "pricing": {
+        "prompt_per_mtok": 0.14,
+        "completion_per_mtok": 0.57
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "morph/morph-v3-large",
+      "name": "Morph: Morph V3 Large",
+      "provider": "morph",
+      "provider_display": "Morph",
+      "created": 1751910858,
+      "pricing": {
+        "prompt_per_mtok": 0.9,
+        "completion_per_mtok": 1.9
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "morph/morph-v3-fast",
+      "name": "Morph: Morph V3 Fast",
+      "provider": "morph",
+      "provider_display": "Morph",
+      "created": 1751910002,
+      "pricing": {
+        "prompt_per_mtok": 0.8,
+        "completion_per_mtok": 1.2
+      },
+      "context_length": 262144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "mistralai/mistral-small-3.2-24b-instruct",
+      "name": "Mistral: Mistral Small 3.2 24B",
+      "provider": "mistralai",
+      "provider_display": "Mistral",
+      "created": 1750443016,
+      "pricing": {
+        "prompt_per_mtok": 0.075,
+        "completion_per_mtok": 0.2
+      },
+      "context_length": 256000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "minimax/minimax-m1",
+      "name": "MiniMax: MiniMax M1",
+      "provider": "minimax",
+      "provider_display": "MiniMax",
+      "created": 1750200414,
+      "pricing": {
+        "prompt_per_mtok": 0.55,
+        "completion_per_mtok": 2.2
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemini-2.5-flash",
+      "name": "Google: Gemini 2.5 Flash",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1750172488,
+      "pricing": {
+        "prompt_per_mtok": 0.3,
+        "completion_per_mtok": 2.5
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemini-2.5-pro",
+      "name": "Google: Gemini 2.5 Pro",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1750169544,
+      "pricing": {
+        "prompt_per_mtok": 1.25,
+        "completion_per_mtok": 10.0
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/o3-pro",
+      "name": "OpenAI: o3 Pro",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1749598352,
+      "pricing": {
+        "prompt_per_mtok": 20.0,
+        "completion_per_mtok": 80.0
+      },
+      "context_length": 200000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemini-2.5-pro-preview",
+      "name": "Google: Gemini 2.5 Pro Preview 06-05",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1749137257,
+      "pricing": {
+        "prompt_per_mtok": 1.25,
+        "completion_per_mtok": 10.0
+      },
+      "context_length": 1048576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "deepseek/deepseek-r1-0528",
+      "name": "DeepSeek: R1 0528",
+      "provider": "deepseek",
+      "provider_display": "DeepSeek",
+      "created": 1748455170,
+      "pricing": {
+        "prompt_per_mtok": 0.5,
+        "completion_per_mtok": 2.15
+      },
+      "context_length": 163840,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "mistralai/mistral-medium-3",
+      "name": "Mistral: Mistral Medium 3",
+      "provider": "mistralai",
+      "provider_display": "Mistral",
+      "created": 1746627341,
+      "pricing": {
+        "prompt_per_mtok": 0.4,
+        "completion_per_mtok": 2.0
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "meta-llama/llama-guard-4-12b",
+      "name": "Meta: Llama Guard 4 12B",
+      "provider": "meta-llama",
+      "provider_display": "Meta",
+      "created": 1745975193,
+      "pricing": {
+        "prompt_per_mtok": 0.18,
+        "completion_per_mtok": 0.18
+      },
+      "context_length": 163840,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3-30b-a3b",
+      "name": "Qwen: Qwen3 30B A3B",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1745878604,
+      "pricing": {
+        "prompt_per_mtok": 0.12,
+        "completion_per_mtok": 0.5
+      },
+      "context_length": 40960,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3-14b",
+      "name": "Qwen: Qwen3 14B",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1745876478,
+      "pricing": {
+        "prompt_per_mtok": 0.12,
+        "completion_per_mtok": 0.24
+      },
+      "context_length": 40960,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen3-32b",
+      "name": "Qwen: Qwen3 32B",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1745875945,
+      "pricing": {
+        "prompt_per_mtok": 0.08,
+        "completion_per_mtok": 0.28
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/o4-mini-high",
+      "name": "OpenAI: o4 Mini High",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1744824212,
+      "pricing": {
+        "prompt_per_mtok": 1.1,
+        "completion_per_mtok": 4.4
+      },
+      "context_length": 200000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/o3",
+      "name": "OpenAI: o3",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1744823457,
+      "pricing": {
+        "prompt_per_mtok": 2.0,
+        "completion_per_mtok": 8.0
+      },
+      "context_length": 200000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/o3:batch",
+      "name": "OpenAI: o3 (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1744823457,
+      "pricing": {
+        "prompt_per_mtok": 1.0,
+        "completion_per_mtok": 4.0
+      },
+      "context_length": 200000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/o4-mini",
+      "name": "OpenAI: o4 Mini",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1744820942,
+      "pricing": {
+        "prompt_per_mtok": 1.1,
+        "completion_per_mtok": 4.4
+      },
+      "context_length": 200000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/o4-mini:batch",
+      "name": "OpenAI: o4 Mini (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1744820942,
+      "pricing": {
+        "prompt_per_mtok": 0.55,
+        "completion_per_mtok": 2.2
+      },
+      "context_length": 200000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-4.1",
+      "name": "OpenAI: GPT-4.1",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1744651385,
+      "pricing": {
+        "prompt_per_mtok": 2.0,
+        "completion_per_mtok": 8.0
+      },
+      "context_length": 1047576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-4.1:batch",
+      "name": "OpenAI: GPT-4.1 (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1744651385,
+      "pricing": {
+        "prompt_per_mtok": 1.0,
+        "completion_per_mtok": 4.0
+      },
+      "context_length": 1047576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-4.1-mini",
+      "name": "OpenAI: GPT-4.1 Mini",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1744651381,
+      "pricing": {
+        "prompt_per_mtok": 0.4,
+        "completion_per_mtok": 1.6
+      },
+      "context_length": 1047576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-4.1-mini:batch",
+      "name": "OpenAI: GPT-4.1 Mini (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1744651381,
+      "pricing": {
+        "prompt_per_mtok": 0.2,
+        "completion_per_mtok": 0.8
+      },
+      "context_length": 1047576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-4.1-nano",
+      "name": "OpenAI: GPT-4.1 Nano",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1744651369,
+      "pricing": {
+        "prompt_per_mtok": 0.1,
+        "completion_per_mtok": 0.4
+      },
+      "context_length": 1047576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-4.1-nano:batch",
+      "name": "OpenAI: GPT-4.1 Nano (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1744651369,
+      "pricing": {
+        "prompt_per_mtok": 0.05,
+        "completion_per_mtok": 0.2
+      },
+      "context_length": 1047576,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "meta-llama/llama-4-maverick",
+      "name": "Meta: Llama 4 Maverick",
+      "provider": "meta-llama",
+      "provider_display": "Meta",
+      "created": 1743881822,
+      "pricing": {
+        "prompt_per_mtok": 0.1875,
+        "completion_per_mtok": 0.6525
+      },
+      "context_length": 524288,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "meta-llama/llama-4-scout",
+      "name": "Meta: Llama 4 Scout",
+      "provider": "meta-llama",
+      "provider_display": "Meta",
+      "created": 1743881519,
+      "pricing": {
+        "prompt_per_mtok": 0.1,
+        "completion_per_mtok": 0.3
+      },
+      "context_length": 1310720,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "deepseek/deepseek-chat-v3-0324",
+      "name": "DeepSeek: DeepSeek V3 0324",
+      "provider": "deepseek",
+      "provider_display": "DeepSeek",
+      "created": 1742824755,
+      "pricing": {
+        "prompt_per_mtok": 0.29,
+        "completion_per_mtok": 1.14
+      },
+      "context_length": 163840,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/o1-pro",
+      "name": "OpenAI: o1-pro",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1742423211,
+      "pricing": {
+        "prompt_per_mtok": 150.0,
+        "completion_per_mtok": 600.0
+      },
+      "context_length": 200000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "mistralai/mistral-small-3.1-24b-instruct",
+      "name": "Mistral: Mistral Small 3.1 24B",
+      "provider": "mistralai",
+      "provider_display": "Mistral",
+      "created": 1742238937,
+      "pricing": {
+        "prompt_per_mtok": 0.351,
+        "completion_per_mtok": 0.555
+      },
+      "context_length": 128000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemma-3-4b-it",
+      "name": "Google: Gemma 3 4B",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1741905510,
+      "pricing": {
+        "prompt_per_mtok": 0.04,
+        "completion_per_mtok": 0.05
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemma-3-12b-it",
+      "name": "Google: Gemma 3 12B",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1741902625,
+      "pricing": {
+        "prompt_per_mtok": 0.05,
+        "completion_per_mtok": 0.15
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "cohere/command-a",
+      "name": "Cohere: Command A",
+      "provider": "cohere",
+      "provider_display": "Cohere",
+      "created": 1741894342,
+      "pricing": {
+        "prompt_per_mtok": 2.5,
+        "completion_per_mtok": 10.0
+      },
+      "context_length": 256000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "rekaai/reka-flash-3",
+      "name": "Reka Flash 3",
+      "provider": "rekaai",
+      "provider_display": "Rekaai",
+      "created": 1741812813,
+      "pricing": {
+        "prompt_per_mtok": 0.1,
+        "completion_per_mtok": 0.2
+      },
+      "context_length": 65536,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemma-3-27b-it",
+      "name": "Google: Gemma 3 27B",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1741756359,
+      "pricing": {
+        "prompt_per_mtok": 0.08,
+        "completion_per_mtok": 0.35
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "thedrummer/skyfall-36b-v2",
+      "name": "TheDrummer: Skyfall 36B V2",
+      "provider": "thedrummer",
+      "provider_display": "Thedrummer",
+      "created": 1741636566,
+      "pricing": {
+        "prompt_per_mtok": 0.55,
+        "completion_per_mtok": 0.8
+      },
+      "context_length": 32768,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "perplexity/sonar-reasoning-pro",
+      "name": "Perplexity: Sonar Reasoning Pro",
+      "provider": "perplexity",
+      "provider_display": "Perplexity",
+      "created": 1741313308,
+      "pricing": {
+        "prompt_per_mtok": 2.0,
+        "completion_per_mtok": 8.0
+      },
+      "context_length": 128000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "perplexity/sonar-pro",
+      "name": "Perplexity: Sonar Pro",
+      "provider": "perplexity",
+      "provider_display": "Perplexity",
+      "created": 1741312423,
+      "pricing": {
+        "prompt_per_mtok": 3.0,
+        "completion_per_mtok": 15.0
+      },
+      "context_length": 200000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "perplexity/sonar-deep-research",
+      "name": "Perplexity: Sonar Deep Research",
+      "provider": "perplexity",
+      "provider_display": "Perplexity",
+      "created": 1741311246,
+      "pricing": {
+        "prompt_per_mtok": 2.0,
+        "completion_per_mtok": 8.0
+      },
+      "context_length": 128000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "mistralai/mistral-saba",
+      "name": "Mistral: Saba",
+      "provider": "mistralai",
+      "provider_display": "Mistral",
+      "created": 1739803239,
+      "pricing": {
+        "prompt_per_mtok": 0.2,
+        "completion_per_mtok": 0.6
+      },
+      "context_length": 32768,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/o3-mini-high",
+      "name": "OpenAI: o3 Mini High",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1739372611,
+      "pricing": {
+        "prompt_per_mtok": 1.1,
+        "completion_per_mtok": 4.4
+      },
+      "context_length": 200000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "aion-labs/aion-rp-llama-3.1-8b",
+      "name": "AionLabs: Aion-RP 1.0 (8B)",
+      "provider": "aion-labs",
+      "provider_display": "Aion Labs",
+      "created": 1738696718,
+      "pricing": {
+        "prompt_per_mtok": 0.8,
+        "completion_per_mtok": 1.6
+      },
+      "context_length": 32768,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen2.5-vl-72b-instruct",
+      "name": "Qwen: Qwen2.5 VL 72B Instruct",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1738410311,
+      "pricing": {
+        "prompt_per_mtok": 0.8,
+        "completion_per_mtok": 1.0
+      },
+      "context_length": 128000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen-plus",
+      "name": "Qwen: Qwen-Plus",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1738409840,
+      "pricing": {
+        "prompt_per_mtok": 0.26,
+        "completion_per_mtok": 0.78
+      },
+      "context_length": 1000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/o3-mini",
+      "name": "OpenAI: o3 Mini",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1738351721,
+      "pricing": {
+        "prompt_per_mtok": 1.1,
+        "completion_per_mtok": 4.4
+      },
+      "context_length": 200000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/o3-mini:batch",
+      "name": "OpenAI: o3 Mini (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1738351721,
+      "pricing": {
+        "prompt_per_mtok": 0.55,
+        "completion_per_mtok": 2.2
+      },
+      "context_length": 200000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "mistralai/mistral-small-24b-instruct-2501",
+      "name": "Mistral: Mistral Small 3",
+      "provider": "mistralai",
+      "provider_display": "Mistral",
+      "created": 1738255409,
+      "pricing": {
+        "prompt_per_mtok": 0.05,
+        "completion_per_mtok": 0.08
+      },
+      "context_length": 32768,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "perplexity/sonar",
+      "name": "Perplexity: Sonar",
+      "provider": "perplexity",
+      "provider_display": "Perplexity",
+      "created": 1738013808,
+      "pricing": {
+        "prompt_per_mtok": 1.0,
+        "completion_per_mtok": 1.0
+      },
+      "context_length": 127072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "minimax/minimax-01",
+      "name": "MiniMax: MiniMax-01",
+      "provider": "minimax",
+      "provider_display": "MiniMax",
+      "created": 1736915462,
+      "pricing": {
+        "prompt_per_mtok": 0.2,
+        "completion_per_mtok": 1.1
+      },
+      "context_length": 1000192,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "microsoft/phi-4",
+      "name": "Microsoft: Phi 4",
+      "provider": "microsoft",
+      "provider_display": "Microsoft",
+      "created": 1736489872,
+      "pricing": {
+        "prompt_per_mtok": 0.07,
+        "completion_per_mtok": 0.14
+      },
+      "context_length": 16384,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "deepseek/deepseek-chat",
+      "name": "DeepSeek: DeepSeek V3",
+      "provider": "deepseek",
+      "provider_display": "DeepSeek",
+      "created": 1735241320,
+      "pricing": {
+        "prompt_per_mtok": 0.2574,
+        "completion_per_mtok": 1.0287
+      },
+      "context_length": 163840,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/o1",
+      "name": "OpenAI: o1",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1734459999,
+      "pricing": {
+        "prompt_per_mtok": 15.0,
+        "completion_per_mtok": 60.0
+      },
+      "context_length": 200000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "cohere/command-r7b-12-2024",
+      "name": "Cohere: Command R7B (12-2024)",
+      "provider": "cohere",
+      "provider_display": "Cohere",
+      "created": 1734158152,
+      "pricing": {
+        "prompt_per_mtok": 0.0375,
+        "completion_per_mtok": 0.15
+      },
+      "context_length": 128000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "meta-llama/llama-3.3-70b-instruct",
+      "name": "Meta: Llama 3.3 70B Instruct",
+      "provider": "meta-llama",
+      "provider_display": "Meta",
+      "created": 1733506137,
+      "pricing": {
+        "prompt_per_mtok": 0.1,
+        "completion_per_mtok": 0.32
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "amazon/nova-lite-v1",
+      "name": "Amazon: Nova Lite 1.0",
+      "provider": "amazon",
+      "provider_display": "Amazon",
+      "created": 1733437363,
+      "pricing": {
+        "prompt_per_mtok": 0.06,
+        "completion_per_mtok": 0.24
+      },
+      "context_length": 300000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "amazon/nova-micro-v1",
+      "name": "Amazon: Nova Micro 1.0",
+      "provider": "amazon",
+      "provider_display": "Amazon",
+      "created": 1733437237,
+      "pricing": {
+        "prompt_per_mtok": 0.035,
+        "completion_per_mtok": 0.14
+      },
+      "context_length": 128000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "amazon/nova-pro-v1",
+      "name": "Amazon: Nova Pro 1.0",
+      "provider": "amazon",
+      "provider_display": "Amazon",
+      "created": 1733436303,
+      "pricing": {
+        "prompt_per_mtok": 0.8,
+        "completion_per_mtok": 3.2
+      },
+      "context_length": 300000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-4o-2024-11-20",
+      "name": "OpenAI: GPT-4o (2024-11-20)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1732127594,
+      "pricing": {
+        "prompt_per_mtok": 2.5,
+        "completion_per_mtok": 10.0
+      },
+      "context_length": 128000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "mistralai/mistral-large-2407",
+      "name": "Mistral Large 2407",
+      "provider": "mistralai",
+      "provider_display": "Mistral",
+      "created": 1731978415,
+      "pricing": {
+        "prompt_per_mtok": 2.0,
+        "completion_per_mtok": 6.0
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen-2.5-coder-32b-instruct",
+      "name": "Qwen2.5 Coder 32B Instruct",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1731368400,
+      "pricing": {
+        "prompt_per_mtok": 0.66,
+        "completion_per_mtok": 1.0
+      },
+      "context_length": 32768,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "thedrummer/unslopnemo-12b",
+      "name": "TheDrummer: UnslopNemo 12B",
+      "provider": "thedrummer",
+      "provider_display": "Thedrummer",
+      "created": 1731103448,
+      "pricing": {
+        "prompt_per_mtok": 0.4,
+        "completion_per_mtok": 0.4
+      },
+      "context_length": 1024000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "anthracite-org/magnum-v4-72b",
+      "name": "Magnum v4 72B",
+      "provider": "anthracite-org",
+      "provider_display": "Anthracite Org",
+      "created": 1729555200,
+      "pricing": {
+        "prompt_per_mtok": 2.5,
+        "completion_per_mtok": 5.0
+      },
+      "context_length": 32768,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen-2.5-7b-instruct",
+      "name": "Qwen: Qwen2.5 7B Instruct",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1729036800,
+      "pricing": {
+        "prompt_per_mtok": 0.1,
+        "completion_per_mtok": 0.2
+      },
+      "context_length": 32768,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "meta-llama/llama-3.2-1b-instruct",
+      "name": "Meta: Llama 3.2 1B Instruct",
+      "provider": "meta-llama",
+      "provider_display": "Meta",
+      "created": 1727222400,
+      "pricing": {
+        "prompt_per_mtok": 0.027,
+        "completion_per_mtok": 0.201
+      },
+      "context_length": 60000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "meta-llama/llama-3.2-3b-instruct",
+      "name": "Meta: Llama 3.2 3B Instruct",
+      "provider": "meta-llama",
+      "provider_display": "Meta",
+      "created": 1727222400,
+      "pricing": {
+        "prompt_per_mtok": 0.0509,
+        "completion_per_mtok": 0.335
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "qwen/qwen-2.5-72b-instruct",
+      "name": "Qwen2.5 72B Instruct",
+      "provider": "qwen",
+      "provider_display": "Alibaba",
+      "created": 1726704000,
+      "pricing": {
+        "prompt_per_mtok": 0.36,
+        "completion_per_mtok": 0.4
+      },
+      "context_length": 32768,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "cohere/command-r-08-2024",
+      "name": "Cohere: Command R (08-2024)",
+      "provider": "cohere",
+      "provider_display": "Cohere",
+      "created": 1724976000,
+      "pricing": {
+        "prompt_per_mtok": 0.15,
+        "completion_per_mtok": 0.6
+      },
+      "context_length": 128000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "cohere/command-r-plus-08-2024",
+      "name": "Cohere: Command R+ (08-2024)",
+      "provider": "cohere",
+      "provider_display": "Cohere",
+      "created": 1724976000,
+      "pricing": {
+        "prompt_per_mtok": 2.5,
+        "completion_per_mtok": 10.0
+      },
+      "context_length": 128000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "sao10k/l3.1-euryale-70b",
+      "name": "Sao10K: Llama 3.1 Euryale 70B v2.2",
+      "provider": "sao10k",
+      "provider_display": "Sao10K",
+      "created": 1724803200,
+      "pricing": {
+        "prompt_per_mtok": 0.85,
+        "completion_per_mtok": 0.85
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "nousresearch/hermes-3-llama-3.1-70b",
+      "name": "Nous: Hermes 3 70B Instruct",
+      "provider": "nousresearch",
+      "provider_display": "Nousresearch",
+      "created": 1723939200,
+      "pricing": {
+        "prompt_per_mtok": 0.7,
+        "completion_per_mtok": 0.7
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "nousresearch/hermes-3-llama-3.1-405b",
+      "name": "Nous: Hermes 3 405B Instruct",
+      "provider": "nousresearch",
+      "provider_display": "Nousresearch",
+      "created": 1723766400,
+      "pricing": {
+        "prompt_per_mtok": 1.0,
+        "completion_per_mtok": 1.0
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "sao10k/l3-lunaris-8b",
+      "name": "Sao10K: Llama 3 8B Lunaris",
+      "provider": "sao10k",
+      "provider_display": "Sao10K",
+      "created": 1723507200,
+      "pricing": {
+        "prompt_per_mtok": 0.04,
+        "completion_per_mtok": 0.05
+      },
+      "context_length": 8192,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-4o-2024-08-06",
+      "name": "OpenAI: GPT-4o (2024-08-06)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1722902400,
+      "pricing": {
+        "prompt_per_mtok": 2.5,
+        "completion_per_mtok": 10.0
+      },
+      "context_length": 128000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "meta-llama/llama-3.1-70b-instruct",
+      "name": "Meta: Llama 3.1 70B Instruct",
+      "provider": "meta-llama",
+      "provider_display": "Meta",
+      "created": 1721692800,
+      "pricing": {
+        "prompt_per_mtok": 0.4,
+        "completion_per_mtok": 0.4
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "meta-llama/llama-3.1-8b-instruct",
+      "name": "Meta: Llama 3.1 8B Instruct",
+      "provider": "meta-llama",
+      "provider_display": "Meta",
+      "created": 1721692800,
+      "pricing": {
+        "prompt_per_mtok": 0.05,
+        "completion_per_mtok": 0.08
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "mistralai/mistral-nemo",
+      "name": "Mistral: Mistral Nemo",
+      "provider": "mistralai",
+      "provider_display": "Mistral",
+      "created": 1721347200,
+      "pricing": {
+        "prompt_per_mtok": 0.029,
+        "completion_per_mtok": 0.03
+      },
+      "context_length": 131072,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-4o-mini",
+      "name": "OpenAI: GPT-4o-mini",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1721260800,
+      "pricing": {
+        "prompt_per_mtok": 0.15,
+        "completion_per_mtok": 0.6
+      },
+      "context_length": 128000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-4o-mini-2024-07-18",
+      "name": "OpenAI: GPT-4o-mini (2024-07-18)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1721260800,
+      "pricing": {
+        "prompt_per_mtok": 0.15,
+        "completion_per_mtok": 0.6
+      },
+      "context_length": 128000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-4o-mini:batch",
+      "name": "OpenAI: GPT-4o-mini (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1721260800,
+      "pricing": {
+        "prompt_per_mtok": 0.075,
+        "completion_per_mtok": 0.3
+      },
+      "context_length": 128000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "google/gemma-2-27b-it",
+      "name": "Google: Gemma 2 27B",
+      "provider": "google",
+      "provider_display": "Google",
+      "created": 1720828800,
+      "pricing": {
+        "prompt_per_mtok": 0.65,
+        "completion_per_mtok": 0.65
+      },
+      "context_length": 8192,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-4o",
+      "name": "OpenAI: GPT-4o",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1715558400,
+      "pricing": {
+        "prompt_per_mtok": 2.5,
+        "completion_per_mtok": 10.0
+      },
+      "context_length": 128000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-4o-2024-05-13",
+      "name": "OpenAI: GPT-4o (2024-05-13)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1715558400,
+      "pricing": {
+        "prompt_per_mtok": 5.0,
+        "completion_per_mtok": 15.0
+      },
+      "context_length": 128000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-4o:batch",
+      "name": "OpenAI: GPT-4o (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1715558400,
+      "pricing": {
+        "prompt_per_mtok": 1.25,
+        "completion_per_mtok": 5.0
+      },
+      "context_length": 128000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "mistralai/mixtral-8x22b-instruct",
+      "name": "Mistral: Mixtral 8x22B Instruct",
+      "provider": "mistralai",
+      "provider_display": "Mistral",
+      "created": 1713312000,
+      "pricing": {
+        "prompt_per_mtok": 2.0,
+        "completion_per_mtok": 6.0
+      },
+      "context_length": 65536,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-4-turbo",
+      "name": "OpenAI: GPT-4 Turbo",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1712620800,
+      "pricing": {
+        "prompt_per_mtok": 10.0,
+        "completion_per_mtok": 30.0
+      },
+      "context_length": 128000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-4-turbo:batch",
+      "name": "OpenAI: GPT-4 Turbo (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1712620800,
+      "pricing": {
+        "prompt_per_mtok": 5.0,
+        "completion_per_mtok": 15.0
+      },
+      "context_length": 128000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "mistralai/mistral-large",
+      "name": "Mistral Large",
+      "provider": "mistralai",
+      "provider_display": "Mistral",
+      "created": 1708905600,
+      "pricing": {
+        "prompt_per_mtok": 2.0,
+        "completion_per_mtok": 6.0
+      },
+      "context_length": 128000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-3.5-turbo-0613",
+      "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1706140800,
+      "pricing": {
+        "prompt_per_mtok": 1.0,
+        "completion_per_mtok": 2.0
+      },
+      "context_length": 4095,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openrouter/auto",
+      "name": "Auto Router",
+      "provider": "openrouter",
+      "provider_display": "Openrouter",
+      "created": 1699401600,
+      "pricing": {
+        "prompt_per_mtok": -1000000.0,
+        "completion_per_mtok": -1000000.0
+      },
+      "context_length": 2000000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-3.5-turbo-instruct",
+      "name": "OpenAI: GPT-3.5 Turbo Instruct",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1695859200,
+      "pricing": {
+        "prompt_per_mtok": 1.5,
+        "completion_per_mtok": 2.0
+      },
+      "context_length": 4095,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-3.5-turbo-16k",
+      "name": "OpenAI: GPT-3.5 Turbo 16k",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1693180800,
+      "pricing": {
+        "prompt_per_mtok": 3.0,
+        "completion_per_mtok": 4.0
+      },
+      "context_length": 16385,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "mancer/weaver",
+      "name": "Mancer: Weaver (alpha)",
+      "provider": "mancer",
+      "provider_display": "Mancer",
+      "created": 1690934400,
+      "pricing": {
+        "prompt_per_mtok": 0.4,
+        "completion_per_mtok": 0.75
+      },
+      "context_length": 8000,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "undi95/remm-slerp-l2-13b",
+      "name": "ReMM SLERP 13B",
+      "provider": "undi95",
+      "provider_display": "Undi95",
+      "created": 1689984000,
+      "pricing": {
+        "prompt_per_mtok": 0.35,
+        "completion_per_mtok": 0.65
+      },
+      "context_length": 6144,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "gryphe/mythomax-l2-13b",
+      "name": "MythoMax 13B",
+      "provider": "gryphe",
+      "provider_display": "Gryphe",
+      "created": 1688256000,
+      "pricing": {
+        "prompt_per_mtok": 0.08,
+        "completion_per_mtok": 0.11
+      },
+      "context_length": 8192,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-3.5-turbo",
+      "name": "OpenAI: GPT-3.5 Turbo",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1685232000,
+      "pricing": {
+        "prompt_per_mtok": 0.5,
+        "completion_per_mtok": 1.5
+      },
+      "context_length": 16385,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-3.5-turbo:batch",
+      "name": "OpenAI: GPT-3.5 Turbo (batch)",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1685232000,
+      "pricing": {
+        "prompt_per_mtok": 0.25,
+        "completion_per_mtok": 0.75
+      },
+      "context_length": 16385,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    },
+    {
+      "id": "openai/gpt-4",
+      "name": "OpenAI: GPT-4",
+      "provider": "openai",
+      "provider_display": "OpenAI",
+      "created": 1685232000,
+      "pricing": {
+        "prompt_per_mtok": 30.0,
+        "completion_per_mtok": 60.0
+      },
+      "context_length": 8191,
+      "intelligence_score": null,
+      "coding_score": null,
+      "hle_score": null
+    }
+  ]
+}
