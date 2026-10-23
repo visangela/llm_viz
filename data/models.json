@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-10-23T13:19:09.617795+00:00",
-  "source": "openrouter + artificial-analysis (via ai-model-index)",
+  "generated_at": "2026-10-23T13:52:29.487104+00:00",
+  "source": "openrouter + artificial-analysis",
+  "aa_models": 697,
   "total": 468,
-  "with_intelligence": 287,
-  "with_coding": 178,
+  "with_intelligence": 193,
+  "with_coding": 95,
   "models": [
     {
       "id": "recursive/flint-v1.0:free",
@@ -46,7 +47,7 @@
         "completion_per_mtok": 0.6
       },
       "context_length": 1048576,
-      "intelligence_score": 39.5,
+      "intelligence_score": 45.1,
       "coding_score": null,
       "hle_score": null
     },
@@ -106,7 +107,7 @@
         "completion_per_mtok": 0.35
       },
       "context_length": 1000000,
-      "intelligence_score": null,
+      "intelligence_score": 12.3,
       "coding_score": null,
       "hle_score": null
     },
@@ -151,7 +152,7 @@
         "completion_per_mtok": 4.25
       },
       "context_length": 1048576,
-      "intelligence_score": null,
+      "intelligence_score": 38.9,
       "coding_score": null,
       "hle_score": null
     },
@@ -181,7 +182,7 @@
         "completion_per_mtok": 0.0
       },
       "context_length": 1000000,
-      "intelligence_score": 26.5,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -271,7 +272,7 @@
         "completion_per_mtok": 5.0
       },
       "context_length": 1048576,
-      "intelligence_score": 52.6,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -331,7 +332,7 @@
         "completion_per_mtok": 2.7
       },
       "context_length": 1048576,
-      "intelligence_score": 43.7,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -361,7 +362,7 @@
         "completion_per_mtok": 0.25
       },
       "context_length": 1000000,
-      "intelligence_score": 43.4,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -406,7 +407,7 @@
         "completion_per_mtok": 0.225
       },
       "context_length": 262144,
-      "intelligence_score": 41.1,
+      "intelligence_score": 43.9,
       "coding_score": null,
       "hle_score": null
     },
@@ -452,7 +453,7 @@
       },
       "context_length": 1050000,
       "intelligence_score": 51.8,
-      "coding_score": 78.3,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -466,7 +467,7 @@
         "completion_per_mtok": 5.0
       },
       "context_length": 1050000,
-      "intelligence_score": 51.8,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -496,7 +497,7 @@
         "completion_per_mtok": 5.0
       },
       "context_length": 1000000,
-      "intelligence_score": 56,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -631,8 +632,8 @@
         "completion_per_mtok": 1.5
       },
       "context_length": 192000,
-      "intelligence_score": null,
-      "coding_score": null,
+      "intelligence_score": 13.1,
+      "coding_score": 27.8,
       "hle_score": null
     },
     {
@@ -691,7 +692,7 @@
         "completion_per_mtok": 0.25
       },
       "context_length": 1050000,
-      "intelligence_score": 38.1,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -737,7 +738,7 @@
       },
       "context_length": 1050000,
       "intelligence_score": 47.6,
-      "coding_score": 78.3,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -751,7 +752,7 @@
         "completion_per_mtok": 5.0
       },
       "context_length": 1050000,
-      "intelligence_score": 47.6,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -767,7 +768,7 @@
       },
       "context_length": 1000000,
       "intelligence_score": 57.6,
-      "coding_score": 78.0,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -781,7 +782,7 @@
         "completion_per_mtok": 10.0
       },
       "context_length": 1000000,
-      "intelligence_score": 57.6,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -857,7 +858,7 @@
       },
       "context_length": 500000,
       "intelligence_score": 46.4,
-      "coding_score": 76.8,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -871,7 +872,7 @@
         "completion_per_mtok": 0.47
       },
       "context_length": 1000000,
-      "intelligence_score": null,
+      "intelligence_score": 12.5,
       "coding_score": null,
       "hle_score": null
     },
@@ -912,8 +913,8 @@
       "provider_display": "~Deepseek",
       "created": 1789399174,
       "pricing": {
-        "prompt_per_mtok": 0.2066,
-        "completion_per_mtok": 8.0
+        "prompt_per_mtok": 0.1848,
+        "completion_per_mtok": 0.5544
       },
       "context_length": 1048576,
       "intelligence_score": null,
@@ -927,7 +928,7 @@
       "provider_display": "~Deepseek",
       "created": 1789399150,
       "pricing": {
-        "prompt_per_mtok": 0.049,
+        "prompt_per_mtok": 0.037,
         "completion_per_mtok": 0.6
       },
       "context_length": 1048576,
@@ -1067,7 +1068,7 @@
       },
       "context_length": 131072,
       "intelligence_score": 24.6,
-      "coding_score": 57,
+      "coding_score": 57.0,
       "hle_score": null
     },
     {
@@ -1081,7 +1082,7 @@
         "completion_per_mtok": 1.2
       },
       "context_length": 1048576,
-      "intelligence_score": 24.7,
+      "intelligence_score": 45.1,
       "coding_score": null,
       "hle_score": null
     },
@@ -1096,7 +1097,7 @@
         "completion_per_mtok": 0.15
       },
       "context_length": 1048576,
-      "intelligence_score": 24.7,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -1141,8 +1142,8 @@
         "completion_per_mtok": 0.25
       },
       "context_length": 262144,
-      "intelligence_score": null,
-      "coding_score": null,
+      "intelligence_score": 28.2,
+      "coding_score": 59.1,
       "hle_score": null
     },
     {
@@ -1171,8 +1172,8 @@
         "completion_per_mtok": 25.0
       },
       "context_length": 1050000,
-      "intelligence_score": 52.7,
-      "coding_score": 76.9,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -1247,7 +1248,7 @@
       },
       "context_length": 1048576,
       "intelligence_score": 48.1,
-      "coding_score": 76.5,
+      "coding_score": 75.8,
       "hle_score": null
     },
     {
@@ -1276,8 +1277,8 @@
         "completion_per_mtok": 1.875
       },
       "context_length": 1048576,
-      "intelligence_score": 40.9,
-      "coding_score": 76.3,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -1306,8 +1307,8 @@
         "completion_per_mtok": 25.0
       },
       "context_length": 1000000,
-      "intelligence_score": 53.4,
-      "coding_score": 81.6,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -1396,8 +1397,8 @@
         "completion_per_mtok": 0.18
       },
       "context_length": 1048576,
-      "intelligence_score": 41.8,
-      "coding_score": 71.5,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -1426,8 +1427,8 @@
         "completion_per_mtok": 0.6468
       },
       "context_length": 1048576,
-      "intelligence_score": 34.8,
-      "coding_score": 65,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -1516,8 +1517,8 @@
         "completion_per_mtok": 2.0
       },
       "context_length": 1048576,
-      "intelligence_score": 44.8,
-      "coding_score": 74.8,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -1561,7 +1562,7 @@
         "completion_per_mtok": 3.75
       },
       "context_length": 1048576,
-      "intelligence_score": 39.6,
+      "intelligence_score": 40.9,
       "coding_score": 76.3,
       "hle_score": null
     },
@@ -1576,8 +1577,8 @@
         "completion_per_mtok": 1.875
       },
       "context_length": 1048576,
-      "intelligence_score": 39.6,
-      "coding_score": 71.5,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -1636,7 +1637,7 @@
         "completion_per_mtok": 1.98
       },
       "context_length": 1048576,
-      "intelligence_score": 36,
+      "intelligence_score": 36.0,
       "coding_score": 68.8,
       "hle_score": null
     },
@@ -1651,8 +1652,8 @@
         "completion_per_mtok": 6.0
       },
       "context_length": 500000,
-      "intelligence_score": 44.3,
-      "coding_score": 76.8,
+      "intelligence_score": 46.4,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -1666,8 +1667,8 @@
         "completion_per_mtok": 0.0
       },
       "context_length": 65536,
-      "intelligence_score": 8.4,
-      "coding_score": 7.7,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -1696,8 +1697,8 @@
         "completion_per_mtok": 0.0
       },
       "context_length": 1000000,
-      "intelligence_score": 12.9,
-      "coding_score": 26.8,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -1726,8 +1727,8 @@
         "completion_per_mtok": 0.6
       },
       "context_length": 524288,
-      "intelligence_score": 28.2,
-      "coding_score": 52.7,
+      "intelligence_score": 26.6,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -1741,8 +1742,8 @@
         "completion_per_mtok": 1.2
       },
       "context_length": 131072,
-      "intelligence_score": 17.5,
-      "coding_score": 49,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -1757,7 +1758,7 @@
       },
       "context_length": 1048576,
       "intelligence_score": 48.1,
-      "coding_score": 76.5,
+      "coding_score": 75.8,
       "hle_score": null
     },
     {
@@ -1767,8 +1768,8 @@
       "provider_display": "~Deepseek",
       "created": 1785606009,
       "pricing": {
-        "prompt_per_mtok": 0.0475,
-        "completion_per_mtok": 0.1568
+        "prompt_per_mtok": 0.0444,
+        "completion_per_mtok": 0.1333
       },
       "context_length": 1048576,
       "intelligence_score": null,
@@ -1782,12 +1783,12 @@
       "provider_display": "DeepSeek",
       "created": 1785478908,
       "pricing": {
-        "prompt_per_mtok": 0.44,
-        "completion_per_mtok": 1.32
+        "prompt_per_mtok": 0.0444,
+        "completion_per_mtok": 0.1333
       },
       "context_length": 1048576,
-      "intelligence_score": 34.3,
-      "coding_score": 69.1,
+      "intelligence_score": 45.1,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -1816,8 +1817,8 @@
         "completion_per_mtok": 0.0
       },
       "context_length": 1048576,
-      "intelligence_score": 25.7,
-      "coding_score": 52.9,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -1861,8 +1862,8 @@
         "completion_per_mtok": 12.5
       },
       "context_length": 1000000,
-      "intelligence_score": 50.8,
-      "coding_score": 78,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -1876,8 +1877,8 @@
         "completion_per_mtok": 0.063
       },
       "context_length": 262144,
-      "intelligence_score": 20.1,
-      "coding_score": 50.6,
+      "intelligence_score": 43.9,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -1921,7 +1922,7 @@
         "completion_per_mtok": 3.75
       },
       "context_length": 1048576,
-      "intelligence_score": 34,
+      "intelligence_score": 40.9,
       "coding_score": 76.3,
       "hle_score": null
     },
@@ -1936,8 +1937,8 @@
         "completion_per_mtok": 1.875
       },
       "context_length": 1048576,
-      "intelligence_score": 34,
-      "coding_score": 69.2,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -1966,8 +1967,8 @@
         "completion_per_mtok": 1.25
       },
       "context_length": 1048576,
-      "intelligence_score": 22.2,
-      "coding_score": 49.3,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -1996,7 +1997,7 @@
         "completion_per_mtok": 4.05
       },
       "context_length": 524288,
-      "intelligence_score": 25,
+      "intelligence_score": 25.0,
       "coding_score": 52.1,
       "hle_score": null
     },
@@ -2011,8 +2012,8 @@
         "completion_per_mtok": 0.0
       },
       "context_length": 1048576,
-      "intelligence_score": 25,
-      "coding_score": 52.1,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -2056,8 +2057,8 @@
         "completion_per_mtok": 11.4
       },
       "context_length": 1048576,
-      "intelligence_score": 43.6,
-      "coding_score": 76.2,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -2072,7 +2073,7 @@
       },
       "context_length": 1048576,
       "intelligence_score": 48.1,
-      "coding_score": 76.5,
+      "coding_score": 75.8,
       "hle_score": null
     },
     {
@@ -2116,8 +2117,8 @@
         "completion_per_mtok": 1.2
       },
       "context_length": 1050000,
-      "intelligence_score": 37.3,
-      "coding_score": 71.4,
+      "intelligence_score": 38.1,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -2131,8 +2132,8 @@
         "completion_per_mtok": 0.6
       },
       "context_length": 1050000,
-      "intelligence_score": 37.3,
-      "coding_score": 71.4,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -2191,8 +2192,8 @@
         "completion_per_mtok": 6.0
       },
       "context_length": 1050000,
-      "intelligence_score": 42.1,
-      "coding_score": 76.7,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -2237,7 +2238,7 @@
       },
       "context_length": 1050000,
       "intelligence_score": 51.8,
-      "coding_score": 78.3,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -2251,8 +2252,8 @@
         "completion_per_mtok": 10.0
       },
       "context_length": 1050000,
-      "intelligence_score": 47,
-      "coding_score": 77.4,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -2266,8 +2267,8 @@
         "completion_per_mtok": 6.0
       },
       "context_length": 500000,
-      "intelligence_score": 38.8,
-      "coding_score": 76.8,
+      "intelligence_score": 46.4,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -2326,8 +2327,8 @@
         "completion_per_mtok": 0.528
       },
       "context_length": 262144,
-      "intelligence_score": null,
-      "coding_score": null,
+      "intelligence_score": 25.3,
+      "coding_score": 58.8,
       "hle_score": null
     },
     {
@@ -2371,7 +2372,7 @@
         "completion_per_mtok": 10.0
       },
       "context_length": 1000000,
-      "intelligence_score": 56.0,
+      "intelligence_score": 38.2,
       "coding_score": 71.5,
       "hle_score": null
     },
@@ -2386,8 +2387,8 @@
         "completion_per_mtok": 5.0
       },
       "context_length": 1000000,
-      "intelligence_score": 38.2,
-      "coding_score": 71.5,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -2461,8 +2462,8 @@
         "completion_per_mtok": 0.0
       },
       "context_length": 256000,
-      "intelligence_score": 9.9,
-      "coding_score": 36.5,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -2476,7 +2477,7 @@
         "completion_per_mtok": 7.0
       },
       "context_length": 1048576,
-      "intelligence_score": 33.7,
+      "intelligence_score": 44.8,
       "coding_score": 74.8,
       "hle_score": null
     },
@@ -2551,8 +2552,8 @@
         "completion_per_mtok": 25.0
       },
       "context_length": 1000000,
-      "intelligence_score": 49.6,
-      "coding_score": 76.5,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -2596,8 +2597,8 @@
         "completion_per_mtok": 2.4
       },
       "context_length": 262144,
-      "intelligence_score": 22.9,
-      "coding_score": 49.3,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -2611,8 +2612,8 @@
         "completion_per_mtok": 0.0
       },
       "context_length": 1000000,
-      "intelligence_score": 22.9,
-      "coding_score": 49.3,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -2626,8 +2627,8 @@
         "completion_per_mtok": 1.28
       },
       "context_length": 1000000,
-      "intelligence_score": 25.2,
-      "coding_score": 55.9,
+      "intelligence_score": 27.0,
+      "coding_score": 54.5,
       "hle_score": null
     },
     {
@@ -2641,8 +2642,8 @@
         "completion_per_mtok": 0.92
       },
       "context_length": 262144,
-      "intelligence_score": 25.2,
-      "coding_score": 55.9,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -2687,7 +2688,7 @@
       },
       "context_length": 1000000,
       "intelligence_score": 57.6,
-      "coding_score": 78.0,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -2701,8 +2702,8 @@
         "completion_per_mtok": 12.5
       },
       "context_length": 1000000,
-      "intelligence_score": 41.8,
-      "coding_score": 74.3,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -2716,7 +2717,7 @@
         "completion_per_mtok": 4.425
       },
       "context_length": 1000000,
-      "intelligence_score": 29.5,
+      "intelligence_score": 45.4,
       "coding_score": 76.2,
       "hle_score": null
     },
@@ -2746,7 +2747,7 @@
         "completion_per_mtok": 9.0
       },
       "context_length": 1048576,
-      "intelligence_score": 33.6,
+      "intelligence_score": 40.9,
       "coding_score": 76.3,
       "hle_score": null
     },
@@ -2761,7 +2762,7 @@
         "completion_per_mtok": 4.5
       },
       "context_length": 1048576,
-      "intelligence_score": 33.6,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -2791,8 +2792,8 @@
         "completion_per_mtok": 1.5
       },
       "context_length": 1048576,
-      "intelligence_score": null,
-      "coding_score": null,
+      "intelligence_score": 22.2,
+      "coding_score": 49.3,
       "hle_score": null
     },
     {
@@ -2836,8 +2837,8 @@
         "completion_per_mtok": 2.5
       },
       "context_length": 1000000,
-      "intelligence_score": 24.9,
-      "coding_score": 76.8,
+      "intelligence_score": 46.4,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -2851,8 +2852,8 @@
         "completion_per_mtok": 2.0
       },
       "context_length": 1000000,
-      "intelligence_score": 24.9,
-      "coding_score": 42.2,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -2881,8 +2882,8 @@
         "completion_per_mtok": 3.75
       },
       "context_length": 262144,
-      "intelligence_score": 14.2,
-      "coding_score": 46.9,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -2896,8 +2897,8 @@
         "completion_per_mtok": 0.0
       },
       "context_length": 256000,
-      "intelligence_score": 10.3,
-      "coding_score": 13.8,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -3001,8 +3002,8 @@
         "completion_per_mtok": 1.8
       },
       "context_length": 1000000,
-      "intelligence_score": null,
-      "coding_score": null,
+      "intelligence_score": 27.0,
+      "coding_score": 54.5,
       "hle_score": null
     },
     {
@@ -3031,8 +3032,8 @@
         "completion_per_mtok": 0.95
       },
       "context_length": 262144,
-      "intelligence_score": 18.2,
-      "coding_score": 41.9,
+      "intelligence_score": 19.3,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -3046,8 +3047,8 @@
         "completion_per_mtok": 2.0
       },
       "context_length": 262144,
-      "intelligence_score": 21.4,
-      "coding_score": 53.7,
+      "intelligence_score": 33.7,
+      "coding_score": 68.1,
       "hle_score": null
     },
     {
@@ -3091,8 +3092,8 @@
         "completion_per_mtok": 30.0
       },
       "context_length": 1050000,
-      "intelligence_score": 38.4,
-      "coding_score": 74.9,
+      "intelligence_score": 39.0,
+      "coding_score": 71.1,
       "hle_score": null
     },
     {
@@ -3106,8 +3107,8 @@
         "completion_per_mtok": 15.0
       },
       "context_length": 1050000,
-      "intelligence_score": 38.4,
-      "coding_score": 74.9,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -3117,12 +3118,12 @@
       "provider_display": "DeepSeek",
       "created": 1777000679,
       "pricing": {
-        "prompt_per_mtok": 0.894,
-        "completion_per_mtok": 1.788
+        "prompt_per_mtok": 0.8923,
+        "completion_per_mtok": 1.7845
       },
       "context_length": 1048576,
-      "intelligence_score": 30.4,
-      "coding_score": 59.4,
+      "intelligence_score": 36.0,
+      "coding_score": 68.8,
       "hle_score": null
     },
     {
@@ -3136,8 +3137,8 @@
         "completion_per_mtok": 0.182
       },
       "context_length": 1048576,
-      "intelligence_score": 24.4,
-      "coding_score": 52,
+      "intelligence_score": 34.3,
+      "coding_score": 69.1,
       "hle_score": null
     },
     {
@@ -3151,8 +3152,8 @@
         "completion_per_mtok": 0.6
       },
       "context_length": 262144,
-      "intelligence_score": 25.3,
-      "coding_score": 58.8,
+      "intelligence_score": 22.7,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -3166,8 +3167,8 @@
         "completion_per_mtok": 0.609
       },
       "context_length": 1050000,
-      "intelligence_score": 26,
-      "coding_score": 60.2,
+      "intelligence_score": 46.3,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -3181,8 +3182,8 @@
         "completion_per_mtok": 0.238
       },
       "context_length": 1050000,
-      "intelligence_score": 21.8,
-      "coding_score": 56.8,
+      "intelligence_score": 22.4,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -3241,7 +3242,7 @@
         "completion_per_mtok": 3.41
       },
       "context_length": 262144,
-      "intelligence_score": 27,
+      "intelligence_score": 27.0,
       "coding_score": 61.8,
       "hle_score": null
     },
@@ -3257,7 +3258,7 @@
       },
       "context_length": 1000000,
       "intelligence_score": 57.6,
-      "coding_score": 78.0,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -3271,8 +3272,8 @@
         "completion_per_mtok": 12.5
       },
       "context_length": 1000000,
-      "intelligence_score": 40.7,
-      "coding_score": 73.6,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -3286,7 +3287,7 @@
         "completion_per_mtok": 4.4
       },
       "context_length": 204800,
-      "intelligence_score": 26.1,
+      "intelligence_score": 44.8,
       "coding_score": 74.8,
       "hle_score": null
     },
@@ -3301,8 +3302,8 @@
         "completion_per_mtok": 0.3
       },
       "context_length": 262144,
-      "intelligence_score": 16.7,
-      "coding_score": 39.3,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -3316,8 +3317,8 @@
         "completion_per_mtok": 0.0
       },
       "context_length": 262144,
-      "intelligence_score": 16.7,
-      "coding_score": 39.3,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -3331,8 +3332,8 @@
         "completion_per_mtok": 0.4
       },
       "context_length": 262144,
-      "intelligence_score": 14.7,
-      "coding_score": 43.4,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -3346,8 +3347,8 @@
         "completion_per_mtok": 0.0
       },
       "context_length": 262144,
-      "intelligence_score": 14.7,
-      "coding_score": 43.4,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -3361,7 +3362,7 @@
         "completion_per_mtok": 1.95
       },
       "context_length": 1000000,
-      "intelligence_score": 27,
+      "intelligence_score": 27.0,
       "coding_score": 54.5,
       "hle_score": null
     },
@@ -3421,8 +3422,8 @@
         "completion_per_mtok": 2.5
       },
       "context_length": 2000000,
-      "intelligence_score": 25.7,
-      "coding_score": 76.8,
+      "intelligence_score": 46.4,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -3482,7 +3483,7 @@
       },
       "context_length": 204800,
       "intelligence_score": 22.8,
-      "coding_score": 52.6,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -3511,8 +3512,8 @@
         "completion_per_mtok": 0.625
       },
       "context_length": 400000,
-      "intelligence_score": 20.7,
-      "coding_score": 56.1,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -3541,8 +3542,8 @@
         "completion_per_mtok": 2.25
       },
       "context_length": 400000,
-      "intelligence_score": 24.1,
-      "coding_score": 56.1,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -3571,8 +3572,8 @@
         "completion_per_mtok": 0.3
       },
       "context_length": 262144,
-      "intelligence_score": 11.3,
-      "coding_score": 26.6,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -3601,8 +3602,8 @@
         "completion_per_mtok": 2.4
       },
       "context_length": 262144,
-      "intelligence_score": 12.8,
-      "coding_score": 37.7,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -3616,8 +3617,8 @@
         "completion_per_mtok": 0.0
       },
       "context_length": 262144,
-      "intelligence_score": 12.8,
-      "coding_score": 37.7,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -3646,8 +3647,8 @@
         "completion_per_mtok": 0.25
       },
       "context_length": 262144,
-      "intelligence_score": 13.3,
-      "coding_score": 23.5,
+      "intelligence_score": 11.2,
+      "coding_score": 28.7,
       "hle_score": null
     },
     {
@@ -3691,8 +3692,8 @@
         "completion_per_mtok": 15.0
       },
       "context_length": 1050000,
-      "intelligence_score": 39,
-      "coding_score": 74.9,
+      "intelligence_score": 39.0,
+      "coding_score": 71.1,
       "hle_score": null
     },
     {
@@ -3706,8 +3707,8 @@
         "completion_per_mtok": 7.5
       },
       "context_length": 1050000,
-      "intelligence_score": 39,
-      "coding_score": 71.1,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -3796,8 +3797,8 @@
         "completion_per_mtok": 2.16
       },
       "context_length": 262144,
-      "intelligence_score": 22.9,
-      "coding_score": null,
+      "intelligence_score": 33.7,
+      "coding_score": 68.1,
       "hle_score": null
     },
     {
@@ -3811,8 +3812,8 @@
         "completion_per_mtok": 3.2
       },
       "context_length": 262144,
-      "intelligence_score": 17.7,
-      "coding_score": 43.3,
+      "intelligence_score": 15.6,
+      "coding_score": 45.7,
       "hle_score": null
     },
     {
@@ -3901,8 +3902,8 @@
         "completion_per_mtok": 6.0
       },
       "context_length": 1048576,
-      "intelligence_score": 29.7,
-      "coding_score": 68.8,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -3917,7 +3918,7 @@
       },
       "context_length": 1000000,
       "intelligence_score": 56.0,
-      "coding_score": 63,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -3931,8 +3932,8 @@
         "completion_per_mtok": 7.5
       },
       "context_length": 1000000,
-      "intelligence_score": 30.1,
-      "coding_score": 63,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -3946,8 +3947,8 @@
         "completion_per_mtok": 1.56
       },
       "context_length": 1000000,
-      "intelligence_score": null,
-      "coding_score": null,
+      "intelligence_score": 27.0,
+      "coding_score": 54.5,
       "hle_score": null
     },
     {
@@ -3961,8 +3962,8 @@
         "completion_per_mtok": 3.6
       },
       "context_length": 262144,
-      "intelligence_score": 21.4,
-      "coding_score": null,
+      "intelligence_score": 18.4,
+      "coding_score": 48.2,
       "hle_score": null
     },
     {
@@ -3992,7 +3993,7 @@
       },
       "context_length": 204800,
       "intelligence_score": 27.9,
-      "coding_score": 74.8,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -4007,7 +4008,7 @@
       },
       "context_length": 1000000,
       "intelligence_score": 57.6,
-      "coding_score": 78.0,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -4021,7 +4022,7 @@
         "completion_per_mtok": 12.5
       },
       "context_length": 1000000,
-      "intelligence_score": 31.9,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -4066,8 +4067,8 @@
         "completion_per_mtok": 0.3
       },
       "context_length": 262144,
-      "intelligence_score": 17,
-      "coding_score": null,
+      "intelligence_score": 19.5,
+      "coding_score": 39.6,
       "hle_score": null
     },
     {
@@ -4081,8 +4082,8 @@
         "completion_per_mtok": 2.5
       },
       "context_length": 262144,
-      "intelligence_score": 23.5,
-      "coding_score": 46.8,
+      "intelligence_score": 27.0,
+      "coding_score": 61.8,
       "hle_score": null
     },
     {
@@ -4171,8 +4172,8 @@
         "completion_per_mtok": 0.4
       },
       "context_length": 200000,
-      "intelligence_score": 14.9,
-      "coding_score": null,
+      "intelligence_score": 41.8,
+      "coding_score": 71.5,
       "hle_score": null
     },
     {
@@ -4186,7 +4187,7 @@
         "completion_per_mtok": 14.0
       },
       "context_length": 400000,
-      "intelligence_score": 28.5,
+      "intelligence_score": 32.5,
       "coding_score": null,
       "hle_score": null
     },
@@ -4231,7 +4232,7 @@
         "completion_per_mtok": 1.2
       },
       "context_length": 204800,
-      "intelligence_score": 20.9,
+      "intelligence_score": 22.8,
       "coding_score": null,
       "hle_score": null
     },
@@ -4246,7 +4247,7 @@
         "completion_per_mtok": 1.98
       },
       "context_length": 204800,
-      "intelligence_score": 22.2,
+      "intelligence_score": 44.8,
       "coding_score": 74.8,
       "hle_score": null
     },
@@ -4261,7 +4262,7 @@
         "completion_per_mtok": 3.0
       },
       "context_length": 1048576,
-      "intelligence_score": 26.3,
+      "intelligence_score": 12.4,
       "coding_score": null,
       "hle_score": null
     },
@@ -4276,7 +4277,7 @@
         "completion_per_mtok": 1.5
       },
       "context_length": 1048576,
-      "intelligence_score": 26.3,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -4291,8 +4292,8 @@
         "completion_per_mtok": 0.24
       },
       "context_length": 262144,
-      "intelligence_score": 8.9,
-      "coding_score": 14.4,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -4351,8 +4352,8 @@
         "completion_per_mtok": 14.0
       },
       "context_length": 400000,
-      "intelligence_score": 30.4,
-      "coding_score": 74.9,
+      "intelligence_score": 39.0,
+      "coding_score": 71.1,
       "hle_score": null
     },
     {
@@ -4366,7 +4367,7 @@
         "completion_per_mtok": 7.0
       },
       "context_length": 400000,
-      "intelligence_score": 30.4,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -4411,7 +4412,7 @@
         "completion_per_mtok": 0.9
       },
       "context_length": 131072,
-      "intelligence_score": 11.2,
+      "intelligence_score": 8.4,
       "coding_score": null,
       "hle_score": null
     },
@@ -4456,8 +4457,8 @@
         "completion_per_mtok": 2.5
       },
       "context_length": 1000000,
-      "intelligence_score": 13.4,
-      "coding_score": 23,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -4471,7 +4472,7 @@
         "completion_per_mtok": 0.2
       },
       "context_length": 262144,
-      "intelligence_score": 6,
+      "intelligence_score": 6.0,
       "coding_score": 14.4,
       "hle_score": null
     },
@@ -4501,8 +4502,8 @@
         "completion_per_mtok": 0.075
       },
       "context_length": 262144,
-      "intelligence_score": 5.5,
-      "coding_score": 9.7,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -4531,8 +4532,8 @@
         "completion_per_mtok": 1.5
       },
       "context_length": 262144,
-      "intelligence_score": 9.3,
-      "coding_score": 20.1,
+      "intelligence_score": 38.4,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -4546,8 +4547,8 @@
         "completion_per_mtok": 0.75
       },
       "context_length": 262144,
-      "intelligence_score": 9.3,
-      "coding_score": 20.1,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -4561,8 +4562,8 @@
         "completion_per_mtok": 0.42
       },
       "context_length": 163840,
-      "intelligence_score": 21.5,
-      "coding_score": 44.2,
+      "intelligence_score": 16.0,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -4577,7 +4578,7 @@
       },
       "context_length": 200000,
       "intelligence_score": 57.6,
-      "coding_score": 78.0,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -4591,7 +4592,7 @@
         "completion_per_mtok": 12.5
       },
       "context_length": 200000,
-      "intelligence_score": 29.1,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -4621,8 +4622,8 @@
         "completion_per_mtok": 10.0
       },
       "context_length": 400000,
-      "intelligence_score": 24.7,
-      "coding_score": 74.9,
+      "intelligence_score": 39.0,
+      "coding_score": 71.1,
       "hle_score": null
     },
     {
@@ -4636,8 +4637,8 @@
         "completion_per_mtok": 5.0
       },
       "context_length": 400000,
-      "intelligence_score": 24.7,
-      "coding_score": 49.4,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -4651,7 +4652,7 @@
         "completion_per_mtok": 10.0
       },
       "context_length": 400000,
-      "intelligence_score": 23.7,
+      "intelligence_score": 32.5,
       "coding_score": null,
       "hle_score": null
     },
@@ -4681,7 +4682,7 @@
         "completion_per_mtok": 2.5
       },
       "context_length": 262144,
-      "intelligence_score": 22,
+      "intelligence_score": 22.0,
       "coding_score": null,
       "hle_score": null
     },
@@ -4696,7 +4697,7 @@
         "completion_per_mtok": 12.5
       },
       "context_length": 1000000,
-      "intelligence_score": 9.2,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -4771,7 +4772,7 @@
         "completion_per_mtok": 0.112
       },
       "context_length": 131000,
-      "intelligence_score": 5.1,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -4801,8 +4802,8 @@
         "completion_per_mtok": 5.0
       },
       "context_length": 200000,
-      "intelligence_score": 16.9,
-      "coding_score": 43.9,
+      "intelligence_score": 43.4,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -4816,8 +4817,8 @@
         "completion_per_mtok": 2.5
       },
       "context_length": 200000,
-      "intelligence_score": 16.9,
-      "coding_score": 43.9,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -4876,7 +4877,7 @@
         "completion_per_mtok": 1.0
       },
       "context_length": 262144,
-      "intelligence_score": 9.5,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -4936,7 +4937,7 @@
         "completion_per_mtok": 2.2
       },
       "context_length": 204800,
-      "intelligence_score": 18.5,
+      "intelligence_score": 44.8,
       "coding_score": 74.8,
       "hle_score": null
     },
@@ -4952,7 +4953,7 @@
       },
       "context_length": 1000000,
       "intelligence_score": 56.0,
-      "coding_score": 52.1,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -4966,8 +4967,8 @@
         "completion_per_mtok": 7.5
       },
       "context_length": 1000000,
-      "intelligence_score": 20.7,
-      "coding_score": 52.1,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -4981,7 +4982,7 @@
         "completion_per_mtok": 0.41
       },
       "context_length": 163840,
-      "intelligence_score": 16.6,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -5041,8 +5042,8 @@
         "completion_per_mtok": 1.0
       },
       "context_length": 163840,
-      "intelligence_score": 14.8,
-      "coding_score": 43.5,
+      "intelligence_score": 13.9,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -5071,8 +5072,8 @@
         "completion_per_mtok": 1.2
       },
       "context_length": 262144,
-      "intelligence_score": 11.2,
-      "coding_score": 17.4,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -5116,7 +5117,7 @@
         "completion_per_mtok": 3.0
       },
       "context_length": 131072,
-      "intelligence_score": 7.5,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -5131,7 +5132,7 @@
         "completion_per_mtok": 0.95
       },
       "context_length": 163840,
-      "intelligence_score": 13.7,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -5146,8 +5147,8 @@
         "completion_per_mtok": 2.0
       },
       "context_length": 131072,
-      "intelligence_score": 9.2,
-      "coding_score": 20.5,
+      "intelligence_score": 14.2,
+      "coding_score": 46.9,
       "hle_score": null
     },
     {
@@ -5161,8 +5162,8 @@
         "completion_per_mtok": 1.0
       },
       "context_length": 131072,
-      "intelligence_score": 9.2,
-      "coding_score": 20.5,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -5176,7 +5177,7 @@
         "completion_per_mtok": 1.8
       },
       "context_length": 65536,
-      "intelligence_score": 7.6,
+      "intelligence_score": 6.7,
       "coding_score": null,
       "hle_score": null
     },
@@ -5191,8 +5192,8 @@
         "completion_per_mtok": 10.0
       },
       "context_length": 400000,
-      "intelligence_score": 23,
-      "coding_score": 74.9,
+      "intelligence_score": 23.0,
+      "coding_score": 37.8,
       "hle_score": null
     },
     {
@@ -5206,8 +5207,8 @@
         "completion_per_mtok": 5.0
       },
       "context_length": 400000,
-      "intelligence_score": 23,
-      "coding_score": 37.8,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -5221,8 +5222,8 @@
         "completion_per_mtok": 2.0
       },
       "context_length": 400000,
-      "intelligence_score": 20.6,
-      "coding_score": null,
+      "intelligence_score": 16.8,
+      "coding_score": 15.6,
       "hle_score": null
     },
     {
@@ -5236,7 +5237,7 @@
         "completion_per_mtok": 1.0
       },
       "context_length": 400000,
-      "intelligence_score": 20.6,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -5251,7 +5252,7 @@
         "completion_per_mtok": 0.4
       },
       "context_length": 400000,
-      "intelligence_score": 13,
+      "intelligence_score": 13.0,
       "coding_score": null,
       "hle_score": null
     },
@@ -5266,7 +5267,7 @@
         "completion_per_mtok": 0.2
       },
       "context_length": 400000,
-      "intelligence_score": 13,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -5296,8 +5297,8 @@
         "completion_per_mtok": 0.136
       },
       "context_length": 131072,
-      "intelligence_score": 11.6,
-      "coding_score": 30.4,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -5311,8 +5312,8 @@
         "completion_per_mtok": 0.09
       },
       "context_length": 131072,
-      "intelligence_score": 10,
-      "coding_score": null,
+      "intelligence_score": 9.0,
+      "coding_score": 20.7,
       "hle_score": null
     },
     {
@@ -5326,7 +5327,7 @@
         "completion_per_mtok": 0.112
       },
       "context_length": 131072,
-      "intelligence_score": 10,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -5342,7 +5343,7 @@
       },
       "context_length": 200000,
       "intelligence_score": 57.6,
-      "coding_score": 78.0,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -5356,7 +5357,7 @@
         "completion_per_mtok": 37.5
       },
       "context_length": 200000,
-      "intelligence_score": 22.8,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -5416,7 +5417,7 @@
         "completion_per_mtok": 0.3
       },
       "context_length": 262144,
-      "intelligence_score": 7.5,
+      "intelligence_score": 6.6,
       "coding_score": null,
       "hle_score": null
     },
@@ -5432,7 +5433,7 @@
       },
       "context_length": 131072,
       "intelligence_score": 12.8,
-      "coding_score": 74.8,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -5461,8 +5462,8 @@
         "completion_per_mtok": 3.5
       },
       "context_length": 128000,
-      "intelligence_score": 12.7,
-      "coding_score": 22.1,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -5476,7 +5477,7 @@
         "completion_per_mtok": 1.0
       },
       "context_length": 262144,
-      "intelligence_score": 11.9,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -5506,8 +5507,8 @@
         "completion_per_mtok": 0.4
       },
       "context_length": 1048576,
-      "intelligence_score": 10.4,
-      "coding_score": null,
+      "intelligence_score": 22.2,
+      "coding_score": 49.3,
       "hle_score": null
     },
     {
@@ -5521,7 +5522,7 @@
         "completion_per_mtok": 0.55
       },
       "context_length": 262144,
-      "intelligence_score": 12,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -5626,7 +5627,7 @@
         "completion_per_mtok": 2.2
       },
       "context_length": 1000000,
-      "intelligence_score": 11.7,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -5641,7 +5642,7 @@
         "completion_per_mtok": 2.5
       },
       "context_length": 1048576,
-      "intelligence_score": 15.5,
+      "intelligence_score": 40.9,
       "coding_score": 76.3,
       "hle_score": null
     },
@@ -5656,8 +5657,8 @@
         "completion_per_mtok": 10.0
       },
       "context_length": 1048576,
-      "intelligence_score": 16.1,
-      "coding_score": 33.3,
+      "intelligence_score": 28.0,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -5686,8 +5687,8 @@
         "completion_per_mtok": 10.0
       },
       "context_length": 1048576,
-      "intelligence_score": null,
-      "coding_score": null,
+      "intelligence_score": 29.7,
+      "coding_score": 68.8,
       "hle_score": null
     },
     {
@@ -5716,7 +5717,7 @@
         "completion_per_mtok": 2.0
       },
       "context_length": 131072,
-      "intelligence_score": 9,
+      "intelligence_score": 9.0,
       "coding_score": null,
       "hle_score": null
     },
@@ -5746,7 +5747,7 @@
         "completion_per_mtok": 0.5
       },
       "context_length": 40960,
-      "intelligence_score": 7.6,
+      "intelligence_score": 7.5,
       "coding_score": null,
       "hle_score": null
     },
@@ -5761,7 +5762,7 @@
         "completion_per_mtok": 0.24
       },
       "context_length": 40960,
-      "intelligence_score": 6.7,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -5776,7 +5777,7 @@
         "completion_per_mtok": 0.28
       },
       "context_length": 131072,
-      "intelligence_score": 7.3,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -5821,7 +5822,7 @@
         "completion_per_mtok": 4.0
       },
       "context_length": 200000,
-      "intelligence_score": 20.2,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -5851,7 +5852,7 @@
         "completion_per_mtok": 2.2
       },
       "context_length": 200000,
-      "intelligence_score": 16.7,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -5866,8 +5867,8 @@
         "completion_per_mtok": 8.0
       },
       "context_length": 1047576,
-      "intelligence_score": 12.7,
-      "coding_score": 74.9,
+      "intelligence_score": 39.0,
+      "coding_score": 71.1,
       "hle_score": null
     },
     {
@@ -5881,7 +5882,7 @@
         "completion_per_mtok": 4.0
       },
       "context_length": 1047576,
-      "intelligence_score": 12.7,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -5896,8 +5897,8 @@
         "completion_per_mtok": 1.6
       },
       "context_length": 1047576,
-      "intelligence_score": 10.2,
-      "coding_score": 20.2,
+      "intelligence_score": 24.1,
+      "coding_score": 56.1,
       "hle_score": null
     },
     {
@@ -5911,8 +5912,8 @@
         "completion_per_mtok": 0.8
       },
       "context_length": 1047576,
-      "intelligence_score": 10.2,
-      "coding_score": 20.2,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -5926,8 +5927,8 @@
         "completion_per_mtok": 0.4
       },
       "context_length": 1047576,
-      "intelligence_score": 7.8,
-      "coding_score": 11.1,
+      "intelligence_score": 20.7,
+      "coding_score": 56.1,
       "hle_score": null
     },
     {
@@ -5941,8 +5942,8 @@
         "completion_per_mtok": 0.2
       },
       "context_length": 1047576,
-      "intelligence_score": 7.8,
-      "coding_score": 11.1,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -5986,8 +5987,8 @@
         "completion_per_mtok": 1.14
       },
       "context_length": 163840,
-      "intelligence_score": 9.7,
-      "coding_score": 21.2,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -6031,8 +6032,8 @@
         "completion_per_mtok": 0.05
       },
       "context_length": 131072,
-      "intelligence_score": 4.8,
-      "coding_score": 2.7,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -6046,8 +6047,8 @@
         "completion_per_mtok": 0.15
       },
       "context_length": 131072,
-      "intelligence_score": 3.8,
-      "coding_score": 5.8,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -6061,8 +6062,8 @@
         "completion_per_mtok": 10.0
       },
       "context_length": 256000,
-      "intelligence_score": 13.1,
-      "coding_score": 27.8,
+      "intelligence_score": 7.0,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -6076,7 +6077,7 @@
         "completion_per_mtok": 0.2
       },
       "context_length": 65536,
-      "intelligence_score": 6.4,
+      "intelligence_score": 5.6,
       "coding_score": null,
       "hle_score": null
     },
@@ -6091,8 +6092,8 @@
         "completion_per_mtok": 0.35
       },
       "context_length": 131072,
-      "intelligence_score": 4.9,
-      "coding_score": 10.1,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -6181,7 +6182,7 @@
         "completion_per_mtok": 4.4
       },
       "context_length": 200000,
-      "intelligence_score": 11,
+      "intelligence_score": 11.0,
       "coding_score": 16.3,
       "hle_score": null
     },
@@ -6256,7 +6257,7 @@
         "completion_per_mtok": 2.2
       },
       "context_length": 200000,
-      "intelligence_score": 12.5,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -6271,7 +6272,7 @@
         "completion_per_mtok": 0.08
       },
       "context_length": 32768,
-      "intelligence_score": 6.7,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -6376,8 +6377,8 @@
         "completion_per_mtok": 0.32
       },
       "context_length": 131072,
-      "intelligence_score": 7.7,
-      "coding_score": 11.9,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -6391,7 +6392,7 @@
         "completion_per_mtok": 0.24
       },
       "context_length": 300000,
-      "intelligence_score": 6.7,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -6406,7 +6407,7 @@
         "completion_per_mtok": 0.14
       },
       "context_length": 128000,
-      "intelligence_score": 5.9,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -6421,7 +6422,7 @@
         "completion_per_mtok": 3.2
       },
       "context_length": 300000,
-      "intelligence_score": 7,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -6451,7 +6452,7 @@
         "completion_per_mtok": 6.0
       },
       "context_length": 131072,
-      "intelligence_score": 7.6,
+      "intelligence_score": 6.8,
       "coding_score": null,
       "hle_score": null
     },
@@ -6466,7 +6467,7 @@
         "completion_per_mtok": 1.0
       },
       "context_length": 32768,
-      "intelligence_score": 6.7,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -6526,7 +6527,7 @@
         "completion_per_mtok": 0.201
       },
       "context_length": 60000,
-      "intelligence_score": 4.8,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -6541,7 +6542,7 @@
         "completion_per_mtok": 0.335
       },
       "context_length": 131072,
-      "intelligence_score": 5.7,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -6556,7 +6557,7 @@
         "completion_per_mtok": 0.4
       },
       "context_length": 32768,
-      "intelligence_score": 7.7,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -6571,7 +6572,7 @@
         "completion_per_mtok": 0.6
       },
       "context_length": 128000,
-      "intelligence_score": null,
+      "intelligence_score": 5.0,
       "coding_score": null,
       "hle_score": null
     },
@@ -6586,7 +6587,7 @@
         "completion_per_mtok": 10.0
       },
       "context_length": 128000,
-      "intelligence_score": null,
+      "intelligence_score": 5.3,
       "coding_score": null,
       "hle_score": null
     },
@@ -6631,7 +6632,7 @@
         "completion_per_mtok": 1.0
       },
       "context_length": 131072,
-      "intelligence_score": null,
+      "intelligence_score": 7.4,
       "coding_score": null,
       "hle_score": null
     },
@@ -6676,7 +6677,7 @@
         "completion_per_mtok": 0.4
       },
       "context_length": 131072,
-      "intelligence_score": 6.6,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -6691,8 +6692,8 @@
         "completion_per_mtok": 0.08
       },
       "context_length": 131072,
-      "intelligence_score": 6.9,
-      "coding_score": 5.4,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -6736,8 +6737,8 @@
         "completion_per_mtok": 0.6
       },
       "context_length": 128000,
-      "intelligence_score": null,
-      "coding_score": null,
+      "intelligence_score": 6.7,
+      "coding_score": 11.4,
       "hle_score": null
     },
     {
@@ -6751,8 +6752,8 @@
         "completion_per_mtok": 0.3
       },
       "context_length": 128000,
-      "intelligence_score": 6.7,
-      "coding_score": 11.4,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -6781,7 +6782,7 @@
         "completion_per_mtok": 10.0
       },
       "context_length": 128000,
-      "intelligence_score": null,
+      "intelligence_score": 8.4,
       "coding_score": null,
       "hle_score": null
     },
@@ -6826,7 +6827,7 @@
         "completion_per_mtok": 6.0
       },
       "context_length": 65536,
-      "intelligence_score": 5.7,
+      "intelligence_score": null,
       "coding_score": null,
       "hle_score": null
     },
@@ -6841,7 +6842,7 @@
         "completion_per_mtok": 30.0
       },
       "context_length": 128000,
-      "intelligence_score": 7,
+      "intelligence_score": 7.0,
       "coding_score": 21.5,
       "hle_score": null
     },
@@ -6856,8 +6857,8 @@
         "completion_per_mtok": 15.0
       },
       "context_length": 128000,
-      "intelligence_score": 7,
-      "coding_score": 21.5,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -6886,8 +6887,8 @@
         "completion_per_mtok": 2.0
       },
       "context_length": 4095,
-      "intelligence_score": null,
-      "coding_score": null,
+      "intelligence_score": 7.0,
+      "coding_score": 21.5,
       "hle_score": null
     },
     {
@@ -6991,8 +6992,8 @@
         "completion_per_mtok": 1.5
       },
       "context_length": 16385,
-      "intelligence_score": 5.5,
-      "coding_score": 10.7,
+      "intelligence_score": 7.0,
+      "coding_score": 21.5,
       "hle_score": null
     },
     {
@@ -7006,8 +7007,8 @@
         "completion_per_mtok": 0.75
       },
       "context_length": 16385,
-      "intelligence_score": 5.5,
-      "coding_score": 10.7,
+      "intelligence_score": null,
+      "coding_score": null,
       "hle_score": null
     },
     {
@@ -7022,7 +7023,7 @@
       },
       "context_length": 8191,
       "intelligence_score": 6.7,
-      "coding_score": 74.9,
+      "coding_score": 13.1,
       "hle_score": null
     }
   ]
