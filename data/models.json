@@ -1,11 +1,26 @@
 {
-  "generated_at": "2026-10-23T13:52:29.487104+00:00",
+  "generated_at": "2026-10-24T06:39:50.244086+00:00",
   "source": "openrouter + artificial-analysis",
-  "aa_models": 697,
-  "total": 468,
-  "with_intelligence": 193,
+  "aa_models": 698,
+  "total": 469,
+  "with_intelligence": 194,
   "with_coding": 95,
   "models": [
+    {
+      "id": "moonshotai/kimi-k3.1-pro",
+      "name": "MoonshotAI: Kimi K3.1 Pro",
+      "provider": "moonshotai",
+      "provider_display": "Kimi",
+      "created": 1792778188,
+      "pricing": {
+        "prompt_per_mtok": 2.0,
+        "completion_per_mtok": 10.0
+      },
+      "context_length": 1048576,
+      "intelligence_score": 55.1,
+      "coding_score": null,
+      "hle_score": null
+    },
     {
       "id": "recursive/flint-v1.0:free",
       "name": "Recursive: Flint (free)",
@@ -913,8 +928,8 @@
       "provider_display": "~Deepseek",
       "created": 1789399174,
       "pricing": {
-        "prompt_per_mtok": 0.1848,
-        "completion_per_mtok": 0.5544
+        "prompt_per_mtok": 0.1188,
+        "completion_per_mtok": 8.0
       },
       "context_length": 1048576,
       "intelligence_score": null,
@@ -928,8 +943,8 @@
       "provider_display": "~Deepseek",
       "created": 1789399150,
       "pricing": {
-        "prompt_per_mtok": 0.037,
-        "completion_per_mtok": 0.6
+        "prompt_per_mtok": 0.02,
+        "completion_per_mtok": 1.0
       },
       "context_length": 1048576,
       "intelligence_score": null,
@@ -1078,8 +1093,8 @@
       "provider_display": "DeepSeek",
       "created": 1789021285,
       "pricing": {
-        "prompt_per_mtok": 0.3,
-        "completion_per_mtok": 1.2
+        "prompt_per_mtok": 0.02,
+        "completion_per_mtok": 1.0
       },
       "context_length": 1048576,
       "intelligence_score": 45.1,
@@ -1348,8 +1363,8 @@
       "provider_display": "~Z Ai",
       "created": 1787817633,
       "pricing": {
-        "prompt_per_mtok": 0.0052,
-        "completion_per_mtok": 0.1985
+        "prompt_per_mtok": 0.0175,
+        "completion_per_mtok": 0.1425
       },
       "context_length": 1048576,
       "intelligence_score": null,
@@ -1378,8 +1393,8 @@
       "provider_display": "Z AI",
       "created": 1787752741,
       "pricing": {
-        "prompt_per_mtok": 0.0052,
-        "completion_per_mtok": 0.1985
+        "prompt_per_mtok": 0.15,
+        "completion_per_mtok": 0.5
       },
       "context_length": 1048576,
       "intelligence_score": 41.8,
@@ -1768,8 +1783,8 @@
       "provider_display": "~Deepseek",
       "created": 1785606009,
       "pricing": {
-        "prompt_per_mtok": 0.0444,
-        "completion_per_mtok": 0.1333
+        "prompt_per_mtok": 0.0422,
+        "completion_per_mtok": 0.1694
       },
       "context_length": 1048576,
       "intelligence_score": null,
@@ -2039,7 +2054,7 @@
       "created": 1784215858,
       "pricing": {
         "prompt_per_mtok": 0.239,
-        "completion_per_mtok": 11.936
+        "completion_per_mtok": 10.8
       },
       "context_length": 1048576,
       "intelligence_score": 43.6,
@@ -2954,7 +2969,7 @@
       "created": 1777318428,
       "pricing": {
         "prompt_per_mtok": 0.238,
-        "completion_per_mtok": 16.0
+        "completion_per_mtok": 24.0
       },
       "context_length": 1048576,
       "intelligence_score": null,
@@ -3118,8 +3133,8 @@
       "provider_display": "DeepSeek",
       "created": 1777000679,
       "pricing": {
-        "prompt_per_mtok": 0.8923,
-        "completion_per_mtok": 1.7845
+        "prompt_per_mtok": 0.4898,
+        "completion_per_mtok": 0.9796
       },
       "context_length": 1048576,
       "intelligence_score": 36.0,
@@ -3298,8 +3313,8 @@
       "provider_display": "Google",
       "created": 1775227989,
       "pricing": {
-        "prompt_per_mtok": 0.09,
-        "completion_per_mtok": 0.3
+        "prompt_per_mtok": 0.0675,
+        "completion_per_mtok": 0.225
       },
       "context_length": 262144,
       "intelligence_score": null,
